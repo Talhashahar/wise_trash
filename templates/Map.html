@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <title>WiseTrash-Map</title>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap">
+    </script>
+</head> 
+<body>
+  <div id="map" style="width: 1200px; height: 800px;"></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['Avigayil', 32.089206, 34.804282, 4],
+      ['Yeda am', 32.089412, 34.803466, 5],
+      ['Yehudit St 1', 32.090618, 34.804669, 3],
+      ['Anne Frank St 1', 32.091357, 34.801889, 2],
+      ['Khaviva Reik St 1', 32.090230, 34.803774, 1]
+    ];
+//function setMarkers(map) {
+
+
+
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: new google.maps.LatLng(32.089206, 34.804282),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    var full ={
+        url: "http://localhost:5000/static/assets/img/full.png",
+        scaledSize: new google.maps.Size(20, 27),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(0, 32)
+    };
+	var empty ={
+        url: "http://localhost:5000/static/assets/img/offline.png",
+        scaledSize: new google.maps.Size(20, 27),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(0, 32)
+    };
+	var middle ={
+        url: "http://localhost:5000/static/assets/img/offline.png",
+        scaledSize: new google.maps.Size(20, 27),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(0, 32)
+    };
+	var offline ={
+        url: "http://localhost:5000/static/assets/img/offline.png",
+        scaledSize: new google.maps.Size(20, 27),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(0, 32)
+    };
+
+	//setMarkers(map)
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+		icon: offline
+
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+	}
+  </script>
+</body>
+</html>

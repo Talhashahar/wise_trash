@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+
+	<title>WiseTrash Dasboard</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
+
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+
+        <!--   Core JS Files   -->
+        <script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    
+        <!--  Charts Plugin -->
+        <script src="assets/js/chartist.min.js"></script>
+    
+        <!--  Notifications Plugin    -->
+        <script src="assets/js/bootstrap-notify.js"></script>
+    
+        <!--  Google Maps Plugin    -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap"></script>
+    
+        <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+        <script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
+    
+
+<!--Map Styling-->
+<style>
+        /* Always set the map height explicitly to define the size of the div element that contains the map. */
+        #map {
+     height: 525px;
+        }
+       
+        #warnings-panel {
+          width: 100%;
+          height:10%;
+          text-align: center;
+        }
+      </style>
+    
+
+
+</head>
+<body>
+
+<div class="wrapper">
+        <div class="sidebar" data-color="azure" data-image="assets/img/sidebar-RG.jpeg">
+
+
+            <div class="sidebar-wrapper">   
+                <!---Next Div is the Logo presented on the navigation bar-->
+                <div class="logo">
+                    <a href="http://www.Shenkar.ac.il" class="simple-text">
+                        <img src="https://www.ramat-gan.muni.il/files/logo-he.png">
+                    </a>
+                </div>
+    
+                <ul class="nav">
+                    <li class="active">
+                        <a href="template.html">
+                            <i class="pe-7s-edit"></i>
+                            <p>Main</p>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="mapsTEST.html">
+                            <i class="pe-7s-map-2"></i>
+                            <p>City Overview</p>
+                        </a>
+                    </li>  <li class="active">
+                        <a href="mapsTEST.html">
+                            <i class="pe-7s-trash"></i>
+                            <p>Trash Bins</p>
+                        </a>
+                    </li>
+                </li>  <li class="active">
+                    <a href="mapsTEST.html">
+                        <i class="pe-7s-car"></i>
+                        <p>Pick-Up Trucks</p>
+                    </a>
+                </li>
+    
+                    <li class="active">
+                        <a href="WTtable.html">
+                            <i class="pe-7s-tools"></i>
+                            <p>Some Table</p>
+                        </a>
+                    </li>
+                    <!---Next li tag is the lower "Contact Support" button on the L-side panel-->
+                    <li class="active-contact" >
+                        <a href="mailto:Alon.Askal@gmail.com" target="_blank">
+                            <i class="pe-7s-mail"></i>
+                            <p>Contact Soppurt</p>
+                        </a>
+                  
+                </ul>
+            </div>
+        </div>
+
+    <div class="main-panel">
+		<nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Maps</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret hidden-sm hidden-xs"></b>
+                                    <span class="notification hidden-sm hidden-xs">5</span>
+									<p class="hidden-lg hidden-md">
+										5 Notifications
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+                        <li>
+                           <a href="">
+                                <i>
+                                <p class="hidden-lg hidden-md">Search</p>
+                                <div id="navbar navbar-default navbar-fixed">
+                                        <b>Start: </b>
+                                        <select id="start">
+                                          <option value="penn station, new york, ny">Penn Station</option>
+                                          <option value="grand central station, new york, ny">Grand Central Station</option>
+                                          <option value="625 8th Avenue, New York, NY, 10018">Port Authority Bus Terminal</option>
+                                          <option value="staten island ferry terminal, new york, ny">Staten Island Ferry Terminal</option>
+                                          <option value="101 E 125th Street, New York, NY">Harlem - 125th St Station</option>
+                                        </select>
+                                        <b>End: </b>
+                                        <select id="end">
+                                          <option value="260 Broadway New York NY 10007">City Hall</option>
+                                          <option value="W 49th St & 5th Ave, New York, NY 10020">Rockefeller Center</option>
+                                          <option value="moma, New York, NY">MOMA</option>
+                                          <option value="350 5th Ave, New York, NY, 10118">Empire State Building</option>
+                                          <option value="253 West 125th Street, New York, NY">Apollo Theater</option>
+                                          <option value="1 Wall St, New York, NY">Wall St</option>
+                                        </select>
+                                        </div>
+                                    </i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                           <a href="">
+                               <p>Account</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <p>
+										Dropdown
+										<b class="caret"></b>
+									</p>
+
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Log out</p>
+                            </a>
+                        </li>
+						<li class="separator hidden-lg hidden-md"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="map">
+
+    
+        <div id="map">
+    
+               
+                        <div id="map"></div>
+                        &nbsp;
+                        <div id="warnings-panel"></div>
+                        <script>
+                          function initMap() {
+                            var markerArray = [];
+                    
+                            // Instantiate a directions service.
+                            var directionsService = new google.maps.DirectionsService;
+                    
+                            // Create a map and center it on Manhattan.
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                              zoom: 13,
+                              center: {lat: 40.771, lng: -73.974}
+                            });
+                    
+                            // Create a renderer for directions and bind it to the map.
+                            var directionsDisplay = new google.maps.DirectionsRenderer({map: map});
+                    
+                            // Instantiate an info window to hold step text.
+                            var stepDisplay = new google.maps.InfoWindow;
+                    
+                            // Display the route between the initial start and end selections.
+                            calculateAndDisplayRoute(
+                                directionsDisplay, directionsService, markerArray, stepDisplay, map);
+                            // Listen to change events from the start and end lists.
+                            var onChangeHandler = function() {
+                              calculateAndDisplayRoute(
+                                  directionsDisplay, directionsService, markerArray, stepDisplay, map);
+                            };
+                            document.getElementById('start').addEventListener('change', onChangeHandler);
+                            document.getElementById('end').addEventListener('change', onChangeHandler);
+                          }
+                    
+                          function calculateAndDisplayRoute(directionsDisplay, directionsService,
+                              markerArray, stepDisplay, map) {
+                            // First, remove any existing markers from the map.
+                            for (var i = 0; i < markerArray.length; i++) {
+                              markerArray[i].setMap(null);
+                            }
+                    
+                            // Retrieve the start and end locations and create a DirectionsRequest using
+                            // WALKING directions.
+                            directionsService.route({
+                              origin: document.getElementById('start').value,
+                              destination: document.getElementById('end').value,
+                              travelMode: 'WALKING'
+                            }, function(response, status) {
+                              // Route the directions and pass the response to a function to create
+                              // markers for each step.
+                              if (status === 'OK') {
+                                document.getElementById('warnings-panel').innerHTML =
+                                    '<b>' + response.routes[0].warnings + '</b>';
+                                directionsDisplay.setDirections(response);
+                                showSteps(response, markerArray, stepDisplay, map);
+                              } else {
+                                window.alert('Directions request failed due to ' + status);
+                              }
+                            });
+                          }
+                    
+                          function showSteps(directionResult, markerArray, stepDisplay, map) {
+                            // For each step, place a marker, and add the text to the marker's infowindow.
+                            // Also attach the marker to an array so we can keep track of it and remove it
+                            // when calculating new routes.
+                            var myRoute = directionResult.routes[0].legs[0];
+                            for (var i = 0; i < myRoute.steps.length; i++) {
+                              var marker = markerArray[i] = markerArray[i] || new google.maps.Marker;
+                              marker.setMap(map);
+                              marker.setPosition(myRoute.steps[i].start_location);
+                              attachInstructionText(
+                                  stepDisplay, marker, myRoute.steps[i].instructions, map);
+                            }
+                          }
+                    
+                          function attachInstructionText(stepDisplay, marker, text, map) {
+                            google.maps.event.addListener(marker, 'click', function() {
+                              // Open an info window when the marker is clicked on, containing the text
+                              // of the step.
+                              stepDisplay.setContent(text);
+                              stepDisplay.open(map, marker);
+                            });
+                          }
+                        </script>
+                        <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap">
+                        </script>
+                     
+
+
+
+</div>
+
+        </div>
+
+
+        <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Company
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   Blog
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <p class="copyright pull-right">
+                        &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.Shenkar.ac.il">WiseTrash</a>, made with love for the environment.
+                    </p>
+                </div>
+            </footer>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>
