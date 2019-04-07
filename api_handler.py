@@ -2,19 +2,9 @@ from flask import Flask, request, render_template, jsonify
 import db_handler
 import json
 import datetime
+import utils
 
 app = Flask(__name__)
-
-def convert_sensor_tubple_to_json(obj):
-    mydict = {
-        "id": obj[0],
-        "address": obj[1],
-        'capacity': obj[2],
-        'status': obj[3],
-        'lat': obj[4],
-        'lng': obj[5]
-    }
-    return mydict
 
 @app.route("/")
 def index():
@@ -51,7 +41,17 @@ def map():
 @app.route("/map_dyn")
 def map_test():
     sensors = db_handler.get_all_sensor_over_x_capacity(0)
-    return render_template('mapsTEST.html', sensors=sensors)
+    print(sensors)
+
+    capacity = request.args.get('capacity')
+    if not capacity:
+        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+    else:
+        capacity = int(capacity)
+        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors if int(x[2]) <= capacity]
+
+
+    return render_template('mapsTEST.html', sensors=json.dumps(sensors))
 
 
 @app.route('/get_all_sensors_by_json')
@@ -59,15 +59,15 @@ def get_all_sensors_by_json():
     total_sensors = []
     sensors = db_handler.get_all_sensor_over_x_capacity(0)
     for sen in sensors:
-        total_sensors.append(convert_sensor_tubple_to_json(sen))
+        total_sensors.append(utils.convert_sensor_tuple_to_json(sen))
     return "ok"
 
 
 @app.route('/get_sensor_by_id/<string:sensor_id>')
 def get_sensor_by_id(sensor_id):
     res = db_handler.get_sensor_by_id(sensor_id)
-    res = convert_sensor_tubple_to_json(res)
-    return jsonify(res)
+    res = utils.convert_sensor_tuple_to_json(res)
+    return jsonify(res), 200
 
 
 @app.route("/create_all_tables/")

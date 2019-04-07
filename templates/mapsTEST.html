@@ -168,136 +168,17 @@
         
 <div id="map" style="width: 1200px; height: 800px;"></div>
 
-  <script type="text/javascript">
-    var locations = [
-      ['Avigayil', 32.089206, 34.804282, 4],
-      ['Yeda am', 32.089412, 34.803466, 5],
-      ['Yehudit St 1', 32.090618, 34.804669, 3],
-      ['Anne Frank St 1', 32.091357, 34.801889, 2],
-      ['Khaviva Reik St 1', 32.090230, 34.803774, 1]
-    ];
-//function setMarkers(map) {
-
-
-
-
-function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 17,
-      center: new google.maps.LatLng(32.089206, 34.804282),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-
-    var full ={
-        url: "http://localhost:5000/static/assets/img/full.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var empty ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var middle ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var offline ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-
-	//setMarkers(map)
-    var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-    console.log("before load locations");
-    function loadLocations() {
-    $.ajax({
-        url: 'http://localhost:5000/get_sensor_by_id/1001',
-        success: function (json) {
-            console.log("inside load locations");
-            console.log(json); //verify callback data from server
-            json.forEach((location) => {
-              showMarker(location);
-            })
-         }
-    })
-    }
-    function showMarker(location) {
-        if (!location || !location.lat || !location.lng)
-            return false;
-
-        var marker = new google.maps.Marker({
-            position: { lat: location.lat, lng: location.lng },
-            icon: icons[pinColor],
-            map: map
-        });
-    }
-
-    /*
-        for (i = 0; i < locations.length; i++) {
-          marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map,
-            icon: offline
-
-          });
-
-          google.maps.event.addListener(marker, 'click', (function(marker, i) {
-            return function() {
-              infowindow.setContent(locations[i][0]);
-              infowindow.open(map, marker);
-            }
-          })(marker, i));
-        }
-    */
-	}
-  </script>
-
-
-
-
-
     <footer class="footer">
             <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                               Blog
-                            </a>
-                        </li>
-
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://www.Shenkar.ac.il">WiseTrash</a>, made with love for the environment.
-                </p>
+                <div class="slidecontainer">
+                    <a href="/map_dyn?capacity=50">show under 50%</a>
+                    <br>
+                    <a href="/map_dyn?capacity=70">show over 50% under 70%</a>
+                    <br>
+                    <a href="/map_dyn?capacity=100">show over 70%</a>
+                </div>
             </div>
         </footer>
-
     </div>
 </div>
 </div>
@@ -322,9 +203,17 @@ function initMap() {
 
     <!--  Google Maps Plugin    -->
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM"></script> -->
+<script src="static/assets/js/maps.js">
+
+</script>
+<script type="text/javascript">
+  window.locations = {{sensors | safe}};
+
+</script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap">
-        load
+
+
     </script>
 
 

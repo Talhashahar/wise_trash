@@ -11835,3 +11835,628 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 231-310-633
 INFO:werkzeug:127.0.0.1 - - [06/Apr/2019 18:43:46] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [06/Apr/2019 18:43:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-612-589
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:11:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-612-589
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/js/chartist.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:07] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:17] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:13:17] "GET /static/assets/css/animate.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:05] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:06] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:14:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:19:26] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:02] "GET /get_sensor_by_id/1001 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:02] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:02] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:02] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:02] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:50] "GET /get_sensor_by_id/1001 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:50] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:50] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:50] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:20:50] "GET /get_sensor_by_id/1001?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:21:23] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:21:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:22:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:22:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:22:24] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:25:31] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:27:46] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:27:46] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:32:53] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:32:54] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:35:26] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:35:26] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:36:42] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:36:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:37:58] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:37:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:40:34] "GET /map_test HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:40:40] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:40:59] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:41:10] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:41:10] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:30] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:43] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:42:45] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:43:12] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:44:29] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:44:29] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:45:28] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:45:29] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:02] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:03] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:21] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:22] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:56:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:15] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:15] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:22] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:48] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:57:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:58:25] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:38] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:39] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 19:59:39] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:02:02] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:02:02] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:02:02] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:02:04] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:02:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:25] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:25] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:44] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:44] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:45] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:46] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:03:46] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:03] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:03] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:05] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:05] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:12] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:12] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:13] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:14] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:06:19] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:07:40] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:07:40] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:07:56] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:07:56] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:08:12] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:08:12] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:08:14] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:08:14] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:11:38] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:11:39] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:13:08] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:13:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:13:31] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:13:31] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:15:02] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:15:02] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:17:28] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:17:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:09] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:42] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:54] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:20:55] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:06] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:07] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:11] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:12] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:35] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:36] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:36] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:21:36] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/maps.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:29:19] "GET /map_dyn/static/assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:24] "GET /map_dyn HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:30:51] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:17] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:31] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:32] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:32] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:32] "GET /static/assets/img/offline.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:31:32] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:57] "GET /map_dyn?capacity=50 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?capacity=50 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:35:58] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?capacity=50 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:18] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:32] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:32] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:40] "GET /map_dyn?capacity=60 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:45] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?capacity=100 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:36:52] "GET /map_dyn?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:03] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:09] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:13] "GET /map_dyn?capacity=0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:18] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:21] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:26] "GET /map_dyn?capacity=20 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:37:30] "GET /map_dyn?capacity=40 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:39:46] "GET /map_dyn?capacity=40 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:39:46] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:40:31] "GET /map_dyn?capacity=40 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:40:31] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:40:35] "GET /map_dyn?capacity=3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:40:42] "GET /map_dyn?capacity=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:40:48] "GET /map_dyn?capacity=80 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:41:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:41:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:41:18] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:41:34] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:56] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:48:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:50] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:51] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:51] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:51] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:49:51] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:21] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:22] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:22] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:22] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:51:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:43] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:44] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:44] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:44] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:52:44] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:15] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:16] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:16] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:16] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:55:16] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:14] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:15] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:15] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:15] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:15] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:18] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:44] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 20:56:44] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:58] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:59] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:00:59] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:14] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:15] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:17] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:36] "GET /map_dyn?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:39] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:42] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:01:45] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:02] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:12] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:13] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:24] "GET /WTtable.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:33] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:02:33] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:41] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2019 21:03:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
