@@ -21,7 +21,7 @@ def connect_to_db():
     if cnx is None:
         cnx = connector.connect(user=configuration.db_user, password=configuration.db_password,
                                 host=configuration.db_hostname,
-                                database=configuration.db_schema_name, port=configuration.db_port)
+                                database=configuration.db_schema_name)
     return cnx
 
 

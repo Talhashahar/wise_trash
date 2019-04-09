@@ -1,25 +1,25 @@
 function geticon(capacity){
 
     var full ={
-        url: "http://localhost:5000/static/assets/img/full.png",
+        url: "static/assets/img/full.png",
         scaledSize: new google.maps.Size(20, 27),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(0, 32)
     };
 	var empty ={
-        url: "http://localhost:5000/static/assets/img/empty.png",
+        url: "/static/assets/img/empty.png",
         scaledSize: new google.maps.Size(20, 27),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(0, 32)
     };
 	var middle ={
-        url: "http://localhost:5000/static/assets/img/middle.png",
+        url: "static/assets/img/middle.png",
         scaledSize: new google.maps.Size(20, 27),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(0, 32)
     };
 	var offline ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
+        url: "static/assets/img/offline.png",
         scaledSize: new google.maps.Size(20, 27),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(0, 32)
