@@ -112,7 +112,17 @@ def get_count_last_update_sensors():                                #need to get
     res = db_handler.get_last_update_sensors()
     return res
 
+@app.route('/calc')
+def calc():
+    capacity = request.args.get('capacity') or 70
+    res = db_handler.get_all_sensor_over_x_capacity(capacity)
+    #res = db_handler.get_last_update_sensors()
+    return render_template("Calc.html", sensors=res, capacityint=capacity)
+
+@app.route("/base")
+def base():
+    return render_template('base.html')
 
 if __name__ == "__main__":
-    print ("get starting flask server")
-    app.run(debug=True)
+    print("get starting flask server")
+    app.run(debug=True, host='0.0.0.0', port=5000)

@@ -524,7 +524,7 @@ input:focus {
 }
 
 .main-panel {
-    position: relative;
+    position: static;
     z-index: 2;
     float: right;
     width: calc(100% - 260px);
@@ -591,6 +591,13 @@ fieldset[disabled] .btn.active {
     opacity: 1;
     filter: alpha(opacity=100);
 }
+
+.btn-margin {
+   margin: 7px;
+    float: left;
+}
+
+
 
 .btn.btn-fill:hover, .btn.btn-fill:focus, .btn.btn-fill:active, .btn.btn-fill.active,
 .open > .btn.btn-fill.dropdown-toggle {
@@ -3882,3 +3889,63 @@ fieldset[disabled] .btn-neutral.active {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slidecontainer {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+
+
+
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 23px;
+    height: 26px;
+    border: 0;
+    background: url('https://img.icons8.com/metro/26/000000/delete.png');
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 23px;
+    height: 27px;
+    border: 0;
+    background: url('https://img.icons8.com/metro/26/000000/delete.png');
+    cursor: pointer;
+  }
+
+

@@ -12584,3 +12584,2327 @@ INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 20:54:35] "GET /static/assets/img/full.
 INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 20:54:35] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 20:54:35] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 20:54:35] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 307-824-455
+ERROR:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] code 400, message Bad request version ('Gy\xec')
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] "  üCùy©¬!x5@|òMò[Åùè1JÀ=Ú>ÑÆÓ ¢zmáÍoíø˜zTRiŒ—úMÂi‚ Gyì" 400 -
+ERROR:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] code 400, message Bad request version ('W-\x1e\x05T\xc3\xdc}3\x00\x1c\x94UOH\x82+\xe0\xe5K\x95\x14\xa9b\xab,\xaeCR\xd9lt\x00"JJ\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] "  üÃ'{ä¯EÃšT¬MZ«Ä!%Yöëm*Fq7À W-TÃÜ}3 ”UOH‚+àåK•©b«,®CRÙlt "JJÀ+À/À,À0Ì©Ì¨ÀÀ œ  / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] code 400, message Bad request syntax ('\x16\x03\x01\x00\xb1\x01\x00\x00\xad\x03\x03d"\xe6\xa78\xb2\x1f~\x97\x91rj<u?X\xcbU_\xcdz\xf0\x9eS\xec4\x08d\x0frF\x88\x00\x00\x1c**\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:43] " ±  ­d"æ§8²~—‘rj<u?XËU_ÍzğSì4drFˆ  **À+À/À,À0Ì©Ì¨ÀÀ œ  / 5 " 400 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:51] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:52] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:52] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:13:52] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2019 22:17:17] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /mapsTEST.html HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /map_dyn?234 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /map_dyn HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2019 09:35:26] "GET /map_dyn HTTP/1.1" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/home/tal/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:25:06] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:25:38] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:25:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:26:08] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:39] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:42] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:42] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:44] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:44] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:44] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:45] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:45] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:45] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:46] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:46] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:47] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:47] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:47] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:48] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:48] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:48] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:49] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:49] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:49] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:50] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:50] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:51] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:51] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:51] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:52] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:52] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:52] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:53] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:53] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:53] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:54] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:54] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:55] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:55] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:55] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:56] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:56] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:56] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:57] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:57] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:57] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:58] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:58] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:59] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:59] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:30:59] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:00] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:00] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:00] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:01] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:01] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:01] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:02] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:02] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:03] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:03] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:03] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:04] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:04] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:04] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:05] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:05] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:05] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:06] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:06] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:07] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:07] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:07] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:08] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:08] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:08] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:09] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:09] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:09] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:10] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:10] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:11] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:11] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:11] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:12] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:12] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:12] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:13] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:13] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:14] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:14] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:14] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:15] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:31:15] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:22] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:23] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:23] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:24] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:24] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:24] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:25] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:25] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:25] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:26] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:26] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:26] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:27] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:27] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:27] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:28] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:28] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:29] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:29] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:29] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:30] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:30] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:30] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:31] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:31] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:31] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:32] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:32] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:33] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:33] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:33] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:34] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:34] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:34] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:35] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:35] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:36] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:36] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:36] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:37] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:37] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:37] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:38] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:38] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:38] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:39] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:39] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:40] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:41] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:42] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:42] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:42] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:43] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:44] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:root:successes insert statistics to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:43:44] "POST /insert_sensor/ HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:16] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:17] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:17] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:18] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:18] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:19] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:20] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:20] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:21] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:21] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:22] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:23] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:23] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:24] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:24] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:25] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:26] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:26] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:27] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:27] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:28] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:29] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:29] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:30] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:30] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:31] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:31] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:32] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:33] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:33] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:34] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:34] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:35] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:36] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:36] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:37] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:37] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:38] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:39] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:39] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:40] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:40] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:41] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:42] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:42] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:43] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:43] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:44] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:45] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:45] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:47] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:48] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:48] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:49] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:49] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:50] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:50] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:51] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:52] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:52] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:53] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:53] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:54] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:55] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:55] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:56] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:56] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:57] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:58] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:58] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:59] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:46:59] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:00] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:01] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:01] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:02] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:02] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:03] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:04] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:04] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:05] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:05] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:06] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:07] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:07] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:08] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:08] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:09] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:10] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:10] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:11] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:11] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:12] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:12] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:13] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:14] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes insert sensor to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 16:47:14] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:29] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:42] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:47] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:47] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:48] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:49] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:49] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:50] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:51] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:52] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:53] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:54] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:54] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:55] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:55] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:56] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:57] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:57] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:58] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:58] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:06:59] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:00] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:00] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:01] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:02] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:02] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:03] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:03] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:04] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:05] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:05] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:06] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:06] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:07] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:08] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:08] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:09] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:09] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:10] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:11] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:11] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:12] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:12] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:13] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:14] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:14] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:15] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:16] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:16] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:17] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:17] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:18] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:19] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:19] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:20] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:20] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:21] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:22] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:22] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:23] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:24] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:24] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:25] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:25] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:26] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:27] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:27] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:28] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:29] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:29] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:30] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:31] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:31] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:32] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:33] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:33] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:34] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:34] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:35] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:36] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:36] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:37] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:38] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:38] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:39] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:39] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:40] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:41] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:41] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:42] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:43] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:43] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:44] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:44] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:45] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:root:successes insert statistics to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:07:46] "POST /insert_sensor/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:09:13] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:17] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:17] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:17] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:24] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:24] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:24] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:24] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:24] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2019 17:10:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:11] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:12] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:12] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:16] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:16] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:16] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 18:56:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:39] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:52] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:02:54] "GET /assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:03] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:04] "GET /assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:09] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:21] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:22] "GET /assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:35] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:35] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:04:55] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:17] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:17] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:18] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:19] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:20] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:05:57] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:33] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:34] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:34] "GET /assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:37] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:37] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:37] "GET /assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:37] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:07:37] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:09:37] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:10:04] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:19:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:19:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:19:52] "GET /calc HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/css/demo.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:03] "GET /calc/static/assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/js/demo.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:04] "GET /calc/static/assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:12] "GET /calc?70 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:15] "GET /calc/static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:26] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:31] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:31] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:35] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:35] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:35] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:35] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:35] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:20:39] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:03] "GET /WTtable.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:13] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:20] "GET /calc?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:22:30] "GET /calc?capacity=40 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:23:15] "GET /calc?capacity=40 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:23:29] "GET /calc?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:23:33] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:26:49] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:01] "GET /template.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:06] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:27:33] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:38:02] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:38:02] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:38:15] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:38:40] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:40:26] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:40:30] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:40:32] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:41:48] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:41:57] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:41:59] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:42:54] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:00] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:03] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:13] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:15] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:18] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:48] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:55] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:43:58] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:44:01] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:44:03] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:45:38] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:45:42] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:45:48] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:45:51] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:46:01] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:46:08] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:46:10] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:46:13] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:18] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:19] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:47:59] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:01] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:04] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:06] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:27] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:29] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:35] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:37] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:39] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:50] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:54] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:56] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:48:59] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:49:44] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:49:46] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:14] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:50:15] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:04] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:29] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:35] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:47] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:48] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:51:48] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:25] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:25] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:25] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:25] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:25] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:28] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:39] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:52:43] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:54:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:54:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:54:42] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:54:48] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:00] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:03] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:06] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:55:08] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:56:13] "GET /calc?capacity=80 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:57:23] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:57:26] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:34] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:36] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:38] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:40] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:42] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:43] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:43] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:44] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:58:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:00] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:02] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:55] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:56] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:57] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:58] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:58] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 19:59:59] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:00:03] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:00:04] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:00:05] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:01:49] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:01:54] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:02:51] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:02:53] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:08] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:15] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:03:34] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:07] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:09] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:05:11] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:49] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:50] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:50] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:06:59] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:22] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:23] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:24] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:07:24] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:21] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:22] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:22] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:22] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:22] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:24] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:08:25] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:34] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:09:35] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:56] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:57] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:10:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:16] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:26] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:26] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:27] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:11:51] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:05] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:06] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:09] "GET /calc?capacity=39 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:11] "GET /calc?capacity=80 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:13:13] "GET /calc?capacity=9 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:17] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:18] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:40] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:41] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:41] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:19:55] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:55] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:21:56] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:22:23] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:22:23] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:17] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:18] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:18] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:18] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:18] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:23:18] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:26] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:27] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:27] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:48] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:24:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/css/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/js/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:54] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:55] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:26:55] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:10] "GET /calc?capacity=55 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:14] "GET /calc?capacity=17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:17] "GET /calc?capacity=66 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:19] "GET /calc?capacity=95 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:22] "GET /calc?capacity=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:25] "GET /calc?capacity=23 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:27] "GET /calc?capacity=62 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:42] "GET /calc?capacity=89 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:43] "GET /calc?capacity=12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:46] "GET /calc?capacity=26 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:47] "GET /calc?capacity=94 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:48] "GET /calc?capacity=81 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:50] "GET /calc?capacity=55 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:53] "GET /calc?capacity=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:27:56] "GET /calc?capacity=67 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:18] "GET /calc?capacity=18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:19] "GET /calc?capacity=88 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:21] "GET /calc?capacity=72 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:22] "GET /calc?capacity=6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:24] "GET /calc?capacity=30 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:25] "GET /calc?capacity=42 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:27] "GET /calc?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:30] "GET /calc?capacity=99 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:35] "GET /calc?capacity=97 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:37] "GET /calc?capacity=96 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:28:38] "GET /calc?capacity=90 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:29:31] "GET /calc?capacity=90 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:29:31] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_new/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:33] "GET /base HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /base HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:36:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:39:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:39:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:39:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:39:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:39:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:40:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:40:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:40:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:41:09] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:04] "GET /template.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:08] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:11] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:15] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:18] "GET /calc?capacity=56 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:18] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:21] "GET /calc?capacity=20 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:21] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:23] "GET /calc?capacity=90 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:42:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:11] "GET /calc?capacity=90 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:11] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:14] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:36] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:36] "GET /static/assets/js/maps.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:37] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:37] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:37] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:43] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:44:45] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:48:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:51] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:54] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:54] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:57] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:49:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:17] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:22] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:24] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:27] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:28] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:30] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:39] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:40] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:43] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:45] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:48] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:49] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:51] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:53] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:55] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:57] "GET /map_dyn?capacity=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:59] "GET /map_dyn?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:50:59] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:51:01] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:51:01] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:51:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /map_dyn?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:14] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:15] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:15] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:23] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:44] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:52:59] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:01] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:01] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:13] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:13] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:48] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:53:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:54:06] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:54:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:54:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:55:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:55:41] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:55:42] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:55:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:55:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:51] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:52] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:54] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:56:55] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:57:14] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:39] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:40] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:42] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:58:43] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:05] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:07] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 20:59:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:25] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:29] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:36] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:36] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:00:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:31] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:32] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:32] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:32] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:39] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:56] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:57] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:57] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:57] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:01:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:02:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:04:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:04:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:04:56] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:08] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:17] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:37] "GET /calc?capacity=35 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:53] "GET /calc?capacity=70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:05:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:06:30] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:06:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:06:32] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:06:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:06:35] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-310-633
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:19] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:20] "GET /some_table HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:22] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:25] "GET /mapsTEST.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:27] "GET /map_dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:27] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:30] "GET /calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:33] "GET /calc?capacity=97 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:30:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:03] "GET /calc?capacity=73 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:06] "GET /calc?capacity=2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:10] "GET /calc?capacity=100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:12] "GET /calc?capacity=97 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2019 21:31:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -

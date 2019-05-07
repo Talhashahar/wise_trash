@@ -3,6 +3,7 @@ import random
 import googleAPI_handler
 import requests
 
+#url = 'http://3.16.166.50:80/insert_sensor/'
 url = 'http://localhost:5000/insert_sensor/'
 headers = {'content-type': 'application/json'}
 #response = requests.post(url, data=json.dumps(data), headers=headers)

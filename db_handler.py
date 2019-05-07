@@ -256,6 +256,8 @@ def get_sensor_by_id(sensor_id):
     try:
         cursor.execute(q, (sensor_id,))
         res = cursor.fetchall()
+        if not res:
+            return None
         return res[0]
     except Exception as e:
         print("failed to get sensor " + e)
