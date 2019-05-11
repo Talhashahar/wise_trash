@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Trash-Bins Overview</h4>
+                                <p class="category">This is a subtitle for this table</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                        <th>Bin ID</th>
+                                    	<th>Location</th>
+                                    	<th>Volume</th>
+                                    	<th>Avg Time to fill</th>
+                                    	<th>Last Serviced</th>
+                                    </thead>
+                                    <tbody>
+                                        {% for sensor in all %}
+                                        <tr>
+                                           <td>{{sensor[0]}}</>
+                                           <td>{{sensor[1]}}</td>
+                                           <td>{{sensor[2]}}%</td>
+                                           <td>avg</td>
+                                           <td>{{sensor[6]}}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="card card-plain">
+                            <div class="header">
+                                <h4 class="title">Trash-Bins Overview over 80%</h4>
+                                <p class="category">Smart search can be configure</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <th>Bin ID</th>
+                                    	<th>Location</th>
+                                    	<th>Volume</th>
+                                    	<th>Time to fill</th>
+                                    	<th>Last Serviced</th>
+                                    </thead>
+                                    <tbody>
+                                    {% for sensor in over_80 %}
+                                        <TR>
+                                           <TD>{{sensor[0]}}</TD>
+                                           <TD>{{sensor[1]}}</TD>
+                                           <TD>{{sensor[2]}}%</TD>
+                                           <TD>avg</TD>
+                                           <TD>{{sensor[6]}}</TD>
+                                        </TR>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+{% endblock %}

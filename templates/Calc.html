@@ -71,7 +71,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Total To PickUp</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="265">
+                                                <input type="text" class="form-control" disabled placeholder="Company" value={{total_to_pickup | safe}}>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -85,7 +85,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Unrisked</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="82">
+                                                <input type="text" class="form-control" disabled placeholder="Company" value={{remain_sensor | safe}}>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -123,34 +123,6 @@
                                         {% endfor %}
                                     </tbody>
                                 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
@@ -162,7 +134,7 @@
                             <div class="content">
                                 <p class="description text-left">
                                                 <label>Current TrashHold</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="75%">
+                                                <input type="text" class="form-control" disabled placeholder="Company" value="{{trash_treshbold | safe}}%">
                                         </p>
                                         <p>
                                                 <label>System's Recommendation</label>
@@ -171,7 +143,8 @@
                                     </p>
                                     <p>
                                                 <label>Set New TrashHold</label>
-                                                <input type="text" class="form-control" placeholder="Company" value="50%">
+                                                <input type="text" class="form-control" placeholder="Company" value="50%" onclick="location.href='/calc?capacity=100';">
+
 
                                     </p>
 

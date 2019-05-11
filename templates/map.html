@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div id="map" style="width: 90%; margin: 0 auto; height: 800px;"></div>
+
+    <footer class="footer">
+            <div class="container-fluid">
+                <div class="slidecontainer">
+                    <a href="/map_dyn?capacity=50" class="btn btn-info btn-fill btn-margin">show under 50%</a>
+                    <a href="/map_dyn?capacity=70" class="btn btn-info btn-fill btn-margin">show over 50% under 70%</a>
+                    <a href="/map_dyn?capacity=100" class="btn btn-info btn-fill btn-margin">show over 70%</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+
+
+{% block script %}
+
+    <!--  Google Maps Plugin    -->
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM"></script> -->
+<script src="static/assets/js/maps.js">
+
+</script>
+<script type="text/javascript">
+  window.locations = {{sensors | safe}};
+
+</script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap">
+
+
+    </script>
+
+
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+	<script src="static/assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
+
+{% endblock %}
+

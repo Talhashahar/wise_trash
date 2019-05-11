@@ -328,7 +328,7 @@ def get_count_sensors():
     try:
         cursor.execute(q, )
         res = cursor.fetchall()
-        return res
+        return res[0][0]
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
         cnx.rollback()
@@ -359,6 +359,19 @@ def get_last_update_sensors(id):
         cursor.execute(q, (id,))
         res = cursor.fetchall()
         return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+def get_threshold():
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT threshold FROM configuration;"
+    try:
+        cursor.execute(q)
+        res = cursor.fetchall()
+        return res[0][0]
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
         cnx.rollback()

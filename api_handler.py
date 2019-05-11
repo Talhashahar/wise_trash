@@ -26,19 +26,14 @@ def insert_driver():
         db_handler.insert_driver(content['id'], content['name'], content['lat'], content['lng'], content['truck_size'])        #insert new
     return "success"
 
-@app.route("/some_table")
+@app.route("/sensor_over_view")
 def show_tables():
     all = db_handler.get_all_sensor_over_x_capacity(0)
     over_80 = db_handler.get_all_sensor_over_x_capacity(80)
-    return render_template('WTtable.html', all=all, over_80=over_80)
+    return render_template('sensor_overview.html', all=all, over_80=over_80)
 
 
 @app.route("/map")
-def map():
-    return render_template('Map.html')
-
-
-@app.route("/map_dyn")
 def map_test():
     sensors = db_handler.get_all_sensor_over_x_capacity(0)
     print(sensors)
@@ -49,9 +44,7 @@ def map_test():
     else:
         capacity = int(capacity)
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors if int(x[2]) <= capacity]
-
-
-    return render_template('mapsTEST.html', sensors=json.dumps(sensors))
+    return render_template('map.html', sensors=json.dumps(sensors))
 
 
 @app.route('/get_all_sensors_by_json')
@@ -116,8 +109,10 @@ def get_count_last_update_sensors():                                #need to get
 def calc():
     capacity = request.args.get('capacity') or 70
     res = db_handler.get_all_sensor_over_x_capacity(capacity)
+    threshold = db_handler.get_threshold()
+    remain_sensor = db_handler.get_count_sensors() - len(res)
     #res = db_handler.get_last_update_sensors()
-    return render_template("Calc.html", sensors=res, capacityint=capacity)
+    return render_template("Calc.html", sensors=res, capacityint=capacity, total_to_pickup=len(res), trash_treshbold=threshold, remain_sensor=remain_sensor)
 
 @app.route("/base")
 def base():
