@@ -36,8 +36,6 @@ def show_tables():
 @app.route("/map")
 def map_test():
     sensors = db_handler.get_all_sensor_over_x_capacity(0)
-    print(sensors)
-
     capacity = request.args.get('capacity')
     if not capacity:
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
@@ -72,7 +70,7 @@ def create_all_tables():
 @app.route("/insert_sensor/", methods=['GET', 'POST'])
 def insert_sensor():
     content = request.json
-    fake_date = '2019-04-05'
+    fake_date = '2019-05-11'
     db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
     #db_handler.insert_statistics(content['id'], datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), content['capacity'])
     if db_handler.get_sensor_by_id(content['id']):
@@ -105,19 +103,26 @@ def get_count_last_update_sensors():                                #need to get
     res = db_handler.get_last_update_sensors()
     return res
 
-@app.route('/calc')
+@app.route('/calc', methods=['GET', 'POST'])
 def calc():
+    if request.method == 'POST':
+        new_threshold = request.form['treshold'][:-1]
+        db_handler.update_treshold(new_threshold)
     capacity = request.args.get('capacity') or 70
-    res = db_handler.get_all_sensor_over_x_capacity(capacity)
+    pickup_sensors = db_handler.get_all_sensor_over_x_capacity(capacity)
+    remain_sensors = db_handler.get_all_sensor_under_x_capacity(capacity)
     threshold = db_handler.get_threshold()
-    remain_sensor = db_handler.get_count_sensors() - len(res)
-    #res = db_handler.get_last_update_sensors()
-    return render_template("Calc.html", sensors=res, capacityint=capacity, total_to_pickup=len(res), trash_treshbold=threshold, remain_sensor=remain_sensor)
+    risk_sensors = []
+    for sensor in remain_sensors:
+        fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
+        if int(sensor[2]) + fill_avg >= threshold:
+            risk_sensors.append(sensor)
+    return render_template("Calc.html", sensors=pickup_sensors, capacityint=capacity, total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors), unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 @app.route("/base")
 def base():
     return render_template('base.html')
 
+
 if __name__ == "__main__":
-    print("get starting flask server")
     app.run(debug=True, host='0.0.0.0', port=5000)

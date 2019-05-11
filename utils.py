@@ -8,3 +8,18 @@ def convert_sensor_tuple_to_json(obj):
         'lng': obj[5]
     }
     return mydict
+
+
+def get_avg_fill_per_sensor(sensor_stats):
+    sensor_stats = sensor_stats[::-1]
+    days_to_calculate = 0
+    max = sensor_stats[0][2]
+    sensor_stats.pop(0)
+    for sensor_stat in sensor_stats:
+        if sensor_stat[2] < max:
+            days_to_calculate = days_to_calculate + 1
+        else:
+            return max // days_to_calculate
+    return max // days_to_calculate
+
+

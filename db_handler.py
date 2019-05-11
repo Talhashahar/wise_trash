@@ -279,6 +279,19 @@ def update_driver_by_id(id, name, lat, lng, truck_size):
         logging.error('failed to update driver to db', e)
 
 
+def update_treshold(new_threshold):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "UPDATE configuration SET threshold=%s "
+    data = (new_threshold, )
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('successes update driver to db')
+    except Exception as e:
+        logging.error('failed to update driver to db', e)
+
+
 def update_sensor_by_id(id, address, capacity, lat, lng, status, update_date):
     db = connect_to_db()
     cursor = cnx.cursor()
@@ -297,6 +310,20 @@ def get_all_sensor_over_x_capacity(capacity):
     db = connect_to_db()
     cursor = cnx.cursor()
     q = "select * from sensors where capacity >=%s"
+    try:
+        cursor.execute(q, (capacity,))
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+def get_all_sensor_under_x_capacity(capacity):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select * from sensors where capacity <=%s"
     try:
         cursor.execute(q, (capacity,))
         res = cursor.fetchall()
@@ -376,3 +403,47 @@ def get_threshold():
         print("failed to get the trash-bins are full " + e)
         cnx.rollback()
         return None
+
+def get_sensor_stat_by_id(id):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT * FROM statistics where sensor_id = %s;"
+    try:
+        cursor.execute(q, (id,))
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+def get_sensors_ids():
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT id FROM sensors;"
+    try:
+        cursor.execute(q,)
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+def get_sensors():
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT * FROM sensors;"
+    try:
+        cursor.execute(q,)
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+
