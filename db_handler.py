@@ -280,10 +280,11 @@ def update_driver_by_id(id, name, lat, lng, truck_size):
 
 
 def update_treshold(new_threshold):
+    current_treshold = get_threshold()
     db = connect_to_db()
     cursor = cnx.cursor()
-    q = "UPDATE configuration SET threshold=%s "
-    data = (new_threshold, )
+    q = "UPDATE configuration SET threshold=%s where threshold=%s "
+    data = (new_threshold, current_treshold)
     try:
         cursor.execute(q, data)
         db.commit()
