@@ -22043,3 +22043,138 @@ INFO:root:successes update driver to db
 INFO:root:successes update driver to db
 INFO:root:successes update driver to db
 INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 18:48:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 18:48:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 18:48:13] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\talha_000\\Desktop\\wise_trash_new\\api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:18] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:18] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:18] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:18] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:19] "GET /zzz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:19] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:19] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:16:53] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:successes update driver to db
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [17/May/2019 19:18:49] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-214-014
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db

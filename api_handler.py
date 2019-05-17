@@ -26,7 +26,7 @@ def index():
         total_avg_fill += utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(bin[0]))
         statistics_bin = db_handler.get_last_two_days_statistics(bin[0])
         if len(statistics_bin) == 2:
-            if statistics_bin[1] > statistics_bin[0]:
+            if statistics_bin[1][2] > statistics_bin[0][2]:
                 picked_up_bins = picked_up_bins + 1
     total_avg_fill = total_avg_fill / db_handler.get_count_sensors()
     for bin in pickup_today:
@@ -146,9 +146,10 @@ def base():
 
 @app.route("/zzz")
 def zzz():
-    # for i in range(1000, 1099):
-    #     db_handler.insert_battery_data(random.randint(20, 100), i)
-    temp = db_handler.get_last_two_days_statistics(1000)
+    statistics_bin = db_handler.get_last_two_days_statistics(1025)
+    if len(statistics_bin) == 2:
+        if statistics_bin[1][2] > statistics_bin[0][2]:
+            picked_up_bins = picked_up_bins + 1
     return "seucess"
 
 
