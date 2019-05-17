@@ -307,7 +307,7 @@ def update_sensor_by_id(id, address, capacity, lat, lng, status, update_date):
 
 
 # getter data
-def get_all_sensor_over_x_capacity(capacity):
+def get_sensor_over_x_capacity(capacity):
     db = connect_to_db()
     cursor = cnx.cursor()
     q = "select * from sensors where capacity >=%s"
@@ -321,7 +321,21 @@ def get_all_sensor_over_x_capacity(capacity):
         return None
 
 
-def get_all_sensor_under_x_capacity(capacity):
+def get_sensor_under_x_battery(battery):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select * from sensors where battery <=%s"
+    try:
+        cursor.execute(q, (battery,))
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+def get_sensor_under_x_capacity(capacity):
     db = connect_to_db()
     cursor = cnx.cursor()
     q = "select * from sensors where capacity <=%s"
@@ -446,5 +460,29 @@ def get_sensors():
         cnx.rollback()
         return None
 
+
+def insert_battery_data(batt, id):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "UPDATE sensors SET battery=%s WHERE id = %s"
+    data = (int(batt), id)
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('successes update driver to db')
+    except Exception as e:
+        logging.error('failed to update driver to db', e)
+
+def get_last_two_days_statistics(id):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select * from statistics WHERE sensor_id = %s order by date DESC limit 2"
+    try:
+        cursor.execute(q, (id,))
+        result = cursor.fetchall()
+        logging.info('successes update driver to db')
+        return result
+    except Exception as e:
+        logging.error('failed to update driver to db', e)
 
 

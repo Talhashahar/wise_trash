@@ -105,7 +105,22 @@ def inc_sensor_capacity_for_statistics():
         response = requests.post(url, data=json.dumps(resp), headers=headers)
 
 
+def dec_sensor_capacity_for_statistics():
+    # inc all sensor capcity for statistics
+    for i in range(1000, 1099):
+        temp_num = random.randint(1, 4)
+        if temp_num == 1:
+            link = 'http://localhost:5000/get_sensor_by_id/' + str(i)
+            resp = requests.get(link).json()
+            resp['status'] = 'online'
+            resp['capacity'] = random.randint(1, 20)
+            if resp['capacity'] > 100:
+                resp['capacity'] = 100
+            response = requests.post(url, data=json.dumps(resp), headers=headers)
+
+
 #init_sensor_for_capacity_0()
-inc_sensor_capacity_for_statistics()
 #inc_sensor_capacity_for_statistics()
 #inc_sensor_capacity_for_statistics()
+#inc_sensor_capacity_for_statistics()
+dec_sensor_capacity_for_statistics()

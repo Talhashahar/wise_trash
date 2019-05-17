@@ -19,7 +19,11 @@ def get_avg_fill_per_sensor(sensor_stats):
         if sensor_stat[2] < max:
             days_to_calculate = days_to_calculate + 1
         else:
+            if days_to_calculate == 0:
+                return max
             return max // days_to_calculate
+    if days_to_calculate == 0:
+        return max
     return max // days_to_calculate
 
 

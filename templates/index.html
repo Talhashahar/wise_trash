@@ -44,8 +44,9 @@
                                        <p class="category">Total connected Trash-Bins</p>
                                    </div>
                                    <div class="content">
-                                       <br> Online : {{online|safe}}</br>
-                                       <br> Offline : {{offline|safe}}</br>
+                                       <h3><b> Total : {{total|safe}}</b></h3>
+                                       <h3><b> Online : {{online|safe}}</b></h3>
+                                       <h3><b> Offline : {{offline|safe}}</b></h3>
                                        <div class="footer">
                                            <div class="legend">
                                                Footer content
@@ -57,8 +58,6 @@
                                        </div>
                                    </div>
                                </div>
-
-
                                <div class="card">
 
                                     <div class="header">
@@ -66,8 +65,8 @@
                                         <p class="category"></p>
                                     </div>
                                     <div class="content">
-                                        <h2><b>Total bins: {{pickup_count|safe}}</b></h2>
-                                        <h2><b>Total weight bins: {{total_weight|safe}}</b></h2>
+                                        <h3><b>bins: {{need_pickup_count | safe}}</b></h3>
+                                        <h3><b>weight bins: {{need_to_pickup_total | safe}}</b></h3>
                                         <div class="footer">
                                             <div class="legend">
                                                 Footer content
@@ -79,22 +78,16 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="card">
 
                                         <div class="header">
-                                            <h4 class="title">Card 2.5</h4>
-                                            <p class="category">Total Trash-Bins</p>
+                                            <h4 class="title">Avg Fill Level</h4>
+                                           <!--<p class="category">Total Trash-Bins</p> -->
                                         </div>
-                                        <div class="content">
-                                           Content
-
+                                            <div class="content">
                                             <div class="footer">
                                                 <div class="legend">
-                                                    <i class="fa fa-circle text-info"></i> Empty
-                                                    <i class="fa fa-circle text-warning"></i> Medium
-                                                    <i class="fa fa-circle text-danger"></i> Full
-
+                                                    <h3><b>{{total_avg_fill | safe}}</b></h3>
                                                 </div>
                                                 <hr>
                                                 <div class="stats">
@@ -102,26 +95,20 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-
+                                </div>
                     </div>
-                           <div class="row">
+                    <div class="row">
                                 <div class="col-md-3">
                                    <div class="card">
-
                                        <div class="header">
-                                           <h4 class="title">Card 3</h4>
-                                           <p class="category">Total Trash-Bins</p>
+                                           <h4 class="title">Bins not to Pick</h4>
+                                           <!--<p class="category">Total Trash-Bins</p>-->
                                        </div>
                                        <div class="content">
-                                          Content
-
                                            <div class="footer">
                                                <div class="legend">
-                                                   <i class="fa fa-circle text-info"></i> Empty
-                                                   <i class="fa fa-circle text-warning"></i> Medium
-                                                   <i class="fa fa-circle text-danger"></i> Full
-
+                                                <h3><b> Bins: {{no_needed_pickup_today | safe}}</b></h3>
+                                                <h3><b> Weight: {{no_need_to_pickup_total | safe}}</b></h3>
                                                </div>
                                                <hr>
                                                <div class="stats">
@@ -130,16 +117,14 @@
                                            </div>
                                        </div>
                                    </div>
-
-
                                    <div class="card">
 
                                         <div class="header">
-                                            <h4 class="title">Card 4</h4>
+                                            <h4 class="title">Low Battery Bins</h4>
                                             <p class="category">Total connected Trash-Bins</p>
                                         </div>
                                         <div class="content">
-                                            <h2><b>334</b></h2>
+                                            <h2><b>Bins: {{low_battery_bins| safe}}</b></h2>
 
                                             <div class="footer">
                                                 <div class="legend">
@@ -153,14 +138,12 @@
                                         </div>
                                     </div>
                                     <div class="card">
-
                                             <div class="header">
                                                 <h4 class="title">Card 5</h4>
                                                 <p class="category">Total Available Trucks</p>
                                             </div>
                                             <div class="content">
                                                 <h2><b>17</b></h2>
-
                                                 <div class="footer">
                                                     <div class="legend">
                                                         Footer content
@@ -172,33 +155,19 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                               </div>
-
-                <div class="row">
+                                </div>
+                    <div class="row">
                     <div class="col-md-4">
-                            <div class="card">
+                        <div class="card">
 
                                     <div class="header">
-                                        <h4 class="title">Card 6</h4>
-                                        <p class="category">Total Something</p>
+                                        <h4 class="title">Bins Picked Today</h4>
+                                        <!--<p class="category">Total Something</p>-->
                                     </div>
                                     <div class="content">
-
-
-                                            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM'></script><div style='overflow:hidden;height:200px;width:220px;'><div id='gmap_canvas' style='height:200px;width:220px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://meinefirma.org/'>Firmenführung</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=07845e50c3501fd4521f46b94fb94d475123efa6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(31.5,34.75),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(31.5,34.75)});infowindow = new google.maps.InfoWindow({content:'<strong>Shenkar</strong><br>Anna Frank 12 <br> Ramat Gan<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-
-
-
-
-
                                         <div class="footer">
                                             <div class="legend">
-                                                <i class="fa fa-circle text-info"></i> Empty
-                                                <i class="fa fa-circle text-warning"></i> Medium
-                                                <i class="fa fa-circle text-danger"></i> Full
-
+                                                <h3><b>Bins: {{picked_up_bins|safe }}</b></h3>
                                             </div>
                                             <hr>
                                             <div class="stats">
@@ -207,9 +176,7 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="card">
+                        <div class="card">
 
                                         <div class="header">
                                             <h4 class="title">Card 7</h4>
@@ -229,8 +196,7 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="card">
+                        <div class="card">
 
                                             <div class="header">
                                                 <h4 class="title">Card 8</h4>
@@ -253,7 +219,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
              </div>
                 </div>
             </div>
