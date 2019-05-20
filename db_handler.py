@@ -486,3 +486,16 @@ def get_last_two_days_statistics(id):
         logging.error('failed to update driver to db', e)
 
 
+def update_sensor_capacity_by_id(id, capacity):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "UPDATE sensors SET capacity=%s WHERE id = %s"
+    data = (capacity, id)
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('successes update driver to db')
+    except Exception as e:
+        logging.error('failed to update driver to db', e)
+
+

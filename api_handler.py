@@ -47,14 +47,14 @@ def insert_driver():
 
 @app.route("/sensor_over_view")
 def show_tables():
-    all = db_handler.get_all_sensor_over_x_capacity(0)
-    over_80 = db_handler.get_all_sensor_over_x_capacity(80)
+    all = db_handler.get_sensor_over_x_capacity(0)
+    over_80 = db_handler.get_sensor_over_x_capacity(80)
     return render_template('sensor_overview.html', all=all, over_80=over_80)
 
 
 @app.route("/map")
 def map_test():
-    sensors = db_handler.get_all_sensor_over_x_capacity(0)
+    sensors = db_handler.get_sensor_over_x_capacity(0)
     capacity = request.args.get('capacity')
     if not capacity:
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
@@ -67,7 +67,7 @@ def map_test():
 @app.route('/get_all_sensors_by_json')
 def get_all_sensors_by_json():
     total_sensors = []
-    sensors = db_handler.get_all_sensor_over_x_capacity(0)
+    sensors = db_handler.get_sensor_over_x_capacity(0)
     for sen in sensors:
         total_sensors.append(utils.convert_sensor_tuple_to_json(sen))
     return "ok"
@@ -101,7 +101,7 @@ def insert_sensor():
 
 @app.route('/get_trash_bins_to_pickup/')
 def get_trash_bins_to_pickup():
-    res = db_handler.get_all_sensor_over_x_capacity(50)
+    res = db_handler.get_sensor_over_x_capacity(50)
     return res
 
 
@@ -129,8 +129,8 @@ def calc():
         configuration.trash_threshold = new_threshold
         #db_handler.update_treshold(new_threshold)
     capacity = request.args.get('capacity') or 70
-    pickup_sensors = db_handler.get_all_sensor_over_x_capacity(capacity)
-    remain_sensors = db_handler.get_all_sensor_under_x_capacity(capacity)
+    pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
+    remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
     threshold = configuration.trash_threshold
     risk_sensors = []
     for sensor in remain_sensors:
@@ -144,7 +144,15 @@ def base():
     return render_template('base.html')
 
 
-@app.route("/zzz")
+@app.route("/update_sensor_by_id/<string:data>")
+def update_sensor_by_id(data):
+    sensor_id = data.split("_")[0]
+    capacity = data.split("_")[1]
+    db_handler.update_sensor_capacity_by_id(sensor_id, capacity)
+    db_handler.insert_statistics(sensor_id, datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), capacity)
+    return "seccues"
+
+
 def zzz():
     statistics_bin = db_handler.get_last_two_days_statistics(1025)
     if len(statistics_bin) == 2:
