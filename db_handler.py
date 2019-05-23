@@ -22,6 +22,12 @@ def connect_to_db():
         cnx = connector.connect(user=configuration.db_user, password=configuration.db_password,
                                 host=configuration.db_hostname,
                                 database=configuration.db_schema_name)
+        return cnx
+    if cnx.is_connected():
+        return cnx
+    cnx = connector.connect(user=configuration.db_user, password=configuration.db_password,
+                            host=configuration.db_hostname,
+                            database=configuration.db_schema_name)
     return cnx
 
 
