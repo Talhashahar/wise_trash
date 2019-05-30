@@ -22474,3 +22474,1649 @@ INFO:root:successes update driver to db
 INFO:root:successes update driver to db
 INFO:werkzeug:127.0.0.1 - - [23/May/2019 20:56:16] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [23/May/2019 20:56:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:18] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:18] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:18] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:18] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:19] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:19] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:49] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:49] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:49] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:49] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:49] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:52] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:52] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:52] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:52] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:21:52] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/css/bootstrap.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/css/animate.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/css/pe-icon-7-stroke.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/jquery.3.2.1.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/chartist.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/bootstrap-notify.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:22:27] "GET /assets/img/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:31:54] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:41:54] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:12] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:12] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:12] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:12] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:12] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:49] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:49] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:49] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:49] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:42:49] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:50:47] "GET /zzz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:51:20] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:53:46] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:09] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:55:20] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 15:57:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:02:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:58] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:59] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:59] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:59] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:03:59] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:05:43] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:07:22] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:07:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:07:22] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:07:22] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:07:22] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:31] "GET /map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:32] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:32] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:32] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:32] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:08:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:05] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:05] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:06] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:18] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:18] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:18] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:18] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:11:18] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:12:47] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:20] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:13:27] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:43] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:52] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:14:53] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:26] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:59] "GET /map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:15:59] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:04] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:04] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:17:15] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:19:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:20:14] "GET /map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:20:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:20] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:20] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:22:58] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:25:18] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:27:52] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:02] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:56] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:56] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:56] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:56] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:56] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:28:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:29:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:15] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:16] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:16] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:16] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:16] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /zzz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:47] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:48] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:48] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:48] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 16:36:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:19:55] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:20:19] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:21:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:21:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:22:01] "GET /map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:22:01] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:22:05] "GET /sensor_over_view HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:22:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:27:47] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:27:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:27:47] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:27:48] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:27:48] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:28:58] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:28:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:28:58] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:28:58] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:28:58] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:03] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:03] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:03] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:35] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:35] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:35] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:30:35] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:32:26] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:11] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:29] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:29] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:29] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:29] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:33:30] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:40:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:43:30] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:43:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:43:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:43:30] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:49:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:50:44] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:50:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:50:44] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:50:44] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 17:50:44] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:01:40] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:04:00] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:28] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:05:51] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:06:17] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:07:12] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:06] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:06] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:07] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:12] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:37] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:37] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:37] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:37] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:08:38] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:10] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:10] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:10] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:10] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:11] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:28] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:28] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:09:29] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:10:41] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:13:49] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:14:43] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:14:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:14:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:14:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:14:43] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:15:20] "GET /zzz.csv HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:12] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:17] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:17:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:30] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:19:40] "GET /zzz.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:31] "GET /[['HaMelacha%20St%205,%20Ramat%20Gan,%20Israel',%2032.0906668,%2034.8025947,%20'online',%2016,%20'1004'],%20['HaMelacha%20St%208,%20Ramat%20Gan,%20Israel',%2032.0908168,%2034.8023853,%20'online',%2015,%20'1007'],%20['HaMelacha%20St%209,%20Ramat%20Gan,%20Israel',%2032.0903675,%2034.8023459,%20'online',%2020,%20'1008'],%20['HaMelacha%20St%2010,%20Tel%20Aviv-Yafo,%20Israel',%2032.0665051,%2034.7861629,%20'online',%2016,%20'1009'],%20['HaMelacha%20St%2015,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664966,%2034.7866021,%20'online',%2013,%20'1014'],%20['Anne%20Frank%20St%201,%20Ramat%20Gan,%20Israel',%2032.0913689,%2034.8018629,%20'online',%2020,%20'1016'],%20['Anne%20Frank%20St%204,%20Ramat%20Gan,%20Israel',%2032.0911801,%2034.8019927,%20'online',%201,%20'1019'],%20['Anne%20Frank%20St%205,%20Ramat%20Gan,%20Israel',%2032.0908146,%2034.80273150000001,%20'online',%2020,%20'1020'],%20['Anne%20Frank%20St%206,%20Ramat%20Gan,%20Israel',%2032.0908856,%2034.8026718,%20'online',%2019,%20'1021'],%20['Anne%20Frank%20St%208,%20Ramat%20Gan,%20Israel',%2032.0909046,%2034.8024579,%20'online',%208,%20'1023'],%20['Anne%20Frank%20St%209,%20Ramat%20Gan,%20Israel',%2032.0910554,%2034.8031912,%20'online',%2020,%20'1024'],%20['Anne%20Frank%20St%2010,%20Ramat%20Gan,%20Israel',%2032.09087280000001,%2034.803054,%20'online',%2020,%20'1025'],%20['Anne%20Frank%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0908051,%2034.8033666,%20'online',%2012,%20'1026'],%20['Anne%20Frank%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0900601,%2034.8035691,%20'online',%204,%20'1027'],%20['Anne%20Frank%20St%2013,%20Ramat%20Gan,%20Israel',%2032.0906433,%2034.8034731,%20'online',%2018,%20'1028'],%20['Anne%20Frank%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0892801,%2034.8036105,%20'online',%2020,%20'1029'],%20['Anne%20Frank%20St%2016,%20Ramat%20Gan,%20Israel',%2032.0891779,%2034.803718,%20'online',%2025,%20'1031'],%20['Anne%20Frank%20St%2019,%20Ramat%20Gan,%20Israel',%2032.090101,%2034.8038017,%20'online',%207,%20'1034'],%20['Anne%20Frank%20St%2022,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2015,%20'1037'],%20['Anne%20Frank%20St%2024,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2024,%20'1039'],%20['Anne%20Frank%20St%2026,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2012,%20'1041'],%20['Anne%20Frank%20St%2029,%20Ramat%20Gan,%20Israel',%2032.0892056,%2034.8040478,%20'online',%2017,%20'1044'],%20['Anne%20Frank%20St%2030,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%204,%20'1045'],%20['Yeda%20Am%20St%201,%20Ramat%20Gan,%20Israel',%2032.0893415,%2034.8035416,%20'online',%2013,%20'1046'],%20['Yeda%20Am%20St%202,%20Ramat%20Gan,%20Israel',%2032.0896392,%2034.8034249,%20'online',%202,%20'1047'],%20['Yeda%20Am%20St%203,%20Ramat%20Gan,%20Israel',%2032.0893489,%2034.8032633,%20'online',%203,%20'1048'],%20['Yeda%20Am%20St%207,%20Ramat%20Gan,%20Israel',%2032.0893171,%2034.8027684,%20'online',%2013,%20'1052'],%20['Yeda%20Am%20St%208,%20Ramat%20Gan,%20Israel',%2032.0898023,%2034.8027647,%20'online',%2015,%20'1053'],%20['Yeda%20Am%20St%2011,%20Ramat%20Gan,%20Israel',%2032.089432,%2034.8023042,%20'online',%207,%20'1056'],%20['Yeda%20Am%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%2017,%20'1057'],%20['Yeda%20Am%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%204,%20'1059'],%20['Yeda%20Am%20St%2017,%20Ramat%20Gan,%20Israel',%2032.0896388,%2034.8019079,%20'online',%203,%20'1062'],%20['Yeda%20Am%20St%2018,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%209,%20'1063'],%20['Yeda%20Am%20St%2020,%20Ramat%20Gan,%20Israel',%2032.0900055,%2034.8018929,%20'online',%207,%20'1065'],%20['Brurya%20St%201,%20Ramat%20Gan,%20Israel',%2032.0893646,%2034.803213,%20'online',%206,%20'1067'],%20['Brurya%20St%203,%20Ramat%20Gan,%20Israel',%2032.0890899,%2034.8033025,%20'online',%204,%20'1069'],%20['Brurya%20St%205,%20Ramat%20Gan,%20Israel',%2032.0888188,%2034.8034775,%20'online',%209,%20'1071'],%20['Yehudit%20St%202,%20Ramat%20Gan,%20Israel',%2032.0905833,%2034.8043499,%20'online',%205,%20'1073'],%20['Yehudit%20St%204,%20Ramat%20Gan,%20Israel',%2032.0902757,%2034.80435660000001,%20'online',%2011,%20'1075'],%20['Yehudit%20St%206,%20Ramat%20Gan,%20Israel',%2032.0900099,%2034.8044232,%20'online',%206,%20'1077'],%20['Yehudit%20St%207,%20Ramat%20Gan,%20Israel',%2032.0899621,%2034.8046703,%20'online',%204,%20'1078'],%20['Yehudit%20St%2010,%20Ramat%20Gan,%20Israel',%2032.0894971,%2034.8042419,%20'online',%2012,%20'1081'],%20['Yehudit%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0892176,%2034.8040052,%20'online',%2018,%20'1083'],%20['Ramat%20Gan,%20Israel',%2032.068424,%2034.824785,%20'online',%2015,%20'1084'],%20['Charusim%20St%202,%20Ramat%20Gan,%20Israel',%2032.0924097,%2034.802152,%20'online',%2010,%20'1086'],%20['Charusim%20St%203,%20Ramat%20Gan,%20Israel',%2032.0923847,%2034.8027489,%20'online',%206,%20'1087'],%20['Charusim%20St%205,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2017,%20'1089'],%20['Charusim%20St%208,%20Ramat%20Gan,%20Israel',%2032.0915837,%2034.803029,%20'online',%2013,%20'1092'],%20['Charusim%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%205,%20'1095'],%20['Charusim%20St%2012,%20Ramat%20Gan,%20Israel',%2032.091287,%2034.803429,%20'online',%208,%20'1096'],%20['Charusim%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0910014,%2034.8033923,%20'online',%204,%20'1098'],%20['HaMelacha%20St%201,%20Tel%20Aviv-Yafo,%20Israel',%2032.06679,%2034.7847859,%20'online',%2053,%20'1000'],%20['HaMelacha%20St%202,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664853,%2034.7853386,%20'online',%2050,%20'1001'],%20['HaMelacha%20St%203,%20Ramat%20Gan,%20Israel',%2032.0908577,%2034.8028032,%20'online',%2038,%20'1002'],%20['HaMelacha%20St%204,%20Ramat%20Gan,%20Israel',%2032.091326,%2034.8032739,%20'online',%2027,%20'1003'],%20['HaMelacha%20St%206,%20Ramat%20Gan,%20Israel',%2032.0908856,%2034.8026718,%20'online',%2053,%20'1005'],%20['HaMelacha%20St%207,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664719,%2034.7865192,%20'online',%2043,%20'1006'],%20['HaMelacha%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0904894,%2034.802153,%20'online',%2036,%20'1011'],%20['HaMelacha%20St%2013,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664966,%2034.7866021,%20'online',%2051,%20'1012'],%20['HaMelacha%20St%2014,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664872,%2034.7862872,%20'online',%2046,%20'1013'],%20['HaMelacha%20St%2016,%20Ramat%20Gan,%20Israel',%2032.0901504,%2034.802002,%20'online',%2052,%20'1015'],%20['Anne%20Frank%20St%202,%20Ramat%20Gan,%20Israel',%2032.0913689,%2034.8018629,%20'online',%2074,%20'1017'],%20['Anne%20Frank%20St%203,%20Ramat%20Gan,%20Israel',%2032.0908577,%2034.8028032,%20'online',%2041,%20'1018'],%20['Anne%20Frank%20St%207,%20Ramat%20Gan,%20Israel',%2032.0912311,%2034.8030897,%20'online',%2063,%20'1022'],%20['Anne%20Frank%20St%2015,%20Ramat%20Gan,%20Israel',%2032.0905029,%2034.8035914,%20'online',%2062,%20'1030'],%20['Anne%20Frank%20St%2017,%20Ramat%20Gan,%20Israel',%2032.0902985,%2034.8037294,%20'online',%2040,%20'1032'],%20['Anne%20Frank%20St%2018,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2059,%20'1033'],%20['Anne%20Frank%20St%2020,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2037,%20'1035'],%20['Anne%20Frank%20St%2021,%20Ramat%20Gan,%20Israel',%2032.089906,%2034.8037927,%20'online',%2075,%20'1036'],%20['Anne%20Frank%20St%2023,%20Ramat%20Gan,%20Israel',%2032.0896073,%2034.803774,%20'online',%2067,%20'1038'],%20['Anne%20Frank%20St%2025,%20Ramat%20Gan,%20Israel',%2032.0894168,%2034.803826,%20'online',%2026,%20'1040'],%20['Anne%20Frank%20St%2027,%20Ramat%20Gan,%20Israel',%2032.0892056,%2034.8040479,%20'online',%2057,%20'1042'],%20['Anne%20Frank%20St%2028,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2048,%20'1043'],%20['Yeda%20Am%20St%204,%20Ramat%20Gan,%20Israel',%2032.0894393,%2034.8029566,%20'online',%2063,%20'1049'],%20['Yeda%20Am%20St%205,%20Ramat%20Gan,%20Israel',%2032.089369,%2034.803045,%20'online',%2055,%20'1050'],%20['Yeda%20Am%20St%206,%20Ramat%20Gan,%20Israel',%2032.0894469,%2034.8028531,%20'online',%2034,%20'1051'],%20['Yeda%20Am%20St%209,%20Ramat%20Gan,%20Israel',%2032.0893699,%2034.8025376,%20'online',%2066,%20'1054'],%20['Yeda%20Am%20St%2010,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%2049,%20'1055'],%20['Yeda%20Am%20St%2013,%20Ramat%20Gan,%20Israel',%2032.089505,%2034.8021778,%20'online',%2064,%20'1058'],%20['Yeda%20Am%20St%2015,%20Ramat%20Gan,%20Israel',%2032.0895826,%2034.8020499,%20'online',%2028,%20'1060'],%20['Yeda%20Am%20St%2016,%20Ramat%20Gan,%20Israel',%2032.09067770000001,%2034.8018503,%20'online',%2050,%20'1061'],%20['Yeda%20Am%20St%2019,%20Ramat%20Gan,%20Israel',%2032.0897106,%2034.8017978,%20'online',%2059,%20'1064'],%20['Yeda%20Am%20St%2021,%20Ramat%20Gan,%20Israel',%2032.0899582,%2034.8017934,%20'online',%2059,%20'1066'],%20['Brurya%20St%202,%20Ramat%20Gan,%20Israel',%2032.0892989,%2034.8030363,%20'online',%2056,%20'1068'],%20['Brurya%20St%204,%20Ramat%20Gan,%20Israel',%2032.0890605,%2034.8030673,%20'online',%2062,%20'1070'],%20['Yehudit%20St%201,%20Ramat%20Gan,%20Israel',%2032.0905928,%2034.8046596,%20'online',%2032,%20'1072'],%20['Yehudit%20St%203,%20Ramat%20Gan,%20Israel',%2032.0902143,%2034.8046429,%20'online',%2040,%20'1074'],%20['Yehudit%20St%205,%20Ramat%20Gan,%20Israel',%2032.0901218,%2034.8046506,%20'online',%2066,%20'1076'],%20['Yehudit%20St%208,%20Ramat%20Gan,%20Israel',%2032.0897942,%2034.8043713,%20'online',%2039,%20'1079'],%20['Yehudit%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0895522,%2034.8044945,%20'online',%2058,%20'1082'],%20['Charusim%20St%201,%20Ramat%20Gan,%20Israel',%2032.0924304,%2034.8027405,%20'online',%2057,%20'1085'],%20['Charusim%20St%204,%20Ramat%20Gan,%20Israel',%2032.0922788,%2034.8025648,%20'online',%2049,%20'1088'],%20['Charusim%20St%206,%20Ramat%20Gan,%20Israel',%2032.0918564,%2034.8028591,%20'online',%2038,%20'1090'],%20['Charusim%20St%207,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2066,%20'1091'],%20['Charusim%20St%209,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2069,%20'1093'],%20['Charusim%20St%2010,%20Ramat%20Gan,%20Israel',%2032.091328,%2034.8032673,%20'online',%2037,%20'1094'],%20['Charusim%20St%2013,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2046,%20'1097'],%20['Real%20Sensor',%2032.0898021,%2034.8027646,%20'online',%2032,%20'2000'],%20['HaMelacha%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0901709,%2034.8022729,%20'online',%2087,%20'1010'],%20['Ramat%20Gan,%20Israel',%2032.068424,%2034.824785,%20'online',%2079,%20'1080']] HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:56] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:20:58] "GET /[['HaMelacha%20St%205,%20Ramat%20Gan,%20Israel',%2032.0906668,%2034.8025947,%20'online',%2016,%20'1004'],%20['HaMelacha%20St%208,%20Ramat%20Gan,%20Israel',%2032.0908168,%2034.8023853,%20'online',%2015,%20'1007'],%20['HaMelacha%20St%209,%20Ramat%20Gan,%20Israel',%2032.0903675,%2034.8023459,%20'online',%2020,%20'1008'],%20['HaMelacha%20St%2010,%20Tel%20Aviv-Yafo,%20Israel',%2032.0665051,%2034.7861629,%20'online',%2016,%20'1009'],%20['HaMelacha%20St%2015,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664966,%2034.7866021,%20'online',%2013,%20'1014'],%20['Anne%20Frank%20St%201,%20Ramat%20Gan,%20Israel',%2032.0913689,%2034.8018629,%20'online',%2020,%20'1016'],%20['Anne%20Frank%20St%204,%20Ramat%20Gan,%20Israel',%2032.0911801,%2034.8019927,%20'online',%201,%20'1019'],%20['Anne%20Frank%20St%205,%20Ramat%20Gan,%20Israel',%2032.0908146,%2034.80273150000001,%20'online',%2020,%20'1020'],%20['Anne%20Frank%20St%206,%20Ramat%20Gan,%20Israel',%2032.0908856,%2034.8026718,%20'online',%2019,%20'1021'],%20['Anne%20Frank%20St%208,%20Ramat%20Gan,%20Israel',%2032.0909046,%2034.8024579,%20'online',%208,%20'1023'],%20['Anne%20Frank%20St%209,%20Ramat%20Gan,%20Israel',%2032.0910554,%2034.8031912,%20'online',%2020,%20'1024'],%20['Anne%20Frank%20St%2010,%20Ramat%20Gan,%20Israel',%2032.09087280000001,%2034.803054,%20'online',%2020,%20'1025'],%20['Anne%20Frank%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0908051,%2034.8033666,%20'online',%2012,%20'1026'],%20['Anne%20Frank%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0900601,%2034.8035691,%20'online',%204,%20'1027'],%20['Anne%20Frank%20St%2013,%20Ramat%20Gan,%20Israel',%2032.0906433,%2034.8034731,%20'online',%2018,%20'1028'],%20['Anne%20Frank%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0892801,%2034.8036105,%20'online',%2020,%20'1029'],%20['Anne%20Frank%20St%2016,%20Ramat%20Gan,%20Israel',%2032.0891779,%2034.803718,%20'online',%2025,%20'1031'],%20['Anne%20Frank%20St%2019,%20Ramat%20Gan,%20Israel',%2032.090101,%2034.8038017,%20'online',%207,%20'1034'],%20['Anne%20Frank%20St%2022,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2015,%20'1037'],%20['Anne%20Frank%20St%2024,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2024,%20'1039'],%20['Anne%20Frank%20St%2026,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2012,%20'1041'],%20['Anne%20Frank%20St%2029,%20Ramat%20Gan,%20Israel',%2032.0892056,%2034.8040478,%20'online',%2017,%20'1044'],%20['Anne%20Frank%20St%2030,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%204,%20'1045'],%20['Yeda%20Am%20St%201,%20Ramat%20Gan,%20Israel',%2032.0893415,%2034.8035416,%20'online',%2013,%20'1046'],%20['Yeda%20Am%20St%202,%20Ramat%20Gan,%20Israel',%2032.0896392,%2034.8034249,%20'online',%202,%20'1047'],%20['Yeda%20Am%20St%203,%20Ramat%20Gan,%20Israel',%2032.0893489,%2034.8032633,%20'online',%203,%20'1048'],%20['Yeda%20Am%20St%207,%20Ramat%20Gan,%20Israel',%2032.0893171,%2034.8027684,%20'online',%2013,%20'1052'],%20['Yeda%20Am%20St%208,%20Ramat%20Gan,%20Israel',%2032.0898023,%2034.8027647,%20'online',%2015,%20'1053'],%20['Yeda%20Am%20St%2011,%20Ramat%20Gan,%20Israel',%2032.089432,%2034.8023042,%20'online',%207,%20'1056'],%20['Yeda%20Am%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%2017,%20'1057'],%20['Yeda%20Am%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%204,%20'1059'],%20['Yeda%20Am%20St%2017,%20Ramat%20Gan,%20Israel',%2032.0896388,%2034.8019079,%20'online',%203,%20'1062'],%20['Yeda%20Am%20St%2018,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%209,%20'1063'],%20['Yeda%20Am%20St%2020,%20Ramat%20Gan,%20Israel',%2032.0900055,%2034.8018929,%20'online',%207,%20'1065'],%20['Brurya%20St%201,%20Ramat%20Gan,%20Israel',%2032.0893646,%2034.803213,%20'online',%206,%20'1067'],%20['Brurya%20St%203,%20Ramat%20Gan,%20Israel',%2032.0890899,%2034.8033025,%20'online',%204,%20'1069'],%20['Brurya%20St%205,%20Ramat%20Gan,%20Israel',%2032.0888188,%2034.8034775,%20'online',%209,%20'1071'],%20['Yehudit%20St%202,%20Ramat%20Gan,%20Israel',%2032.0905833,%2034.8043499,%20'online',%205,%20'1073'],%20['Yehudit%20St%204,%20Ramat%20Gan,%20Israel',%2032.0902757,%2034.80435660000001,%20'online',%2011,%20'1075'],%20['Yehudit%20St%206,%20Ramat%20Gan,%20Israel',%2032.0900099,%2034.8044232,%20'online',%206,%20'1077'],%20['Yehudit%20St%207,%20Ramat%20Gan,%20Israel',%2032.0899621,%2034.8046703,%20'online',%204,%20'1078'],%20['Yehudit%20St%2010,%20Ramat%20Gan,%20Israel',%2032.0894971,%2034.8042419,%20'online',%2012,%20'1081'],%20['Yehudit%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0892176,%2034.8040052,%20'online',%2018,%20'1083'],%20['Ramat%20Gan,%20Israel',%2032.068424,%2034.824785,%20'online',%2015,%20'1084'],%20['Charusim%20St%202,%20Ramat%20Gan,%20Israel',%2032.0924097,%2034.802152,%20'online',%2010,%20'1086'],%20['Charusim%20St%203,%20Ramat%20Gan,%20Israel',%2032.0923847,%2034.8027489,%20'online',%206,%20'1087'],%20['Charusim%20St%205,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2017,%20'1089'],%20['Charusim%20St%208,%20Ramat%20Gan,%20Israel',%2032.0915837,%2034.803029,%20'online',%2013,%20'1092'],%20['Charusim%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%205,%20'1095'],%20['Charusim%20St%2012,%20Ramat%20Gan,%20Israel',%2032.091287,%2034.803429,%20'online',%208,%20'1096'],%20['Charusim%20St%2014,%20Ramat%20Gan,%20Israel',%2032.0910014,%2034.8033923,%20'online',%204,%20'1098'],%20['HaMelacha%20St%201,%20Tel%20Aviv-Yafo,%20Israel',%2032.06679,%2034.7847859,%20'online',%2053,%20'1000'],%20['HaMelacha%20St%202,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664853,%2034.7853386,%20'online',%2050,%20'1001'],%20['HaMelacha%20St%203,%20Ramat%20Gan,%20Israel',%2032.0908577,%2034.8028032,%20'online',%2038,%20'1002'],%20['HaMelacha%20St%204,%20Ramat%20Gan,%20Israel',%2032.091326,%2034.8032739,%20'online',%2027,%20'1003'],%20['HaMelacha%20St%206,%20Ramat%20Gan,%20Israel',%2032.0908856,%2034.8026718,%20'online',%2053,%20'1005'],%20['HaMelacha%20St%207,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664719,%2034.7865192,%20'online',%2043,%20'1006'],%20['HaMelacha%20St%2012,%20Ramat%20Gan,%20Israel',%2032.0904894,%2034.802153,%20'online',%2036,%20'1011'],%20['HaMelacha%20St%2013,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664966,%2034.7866021,%20'online',%2051,%20'1012'],%20['HaMelacha%20St%2014,%20Tel%20Aviv-Yafo,%20Israel',%2032.0664872,%2034.7862872,%20'online',%2046,%20'1013'],%20['HaMelacha%20St%2016,%20Ramat%20Gan,%20Israel',%2032.0901504,%2034.802002,%20'online',%2052,%20'1015'],%20['Anne%20Frank%20St%202,%20Ramat%20Gan,%20Israel',%2032.0913689,%2034.8018629,%20'online',%2074,%20'1017'],%20['Anne%20Frank%20St%203,%20Ramat%20Gan,%20Israel',%2032.0908577,%2034.8028032,%20'online',%2041,%20'1018'],%20['Anne%20Frank%20St%207,%20Ramat%20Gan,%20Israel',%2032.0912311,%2034.8030897,%20'online',%2063,%20'1022'],%20['Anne%20Frank%20St%2015,%20Ramat%20Gan,%20Israel',%2032.0905029,%2034.8035914,%20'online',%2062,%20'1030'],%20['Anne%20Frank%20St%2017,%20Ramat%20Gan,%20Israel',%2032.0902985,%2034.8037294,%20'online',%2040,%20'1032'],%20['Anne%20Frank%20St%2018,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2059,%20'1033'],%20['Anne%20Frank%20St%2020,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2037,%20'1035'],%20['Anne%20Frank%20St%2021,%20Ramat%20Gan,%20Israel',%2032.089906,%2034.8037927,%20'online',%2075,%20'1036'],%20['Anne%20Frank%20St%2023,%20Ramat%20Gan,%20Israel',%2032.0896073,%2034.803774,%20'online',%2067,%20'1038'],%20['Anne%20Frank%20St%2025,%20Ramat%20Gan,%20Israel',%2032.0894168,%2034.803826,%20'online',%2026,%20'1040'],%20['Anne%20Frank%20St%2027,%20Ramat%20Gan,%20Israel',%2032.0892056,%2034.8040479,%20'online',%2057,%20'1042'],%20['Anne%20Frank%20St%2028,%20Ramat%20Gan,%20Israel',%2032.0890817,%2034.8038335,%20'online',%2048,%20'1043'],%20['Yeda%20Am%20St%204,%20Ramat%20Gan,%20Israel',%2032.0894393,%2034.8029566,%20'online',%2063,%20'1049'],%20['Yeda%20Am%20St%205,%20Ramat%20Gan,%20Israel',%2032.089369,%2034.803045,%20'online',%2055,%20'1050'],%20['Yeda%20Am%20St%206,%20Ramat%20Gan,%20Israel',%2032.0894469,%2034.8028531,%20'online',%2034,%20'1051'],%20['Yeda%20Am%20St%209,%20Ramat%20Gan,%20Israel',%2032.0893699,%2034.8025376,%20'online',%2066,%20'1054'],%20['Yeda%20Am%20St%2010,%20Ramat%20Gan,%20Israel',%2032.0898021,%2034.8027646,%20'online',%2049,%20'1055'],%20['Yeda%20Am%20St%2013,%20Ramat%20Gan,%20Israel',%2032.089505,%2034.8021778,%20'online',%2064,%20'1058'],%20['Yeda%20Am%20St%2015,%20Ramat%20Gan,%20Israel',%2032.0895826,%2034.8020499,%20'online',%2028,%20'1060'],%20['Yeda%20Am%20St%2016,%20Ramat%20Gan,%20Israel',%2032.09067770000001,%2034.8018503,%20'online',%2050,%20'1061'],%20['Yeda%20Am%20St%2019,%20Ramat%20Gan,%20Israel',%2032.0897106,%2034.8017978,%20'online',%2059,%20'1064'],%20['Yeda%20Am%20St%2021,%20Ramat%20Gan,%20Israel',%2032.0899582,%2034.8017934,%20'online',%2059,%20'1066'],%20['Brurya%20St%202,%20Ramat%20Gan,%20Israel',%2032.0892989,%2034.8030363,%20'online',%2056,%20'1068'],%20['Brurya%20St%204,%20Ramat%20Gan,%20Israel',%2032.0890605,%2034.8030673,%20'online',%2062,%20'1070'],%20['Yehudit%20St%201,%20Ramat%20Gan,%20Israel',%2032.0905928,%2034.8046596,%20'online',%2032,%20'1072'],%20['Yehudit%20St%203,%20Ramat%20Gan,%20Israel',%2032.0902143,%2034.8046429,%20'online',%2040,%20'1074'],%20['Yehudit%20St%205,%20Ramat%20Gan,%20Israel',%2032.0901218,%2034.8046506,%20'online',%2066,%20'1076'],%20['Yehudit%20St%208,%20Ramat%20Gan,%20Israel',%2032.0897942,%2034.8043713,%20'online',%2039,%20'1079'],%20['Yehudit%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0895522,%2034.8044945,%20'online',%2058,%20'1082'],%20['Charusim%20St%201,%20Ramat%20Gan,%20Israel',%2032.0924304,%2034.8027405,%20'online',%2057,%20'1085'],%20['Charusim%20St%204,%20Ramat%20Gan,%20Israel',%2032.0922788,%2034.8025648,%20'online',%2049,%20'1088'],%20['Charusim%20St%206,%20Ramat%20Gan,%20Israel',%2032.0918564,%2034.8028591,%20'online',%2038,%20'1090'],%20['Charusim%20St%207,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2066,%20'1091'],%20['Charusim%20St%209,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2069,%20'1093'],%20['Charusim%20St%2010,%20Ramat%20Gan,%20Israel',%2032.091328,%2034.8032673,%20'online',%2037,%20'1094'],%20['Charusim%20St%2013,%20Ramat%20Gan,%20Israel',%2032.0923398,%2034.8027619,%20'online',%2046,%20'1097'],%20['Real%20Sensor',%2032.0898021,%2034.8027646,%20'online',%2032,%20'2000'],%20['HaMelacha%20St%2011,%20Ramat%20Gan,%20Israel',%2032.0901709,%2034.8022729,%20'online',%2087,%20'1010'],%20['Ramat%20Gan,%20Israel',%2032.068424,%2034.824785,%20'online',%2079,%20'1080']] HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:47] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:42:59] "GET /new_index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:43:06] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:43:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:43:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:43:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:44:32] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:44:40] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:45:29] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:45:46] "GET /export.csv HTTP/1.1" 404 -
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:06] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:07] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:07] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:07] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:07] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:07] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:46:16] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:18] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:18] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:18] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:19] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:19] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:19] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:20] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:46] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:46] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:46] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:46] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:46] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:47] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:47:48] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:30] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:40] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:40] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:41] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:49] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:48:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:27] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:27] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:27] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:27] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:27] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:41] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:41] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:41] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:41] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:46] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:49:47] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:05] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:06] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:06] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:06] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:13] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:14] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:14] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:14] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:16] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:40] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:41] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:41] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:41] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:41] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:52] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:53] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:53] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:53] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:50:53] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:51:45] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:03] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:03] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:03] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:03] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:20] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:21] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:21] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:21] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:22] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:27] "GET /getPlotCSV HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:45] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /getPlotCSV HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /getPlotCSV?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /getPlotCSV?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:46] "GET /getPlotCSV?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:47] "GET /getPlotCSV?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:54:47] "GET /getPlotCSV?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:55:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:55:24] "GET /getPlotCSV HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:55:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:06] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:07] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:07] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:07] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:07] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:58:07] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:12] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:13] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:13] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:23] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:24] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:24] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:25] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 18:59:25] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:12] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:13] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:13] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:13] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:14] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:14] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:26] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:27] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:27] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:27] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:27] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:27] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:01:28] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:03:32] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:03:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:21] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:24] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:26] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:26] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:26] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:26] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:27] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:28] "GET /export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:39] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:39] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:40] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:04:40] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:08] "GET /export.csv2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:05:14] "GET /export.csv2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:08:14] "GET /localhost/export.csv HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:00] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:23] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:23] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:23] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:23] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:10:24] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:25] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:15:53] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:16] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:16:44] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:33] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:34] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:34] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:34] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:17:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:18] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:19] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:19] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:19] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:19] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:19:19] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:01] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:01] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:01] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:01] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:01] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:02] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:root:successes update driver to db
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:21:55] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:22:43] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:49] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:50] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:26:59] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:00] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:00] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:00] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:35] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:36] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:36] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:36] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:36] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:27:43] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:28:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:42] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:42] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:30:42] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:08] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:09] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:33] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:34] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:34] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:39:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:00] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:01] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:01] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:01] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:23] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:24] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:40:24] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:41:49] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:10] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:10] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:10] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:11] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:11] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:22] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:22] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:22] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:22] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:22] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:43:38] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:09] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:10] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:10] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:10] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:15] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:15] "GET /static/assets/js/charts-main.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/May/2019 19:53:15] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -

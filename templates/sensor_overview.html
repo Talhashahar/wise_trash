@@ -56,11 +56,11 @@
                                     <tbody>
                                     {% for sensor in over_80 %}
                                         <TR>
-                                           <TD>{{sensor[0]}}</TD>
-                                           <TD>{{sensor[1]}}</TD>
-                                           <TD>{{sensor[2]}}%</TD>
-                                           <TD>avg</TD>
-                                           <TD>{{sensor[6]}}</TD>
+                                           <TD>{{sensor[0]}}</TD> <!-- id!-->
+                                           <TD>{{sensor[1]}}</TD> <!-- address!-->
+                                           <TD>{{sensor[2]}}%</TD> <!-- volume!-->
+                                           <TD>avg</TD>             <!-- avg fill!-->
+                                           <TD>{{sensor[6]}}</TD>   <!-- last serived!-->
                                         </TR>
                                     {% endfor %}
                                     </tbody>

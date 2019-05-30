@@ -1,3 +1,6 @@
+import csv
+
+
 def convert_sensor_tuple_to_json(obj):
     mydict = {
         "id": obj[0],
@@ -27,3 +30,7 @@ def get_avg_fill_per_sensor(sensor_stats):
     return max // days_to_calculate
 
 
+def write_sensors_to_csv(sensor_list):
+    with open("export.csv", 'w') as myfile:
+        wr = csv.writer(myfile)
+        wr.writerows(sensor_list)

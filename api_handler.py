@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, send_file
 import db_handler
 import json
 import utils
@@ -153,13 +153,20 @@ def update_sensor_by_id(data):
     return "seccues"
 
 
-def zzz():
-    statistics_bin = db_handler.get_last_two_days_statistics(1025)
-    if len(statistics_bin) == 2:
-        if statistics_bin[1][2] > statistics_bin[0][2]:
-            picked_up_bins = picked_up_bins + 1
-    return "seucess"
+@app.route("/new_index")
+def new_index():
+    sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+    sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+    sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+    sensors = sensors_low + sensors_mid + sensors_full
+    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+    utils.write_sensors_to_csv(sensors_low)
+    return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid, sensors_full=sensors_full)
 
+
+@app.route("/download")
+def download():
+    return send_file('export.csv', attachment_filename='export.csv')
 
 
 if __name__ == "__main__":

@@ -327,6 +327,21 @@ def get_sensor_over_x_capacity(capacity):
         return None
 
 
+def get_sensor_between_capacity(min, max):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    data = (min, max)
+    q = "select * from sensors where capacity >=%s AND capacity <=%s "
+    try:
+        cursor.execute(q, data)
+        res = cursor.fetchall()
+        return res
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
 def get_sensor_under_x_battery(battery):
     db = connect_to_db()
     cursor = cnx.cursor()

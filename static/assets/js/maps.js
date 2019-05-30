@@ -32,7 +32,7 @@ function initMap() {
 var locations = window.locations;
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 17,
-      center: new google.maps.LatLng(32.089206, 34.804282),
+      center: new google.maps.LatLng(32.090706, 34.803782),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
