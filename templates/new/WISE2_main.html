@@ -97,23 +97,23 @@
                         </div>
                    <!-------------------------------------------------------------------------------------------->         
                         <br> <p class="category text-center">Here is a subtitle for this part of filtering to explain more</p>
-                        <form action="/new_index">
+                        <div>
 <!--First-->
                         <div class="col-md-4">
                             <div class="content" >
                                 <p class="text-left">
-                                    <input type="radio" name="optradio"><label class="radio-inline">By Capacity</label></input>
+                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>
                                     <hr>  Choose what to present:
                                 </p>
-                                    <div class="form-check">
+                                    <div class="form-check" id="filterCapacity">
                                         <input type="checkbox" class="form-check-input" id="empty_Bins">
-                                        <label class="form-check-label">0% - 25% </label>
+                                        <label class="form-check-label" id="25">0% - 25% </label>
                                         <br>
                                         <input type="checkbox" class="form-check-input" id="mid_Bins">
-                                        <label class="form-check-label">26% - 75% </label>
+                                        <label class="form-check-label" id="75">26% - 75% </label>
                                         <br>
                                         <input type="checkbox" class="form-check-input" id="full_Bins">
-                                        <label class="form-check-label" >76% - 100% </label>
+                                        <label class="form-check-label" id="100">76% - 100% </label>
                                     </div>
                             </div>
                         </div>
@@ -121,15 +121,15 @@
                         <div class="col-md-4">
                             <div class="content">
                                 <p class="text-left">
-                                    <input type="radio" name="optradio"><label class="radio-inline">By Threshold</label></input>
+                                    <input type="radio" name="optradio" value="Threshold"><label class="radio-inline">By Threshold</label></input>
                                     <hr>  Choose what to present:
                                 </p>
-                                <div class="form-check">
+                                <div class="form-check" id="filterTrashold">
                                     <input type="checkbox" class="form-check-input" id="over_trashhold">
-                                    <label class="form-check-label">Over Treshold</label>
+                                    <label class="form-check-label">Over Trashold</label>
                                     <br>
                                     <input type="checkbox" class="form-check-input" id="below_trashhold">
-                                    <label class="form-check-label">Below Treshold</label>
+                                    <label class="form-check-label">Below Trashold</label>
                                 </div>
                             </div>
                         </div>
@@ -137,10 +137,10 @@
                         <div class="col-md-4">
                             <div class="content">
                                 <p class="description text-left">
-                                    <input type="radio" name="optradio"><label class="radio-inline">By Sensors Status</label></input>
+                                    <input type="radio" name="optradio" value="Status"><label class="radio-inline">By Sensors Status</label></input>
                                     <hr>  Choose what to present:
                                 </p>
-                                <div class="form-check">
+                                <div class="form-check" id="filterStatus">
                                     <input type="checkbox" class="form-check-input" id="ConnectedBins">
                                     <label class="form-check-label">Connected Bins</label>
                                     <br>
@@ -154,12 +154,31 @@
 
 
 
-<!--Filtering Map-->
-
+<!--Filtering Map--></div>
                 </div>
                     <p class="description text-center"><br>
-                        <button type="submit" class="btn btn-info btn-fill">Update Map</button>
+                        <button type="submit" href="/new_index" id="applyFilters" class="btn btn-info btn-fill">Update Map</button>
+                        <script>
+                            var types = document.getElementsByName("optradio");
+                            var capacity = document.getElementsByName("filterCapacity");
+                            var trashold = document.getElementsByName("filterTrashold");
+                            var status = document.getElementsByName("filterStatus");
+                            console.log(types)
+                            console.log(capacity)
+                            console.log(trashold)
+                            console.log(status)
+                            output.innerHTML = types.value;
+                            types.forEach(type =>{
+                                if (type.checked){
+                                    var type_name = type.id;
+                                    console.log(type.id);
+                                    document.getElementById("applyFilters").href = "/zzzzz";
+                                }
+                            });
+                            document.getElementById("applyFilters").href = "/zzzzz";
+                        </script>
                     </p>
+
                 </form>
                     <p class="description text-center"><br>
                         <a type="submit" href="/new_index" class="btn btn-info btn-fill">Reset / Show All</a>
