@@ -96,33 +96,27 @@
                             <p class="category">Here you may filter the showen data below</p>
                         </div>
                         <div class="content">
-                            <form>
-                                 <div class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-                                        <label class="custom-control-label" for="customControlValidation2">Find a specific Bin by ID</label>
-                                        <input type="number" class="form-control" placeholder="binID" checked>
-                                      </div>
-                                      <br>
-                                      <div class="custom-control custom-radio mb-3">
-                                        <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-                                        <label class="custom-control-label" for="customControlValidation3">Find a specific street:</label>
-                                        <input type="text" class="form-control" placeholder="cinSTR" >
-                                      </div>
-                                      <br>
-                                      <div class="custom-control custom-radio mb-3">
-                                            <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-                                            <label class="custom-control-label" for="customControlValidation3">Or find bins above capacity</label>
-                                            <input type="number" class="form-control" min="0" max="100" placeholder="Set a number between 0-100">
-                                          </div>
-                                          <br>
-
-                                        <div class="text-center">
-                                                <button type="submit" class="btn btn-info btn-fill col-lg-pull-3">Filter Table</button>
-                                                <br><br>
-                                                <button type="submit" class="btn btn-info btn-fill pull-center">Reset / Show All</button>
-                                            </div>
+                           <!--start form-->
+                            <form action = "/new_bindata" method = "POST">
+                                <div>
+                                    <label>By trash ID</label>
+                                    <input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked" value="id" required/>
+                                    <input type = "text" class="form-control" name = "Bin_ID" placeholder="1000" />
+                                </div>
+                                <div>
+                                    <label>By street name</label>
+                                    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value="street" required/>
+                                    <input type = "text" class="form-control" name="address" placeholder="cinSTR" />
+                                </div>
+                                <div>
+                                    <label>Above capacity</label>
+                                    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" value="capacity" required/>
+                                    <input type="number" class="form-control" min="0" max="100" id="capacity_range" name="capacity" placeholder="Set a number between 0-100"/>
+                                </div>
+                                <br>
+                                 <p><input type = "submit" class="btn btn-info btn-fill pull-center" value = "submit" /></p>
                             </form>
-
+                            <!--end form-->
 <hr>
                      
                         <div class="content">
@@ -143,51 +137,18 @@
                                                         <th>Status</th>
                                                         <th>Last Serviced</th>
                                                     </thead>
-                                                    <tr>
-                                                        <td>3431</td>
-                                                        <td>Anna Frank 12</td>
-                                                        <td>36%</td>
-                                                        <td><p class="text-success">Below</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 3  ; </Script> </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3432</td>
-                                                        <td>Bialik 120</td>
-                                                        <td>23%</td>
-                                                        <td><p class="text-success">Below</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 123  ; </Script> </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3433</td>
-                                                        <td>Habonim 14</td>
-                                                        <td>56%</td>
-                                                        <td><p class="text-warning">Above</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 237 ; </Script> </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3434</td>
-                                                        <td>Yona 44</td>
-                                                        <td>89%</td>
-                                                        <td><p class="text-danger">Full</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 3  ; </Script> </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3435</td>
-                                                        <td>Jabotinsky 124</td>
-                                                        <td>64%</td>
-                                                        <td><p class="text-warning">Above</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 3  ; </Script> </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3436</td>
-                                                        <td>Tsahala 11</td>
-                                                        <td>78%</td>
-                                                        <td><p class="text-danger">Full</p></td>
-                                                        <td><Script> document.write(new Date().toUTCString())   - 3  ; </Script> </td>
-                                                    </tr>
+                                                    {% for sensor in sensors %}
+                                                    <TR>
+                                                       <TD>{{sensor[0]}}</TD> <!-- id!-->
+                                                       <TD>{{sensor[1]}}</TD> <!-- address!-->
+                                                       <TD>{{sensor[2]}}%</TD> <!-- volume!-->
+                                                       <TD >Need to fixed</TD>             <!-- avg fill!-->
+                                                       <TD>{{sensor[6]}}</TD>   <!-- last serived!-->
+                                                    </TR>
+                                                    {% endfor %}
                                                 </tbody>
                                                 </table>
-                                                <button type="submit" class="btn btn-info btn-fill pull-center">Download Presented Data (CSV file)</button>
+                                                <a type="submit" class="btn btn-info btn-fill pull-center" href="/download" download="./export.csv">Download Presented Data (CSV file)</a>
 
         
                                     </div>

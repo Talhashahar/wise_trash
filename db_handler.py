@@ -370,7 +370,7 @@ def get_sensor_under_x_capacity(capacity):
         return None
 
 
-def get_sensors_by_status(status):
+def get_sensors_count_by_status(status):
     db = connect_to_db()
     cursor = cnx.cursor()
     q = "select count(*) from sensors where status =%s"
@@ -378,6 +378,20 @@ def get_sensors_by_status(status):
         cursor.execute(q, (status,))
         res = cursor.fetchall()
         return res[0][0]
+    except Exception as e:
+        print("failed to get the trash-bins are full " + e)
+        cnx.rollback()
+        return None
+
+
+def get_sensors_by_status(status):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select * from sensors where status =%s"
+    try:
+        cursor.execute(q, (status,))
+        res = cursor.fetchall()
+        return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
         cnx.rollback()
@@ -520,3 +534,13 @@ def update_sensor_capacity_by_id(id, capacity):
         logging.error('failed to update driver to db', e)
 
 
+def get_sensor_by_address(address):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select * from sensors WHERE address like " "%" + address + "%"
+    # data = (address, )
+    cursor.execute(q)
+    res = cursor.fetchall()
+    if not res:
+        return None
+    return res[0]

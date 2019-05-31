@@ -12,8 +12,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    online = db_handler.get_sensors_by_status("online")
-    offline = db_handler.get_sensors_by_status("offline")
+    online = db_handler.get_sensors_count_by_status("online")
+    offline = db_handler.get_sensors_count_by_status("offline")
     pickup_today = db_handler.get_sensor_over_x_capacity(int(configuration.trash_threshold))
     no_needed_pickup_today = db_handler.get_sensor_under_x_capacity(int(configuration.trash_threshold))
     low_battery_bins = db_handler.get_sensor_under_x_battery(configuration.battery_threshold)
@@ -139,6 +139,7 @@ def calc():
             risk_sensors.append(sensor)
     return render_template("Calc.html", sensors=pickup_sensors, capacityint=capacity, total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors), unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
+
 @app.route("/base")
 def base():
     return render_template('base.html')
@@ -153,20 +154,101 @@ def update_sensor_by_id(data):
     return "seccues"
 
 
-@app.route("/new_index")
+@app.route("/new_index", methods=['GET', 'POST'])
 def new_index():
-    sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-    sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-    sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-    sensors = sensors_low + sensors_mid + sensors_full
+    if request.method == 'POST':
+        result = request.form
+        sensors = []
+        sensors_low = []
+        sensors_mid = []
+        sensors_full = []
+        if result['optradio'] == 'capacity':
+            if request.form.get('empty_Bins'):
+                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+                sensors = sensors + sensors_low
+            else:
+                sensors_low = []
+            if request.form.get('mid_Bins'):
+                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+                sensors = sensors + sensors_mid
+            else:
+                sensors_mid = []
+            if request.form.get('full_Bins'):
+                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+                sensors = sensors + sensors_full
+            else:
+                sensors_full = []
+        elif result['optradio'] == 'threshold':
+            if request.form.get('over_trashold'):
+                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+                sensors = sensors + over_trashold
+            else:
+                over_trashold = []
+            if request.form.get('below_trashold'):
+                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+                sensors = sensors + sensors_below
+            else:
+                sensors_below = []
+            for sensor in sensors:
+                sensor = [sensor, ]
+                if int(sensor[0][2]) < 25:
+                    sensors_low = sensors_low + sensor
+                elif int(sensor[0][2]) < 75:
+                    sensors_mid = sensors_mid + sensor
+                else:
+                    sensors_full = sensors_full + sensor
+        elif result['optradio'] == 'status':
+            if request.form.get('ConnectedBins'):
+                ConnectedBins = db_handler.get_sensors_by_status("online")
+                sensors = sensors + ConnectedBins
+            else:
+                ConnectedBins = []
+            if request.form.get('below_trashold'):
+                FailedBins = db_handler.get_sensors_by_status("offline")
+                sensors = sensors + FailedBins
+            else:
+                FailedBins = []
+            for sensor in sensors:
+                sensor = [sensor, ]
+                if int(sensor[0][2]) < 25:
+                    sensors_low = sensors_low + sensor
+                elif int(sensor[0][2]) < 75:
+                    sensors_mid = sensors_mid + sensor
+                else:
+                    sensors_full = sensors_full + sensor
+    else:
+        sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+        sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+        sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+        sensors = sensors_low + sensors_mid + sensors_full
     sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-    utils.write_sensors_to_csv(sensors_low)
+    utils.write_sensors_to_csv(sensors)
     return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid, sensors_full=sensors_full)
 
 
-@app.route("/new_bindata")
+@app.route("/new_bindata", methods=['GET', 'POST'])
 def new_databins():
-    return render_template("new/WISE2_DataBins.html")
+    if request.method == 'POST':
+        result = request.form
+        if result['radio-stacked'] == "capacity":
+            zzz = result['radio-stacked']
+            sensors = db_handler.get_sensor_between_capacity(result['capacity'], 100)
+            sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
+        elif result['radio-stacked'] == 'id':
+            sensors = db_handler.get_sensor_by_id(result['Bin_ID'])
+            sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
+            pass
+        else:
+            sensors = db_handler.get_sensor_by_address(result['address'])
+            sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
+            pass
+    else:
+        sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+        sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+        sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+        sensors = sensors_low + sensors_mid + sensors_full
+    utils.write_sensors_to_csv(sensors)
+    return render_template("new/WISE2_DataBins.html", sensors=sensors)
 
 
 @app.route("/download")

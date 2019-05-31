@@ -25,7 +25,7 @@ function geticon(capacity){
         anchor: new google.maps.Point(0, 32)
     };
 
-    return capacity <= 50 ? empty : capacity <= 70 ? middle : full;
+    return capacity <= 25 ? empty : capacity <= 75 ? middle : full;
 }
 
 function initMap() {
