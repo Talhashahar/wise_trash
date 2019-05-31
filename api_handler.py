@@ -164,6 +164,11 @@ def new_index():
     return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid, sensors_full=sensors_full)
 
 
+@app.route("/new_bindata")
+def new_databins():
+    return render_template("new/WISE2_DataBins.html")
+
+
 @app.route("/download")
 def download():
     return send_file('export.csv', attachment_filename='export.csv')
