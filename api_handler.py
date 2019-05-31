@@ -251,6 +251,36 @@ def new_databins():
     return render_template("new/WISE2_DataBins.html", sensors=sensors)
 
 
+@app.route("/new_calc")
+def new_calc():
+    if request.method == 'POST':
+        new_threshold = configuration.trash_threshold
+        configuration.trash_threshold = new_threshold
+        #db_handler.update_treshold(new_threshold)
+    capacity = request.args.get('capacity') or 70
+    pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
+    remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
+    threshold = configuration.trash_threshold
+    risk_sensors = []
+    for sensor in remain_sensors:
+        fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
+        if int(sensor[2]) + fill_avg >= threshold:
+            risk_sensors.append(sensor)
+    #return render_template("new/Calc.html")
+    return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity, total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors), unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
+
+
+@app.route("/new_stats")
+def new_stats():
+    return render_template("new/WISE2_stats.html")
+
+
+@app.route("/new_about")
+def new_about():
+    return render_template("new/WISE2_about.html")
+
+
+
 @app.route("/download")
 def download():
     return send_file('export.csv', attachment_filename='export.csv')
