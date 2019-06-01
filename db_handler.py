@@ -544,3 +544,27 @@ def get_sensor_by_address(address):
     if not res:
         return None
     return res[0]
+
+
+def get_five_days_from_statistcs():
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select DISTINCT date from statistics ORDER BY date desc limit 5;"
+    # data = (address, )
+    cursor.execute(q)
+    res = cursor.fetchall()
+    if not res:
+        return None
+    return res
+
+
+def get_avg_statatics_from_day(date):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select avg(capacity) from statistics where date=%s;"
+    data = (str(date), )
+    cursor.execute(q, data)
+    res = cursor.fetchall()
+    if not res:
+        return None
+    return int(res[0][0])

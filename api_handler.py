@@ -286,5 +286,28 @@ def download():
     return send_file('export.csv', attachment_filename='export.csv')
 
 
+@app.route("/zzz")
+def zzz():
+    res = []
+    sensors = db_handler.get_sensors()
+    days = db_handler.get_five_days_from_statistcs()
+    avg_days = []
+    for day in days:
+        temp_dict = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_avg_statatics_from_day(day[0].strftime("%Y-%m-%d"))}
+        avg_days += [temp_dict, ]
+    #j_result = jsonify(avg_days)
+    json_list = {'array': [
+        {'day': '2019-05-31', 'avg':50},
+        {'day': '2019-05-30', 'avg': 60},
+        {'day': '2019-05-29', 'avg': 70},
+    ]}
+    json_list = {'array': [
+        {'day': '2019-05-31', 'avg':50},
+        {'day': '2019-05-30', 'avg': 60},
+        {'day': '2019-05-29', 'avg': 70},
+    ]}
+    return jsonify(json_list), 200
+
+
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
