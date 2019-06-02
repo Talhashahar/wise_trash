@@ -29856,3 +29856,11 @@ INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:28:58] "GET /assets/img/sidebar-RG.j
 INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:29:34] "GET /new_calc HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:29:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:29:34] "GET /assets/img/sidebar-RG.jpeg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:53:29] "GET /zzz HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jun/2019 21:54:34] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
