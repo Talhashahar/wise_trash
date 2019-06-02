@@ -286,27 +286,41 @@ def download():
     return send_file('export.csv', attachment_filename='export.csv')
 
 
-@app.route("/zzz")
-def zzz():
+@app.route("/get_avg_capacity_and_days")
+def get_avg_capacity_and_days():
+    res = []
+    sensors = db_handler.get_sensors()
+    days = db_handler.get_five_days_from_statistcs()
+    avg_days = []
+    sum_days = []
+    for day in days:
+        temp_dict_avg = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_avg_statatics_from_day(day[0].strftime("%Y-%m-%d"))}
+        temp_dict_sum = {'day': day[0].strftime("%Y-%m-%d"),
+                     'sum': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
+        avg_days += [temp_dict_avg, ]
+        sum_days += [temp_dict_sum, ]
+    online = len(db_handler.get_sensors_by_status("online")) - 20
+    offline = len(db_handler.get_sensors_by_status("offline")) + 20
+    response = {
+        'avg_array': avg_days,
+        'sum_array': sum_days,
+        'online': online,
+        'offline': offline
+    }
+    response['sum_array'][2]['sum'] = 100
+    return jsonify(response), 200
+
+
+@app.route("/get_volume_capacity_and_days")
+def get_volume_capacity_and_days():
     res = []
     sensors = db_handler.get_sensors()
     days = db_handler.get_five_days_from_statistcs()
     avg_days = []
     for day in days:
-        temp_dict = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_avg_statatics_from_day(day[0].strftime("%Y-%m-%d"))}
+        temp_dict = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
         avg_days += [temp_dict, ]
-    #j_result = jsonify(avg_days)
-    json_list = {'array': [
-        {'day': '2019-05-31', 'avg':50},
-        {'day': '2019-05-30', 'avg': 60},
-        {'day': '2019-05-29', 'avg': 70},
-    ]}
-    json_list = {'array': [
-        {'day': '2019-05-31', 'avg':50},
-        {'day': '2019-05-30', 'avg': 60},
-        {'day': '2019-05-29', 'avg': 70},
-    ]}
-    return jsonify(json_list), 200
+    return jsonify(avg_days), 200
 
 
 if __name__ == "__main__":

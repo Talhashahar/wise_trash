@@ -568,3 +568,15 @@ def get_avg_statatics_from_day(date):
     if not res:
         return None
     return int(res[0][0])
+
+
+def get_sum_volume_from_day(date):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "select sum(capacity) from statistics where date=%s;"
+    data = (str(date), )
+    cursor.execute(q, data)
+    res = cursor.fetchall()
+    if not res:
+        return None
+    return int(res[0][0])
