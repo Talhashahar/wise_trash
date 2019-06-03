@@ -41,10 +41,9 @@ charts = {
     initChartist: function(){
         const Http = new XMLHttpRequest();
 
-        const url_avg='http://localhost:5000/get_avg_capacity_and_days';
-        const url_volume='http://localhost:5000/get_volume_capacity_and_days'
+        const url_charts='http://localhost:5000/get_avg_capacity_and_days';
 
-        Http.open("GET", url_avg);
+        Http.open("GET", url_charts);
         Http.send();
 
         Http.onreadystatechange = (e) => {
@@ -108,17 +107,6 @@ charts = {
         Chartist.Line('#chartHours', dataSales, optionsSales, responsiveSales);
         Chartist.Pie('#chartPreferences', { labels: [`${result['online']}%`,`${result['offline']}%`],series: [result['online'], result['offline']]});
 
-        //last graph
-        // Change variables for the thirs graph - the yearly bar
-
-        // var data = {
-        //   labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        //   series: [
-        //     [94, 44, 32, 78, 55, 45, 32, 43, 56, 61, 75, 89], //Blue Bar
-        //     [84, 24, 28, 58, 45, 35, 30, 36, 36, 41, 63, 69]  //Red Bar
-        //   ]
-        // };
-        
 
         var options = {
             seriesBarDistance: 10,
