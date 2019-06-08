@@ -101,8 +101,8 @@
                             <!--first-->
                             <div class="col-md-4">
                                 <div class="content" >
-                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>
-                                    <hr>  Choose what to present:
+<!--                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>-->
+                                    <hr>  By capacity:
                                     <div class="form-check" id="filterCapacity">
                                         <input type="checkbox" class="form-check-input" name="empty_Bins">
                                         <label class="form-check-label" id="25">0% - 25% </label>
@@ -118,8 +118,8 @@
                             <!--second-->
                             <div class="col-md-4">
                                 <div class="content" >
-                                    <input type="radio" name="optradio" value="threshold"><label class="radio-inline">By Threshold</label></input>
-                                    <hr>  Choose what to present:
+<!--                                    <input type="radio" name="optradio" value="threshold"><label class="radio-inline">By Threshold</label></input>-->
+                                    <hr>  By trashold:
                                     <div class="form-check" id="filterTrashold">
                                     <input type="checkbox" class="form-check-input" name="over_trashold">
                                     <label class="form-check-label">Over Trashold</label>
@@ -132,8 +132,8 @@
                             <!--thered-->
                              <div class="col-md-4">
                                 <div class="content" >
-                                    <input type="radio" name="optradio" value="status"><label class="radio-inline">By Sensors Status</label></input>
-                                    <hr>  Choose what to present:
+<!--                                    <input type="radio" name="optradio" value="status"><label class="radio-inline">By Sensors Status</label></input>-->
+                                    <hr>  By status:
                                 </div>
                                  <div class="form-check" id="filterStatus">
                                     <input type="checkbox" class="form-check-input" name="ConnectedBins">
@@ -224,8 +224,6 @@
 
 {% block script %}
 
-    <!--  Google Maps Plugin    -->
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM"></script> -->
     <script src="static/assets/js/maps.js"></script>
     <script type="text/javascript">
         window.locations = {{sensors | safe}};

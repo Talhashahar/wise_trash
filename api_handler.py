@@ -90,12 +90,13 @@ def create_all_tables():
 def insert_sensor():
     content = request.json
     fake_date = '2019-05-11'
+    date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     #db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
     db_handler.insert_statistics(content['id'], datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), content['capacity'])
     if db_handler.get_sensor_by_id(content['id']):
-        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], fake_date)
+        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], date)
     else:
-        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], fake_date)
+        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], date)
     return "ok"
 
 
@@ -307,7 +308,7 @@ def get_avg_capacity_and_days():
         'online': online,
         'offline': offline
     }
-    response['sum_array'][2]['sum'] = 100
+    #response['sum_array'][2]['sum'] = 100
     return jsonify(response), 200
 
 

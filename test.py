@@ -57,6 +57,7 @@ st_n_s = [30, 21]
 # index = 0
 # for i in range(0, len(streets)):
 #     total_list.append(googleAPI_handler.get_cords_by_full_address(city_name, streets[i], streets_numbers[i]))
+# print('done')
 '''
 n_list = []
 for li in total_list:
@@ -84,6 +85,7 @@ for li in total_list:
 #         index = index + 1
 #         count_id = count_id + 1
 
+
 def init_sensor_for_capacity_0():
     #init all sensor for 0 capcity and
     for i in range(1000, 1099):
@@ -92,6 +94,7 @@ def init_sensor_for_capacity_0():
         resp['status'] = 'online'
         resp['capacity'] = 0
         response = requests.post(url, data=json.dumps(resp), headers=headers)
+
 
 def inc_sensor_capacity_for_statistics():
     #inc all sensor capcity for statistics
@@ -119,8 +122,41 @@ def dec_sensor_capacity_for_statistics():
             response = requests.post(url, data=json.dumps(resp), headers=headers)
 
 
+def init_db_with_data():
+    total_list = []
+    city_name = 'Ramat+Gan+'
+    streets = ['Hamelacha', 'Anne+Frank+', 'Yeda+Am+', 'Brurya', 'Yehudit', 'Charusim']
+    streets_numbers = [16, 30, 21, 5, 13, 14]
+    print("create all addresses from google api")
+    index = 0
+    for i in range(0, len(streets)):
+        total_list.append(googleAPI_handler.get_cords_by_full_address(city_name, streets[i], streets_numbers[i]))
+    print("insert all sensors to our db")
+    index = 1
+    sumlist = sum(streets_numbers)
+    count_id = 1000
+    for street in total_list:
+        for house in street:
+            #resp = requests.get('http://localhost:5000/get_sensor_by_id/1000')
+            mydict['id'] = str(count_id)
+            mydict['address'] = house['full_address']
+            mydict['capacity'] = random.randint(1, 100)
+            randnumber = random.randint(0, 10)
+            if randnumber > 8:
+                mydict['status'] = 'online'
+            else:
+                mydict['status'] = 'offline'
+            mydict['lat'] = float(house['lat'])
+            mydict['lng'] = float(house['lng'])
+            response = requests.post(url, data=json.dumps(mydict), headers=headers)
+            print(str(index) + " of : " + str(sumlist))
+            index = index + 1
+            count_id = count_id + 1
+
+
 #init_sensor_for_capacity_0()
 #inc_sensor_capacity_for_statistics()
 #inc_sensor_capacity_for_statistics()
 #inc_sensor_capacity_for_statistics()
-dec_sensor_capacity_for_statistics()
+#dec_sensor_capacity_for_statistics()
+init_db_with_data()
