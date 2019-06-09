@@ -124,14 +124,14 @@
 <!--                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>-->
                                     <div class="text-left" > <h5><b> Adjust the presented information above</b></h5></div>
                                     <div class="form-check text-left" id="filterCapacity">
-                                        <input type="checkbox" class="form-check-input" name="empty_Bins" {{capacity_empty|safe}}>
-                                        <label class="form-check-label" id="25">Last Month</label>
+                                        <input type="radio" class="form-check-input" name="week_day">
+                                        <label class="form-check-label" id="25">Week by day</label>
                                         <br>
-                                        <input type="checkbox" class="form-check-input" name="mid_Bins" {{capacity_mid|safe}}>
-                                        <label class="form-check-label" id="75">Last Year</label>
+                                        <input type="radio" class="form-check-input" name="year_month">
+                                        <label class="form-check-label" id="75">Year by month</label>
                                         <br>
-                                        <input type="checkbox" class="form-check-input" name="full_Bins" {{capacity_full|safe}}>
-                                        <label class="form-check-label" id="100">Last 4 Years</label>
+                                        <input type="radio" class="form-check-input" name="years_year">
+                                        <label class="form-check-label" id="100">Years by Syear</label>
                                     </div>
                                 </div>
                             </div>
