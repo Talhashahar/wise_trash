@@ -10,6 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 
+
 @app.route("/")
 def index():
     online = db_handler.get_sensors_count_by_status("online")
@@ -33,17 +34,24 @@ def index():
         need_to_pickup_total = need_to_pickup_total + bin[2]
     for bin in no_needed_pickup_today:
         no_need_to_pickup_total = no_need_to_pickup_total + bin[2]
-    return render_template('index.html', online=int(online), offline=int(offline), total=online+offline, need_pickup_count=len(pickup_today), need_to_pickup_total=need_to_pickup_total, total_avg_fill=round(total_avg_fill, 3), no_need_to_pickup_total=no_need_to_pickup_total, no_needed_pickup_today=len(no_needed_pickup_today), low_battery_bins=len(low_battery_bins), picked_up_bins=picked_up_bins)
+    return render_template('index.html', online=int(online), offline=int(offline), total=online + offline,
+                           need_pickup_count=len(pickup_today), need_to_pickup_total=need_to_pickup_total,
+                           total_avg_fill=round(total_avg_fill, 3), no_need_to_pickup_total=no_need_to_pickup_total,
+                           no_needed_pickup_today=len(no_needed_pickup_today), low_battery_bins=len(low_battery_bins),
+                           picked_up_bins=picked_up_bins)
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
 def insert_driver():
     content = request.json
     if db_handler.get_driver_by_id(content['id']):
-        db_handler.update_driver_by_id(content['id'], content['name'], content['lat'], content['lng'], content['truck_size']) #update
+        db_handler.update_driver_by_id(content['id'], content['name'], content['lat'], content['lng'],
+                                       content['truck_size'])  # update
     else:
-        db_handler.insert_driver(content['id'], content['name'], content['lat'], content['lng'], content['truck_size'])        #insert new
+        db_handler.insert_driver(content['id'], content['name'], content['lat'], content['lng'],
+                                 content['truck_size'])  # insert new
     return "success"
+
 
 @app.route("/sensor_over_view")
 def show_tables():
@@ -91,12 +99,14 @@ def insert_sensor():
     content = request.json
     fake_date = '2019-05-11'
     date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    #db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
+    # db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
     db_handler.insert_statistics(content['id'], datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), content['capacity'])
     if db_handler.get_sensor_by_id(content['id']):
-        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], date)
+        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
+                                       content['lng'], content['status'], date)
     else:
-        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'], content['status'], date)
+        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
+                                 content['status'], date)
     return "ok"
 
 
@@ -113,22 +123,23 @@ def get_count_sensors():
 
 
 @app.route('/get_count_sensors_changed/')
-def get_count_sensors_changed():                                #need to get date from UI
+def get_count_sensors_changed():  # need to get date from UI
     res = db_handler.get_count_sensors_changed()
     return res
 
 
 @app.route('/get_last_update_sensors/')
-def get_count_last_update_sensors():                                #need to get id from UI
+def get_count_last_update_sensors():  # need to get id from UI
     res = db_handler.get_last_update_sensors()
     return res
+
 
 @app.route('/calc', methods=['GET', 'POST'])
 def calc():
     if request.method == 'POST':
         new_threshold = configuration.trash_threshold
         configuration.trash_threshold = new_threshold
-        #db_handler.update_treshold(new_threshold)
+        # db_handler.update_treshold(new_threshold)
     capacity = request.args.get('capacity') or 70
     pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
     remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
@@ -138,7 +149,9 @@ def calc():
         fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
         if int(sensor[2]) + fill_avg >= threshold:
             risk_sensors.append(sensor)
-    return render_template("Calc.html", sensors=pickup_sensors, capacityint=capacity, total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors), unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
+    return render_template("Calc.html", sensors=pickup_sensors, capacityint=capacity,
+                           total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors),
+                           unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 
 @app.route("/base")
@@ -158,73 +171,81 @@ def update_sensor_by_id(data):
 @app.route("/new_index", methods=['GET', 'POST'])
 def new_index():
     if request.method == 'POST':
+        checked_list = []
         result = request.form
         sensors = []
-        sensors_low = []
-        sensors_mid = []
-        sensors_full = []
-        if result['optradio'] == 'capacity':
-            if request.form.get('empty_Bins'):
-                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-                sensors = sensors + sensors_low
+        if request.form.get('empty_Bins'):
+            sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+            sensors = sensors + sensors_low
+            checked_list.append('checked')
+        else:
+            sensors_low = []
+            checked_list.append('')
+        if request.form.get('mid_Bins'):
+            sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+            sensors = sensors + sensors_mid
+            checked_list.append('checked')
+        else:
+            sensors_mid = []
+            checked_list.append('')
+        if request.form.get('full_Bins'):
+            sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+            sensors = sensors + sensors_full
+            checked_list.append('checked')
+        else:
+            sensors_full = []
+            checked_list.append('')
+        if request.form.get('over_trashold'):
+            over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+            sensors = sensors + over_trashold
+            checked_list.append('checked')
+        else:
+            over_trashold = []
+            checked_list.append('')
+        if request.form.get('below_trashold'):
+            sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+            sensors = sensors + sensors_below
+            checked_list.append('checked')
+        else:
+            sensors_below = []
+            checked_list.append('')
+        if request.form.get('ConnectedBins'):
+            ConnectedBins = db_handler.get_sensors_by_status("online")
+            sensors = sensors + ConnectedBins
+            checked_list.append('checked')
+        else:
+            ConnectedBins = []
+            checked_list.append('')
+        if request.form.get('FailedBins'):
+            FailedBins = db_handler.get_sensors_by_status("offline")
+            sensors = sensors + FailedBins
+            checked_list.append('checked')
+        else:
+            FailedBins = []
+            checked_list.append('')
+        for sensor in sensors:
+            sensor = [sensor, ]
+            if int(sensor[0][2]) < 25:
+                sensors_low = sensors_low + sensor
+            elif int(sensor[0][2]) < 75:
+                sensors_mid = sensors_mid + sensor
             else:
-                sensors_low = []
-            if request.form.get('mid_Bins'):
-                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-                sensors = sensors + sensors_mid
-            else:
-                sensors_mid = []
-            if request.form.get('full_Bins'):
-                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-                sensors = sensors + sensors_full
-            else:
-                sensors_full = []
-        elif result['optradio'] == 'threshold':
-            if request.form.get('over_trashold'):
-                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
-                sensors = sensors + over_trashold
-            else:
-                over_trashold = []
-            if request.form.get('below_trashold'):
-                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
-                sensors = sensors + sensors_below
-            else:
-                sensors_below = []
-            for sensor in sensors:
-                sensor = [sensor, ]
-                if int(sensor[0][2]) < 25:
-                    sensors_low = sensors_low + sensor
-                elif int(sensor[0][2]) < 75:
-                    sensors_mid = sensors_mid + sensor
-                else:
-                    sensors_full = sensors_full + sensor
-        elif result['optradio'] == 'status':
-            if request.form.get('ConnectedBins'):
-                ConnectedBins = db_handler.get_sensors_by_status("online")
-                sensors = sensors + ConnectedBins
-            else:
-                ConnectedBins = []
-            if request.form.get('below_trashold'):
-                FailedBins = db_handler.get_sensors_by_status("offline")
-                sensors = sensors + FailedBins
-            else:
-                FailedBins = []
-            for sensor in sensors:
-                sensor = [sensor, ]
-                if int(sensor[0][2]) < 25:
-                    sensors_low = sensors_low + sensor
-                elif int(sensor[0][2]) < 75:
-                    sensors_mid = sensors_mid + sensor
-                else:
-                    sensors_full = sensors_full + sensor
+                sensors_full = sensors_full + sensor
     else:
         sensors_low = db_handler.get_sensor_between_capacity(0, 25)
         sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
         sensors_full = db_handler.get_sensor_between_capacity(76, 100)
         sensors = sensors_low + sensors_mid + sensors_full
+        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+        utils.write_sensors_to_csv(sensors)
+        return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                               sensors_full=sensors_full)
     sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
     utils.write_sensors_to_csv(sensors)
-    return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid, sensors_full=sensors_full)
+    return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                           sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
+                           capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
+                           ConnectedBins=checked_list[5], FailedBins=checked_list[6])
 
 
 @app.route("/new_bindata", methods=['GET', 'POST'])
@@ -257,7 +278,7 @@ def new_calc():
     if request.method == 'POST':
         new_threshold = configuration.trash_threshold
         configuration.trash_threshold = new_threshold
-        #db_handler.update_treshold(new_threshold)
+        # db_handler.update_treshold(new_threshold)
     capacity = request.args.get('capacity') or 70
     pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
     remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
@@ -267,8 +288,10 @@ def new_calc():
         fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
         if int(sensor[2]) + fill_avg >= threshold:
             risk_sensors.append(sensor)
-    #return render_template("new/Calc.html")
-    return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity, total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors), unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
+    # return render_template("new/Calc.html")
+    return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity,
+                           total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors),
+                           unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 
 @app.route("/new_stats")
@@ -279,7 +302,6 @@ def new_stats():
 @app.route("/new_about")
 def new_about():
     return render_template("new/WISE2_about.html")
-
 
 
 @app.route("/download")
@@ -295,9 +317,10 @@ def get_avg_capacity_and_days():
     avg_days = []
     sum_days = []
     for day in days:
-        temp_dict_avg = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_avg_statatics_from_day(day[0].strftime("%Y-%m-%d"))}
+        temp_dict_avg = {'day': day[0].strftime("%Y-%m-%d"),
+                         'avg': db_handler.get_avg_statatics_from_day(day[0].strftime("%Y-%m-%d"))}
         temp_dict_sum = {'day': day[0].strftime("%Y-%m-%d"),
-                     'sum': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
+                         'sum': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
         avg_days += [temp_dict_avg, ]
         sum_days += [temp_dict_sum, ]
     online = len(db_handler.get_sensors_by_status("online")) - 20
@@ -308,7 +331,7 @@ def get_avg_capacity_and_days():
         'online': online,
         'offline': offline
     }
-    #response['sum_array'][2]['sum'] = 100
+    # response['sum_array'][2]['sum'] = 100
     return jsonify(response), 200
 
 
@@ -319,7 +342,8 @@ def get_volume_capacity_and_days():
     days = db_handler.get_five_days_from_statistcs()
     avg_days = []
     for day in days:
-        temp_dict = {'day': day[0].strftime("%Y-%m-%d"), 'avg': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
+        temp_dict = {'day': day[0].strftime("%Y-%m-%d"),
+                     'avg': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
         avg_days += [temp_dict, ]
     return jsonify(avg_days), 200
 
