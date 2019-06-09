@@ -110,9 +110,26 @@ def insert_sensor():
     return "ok"
 
 
+@app.route("/insert_sensor_date/", methods=['GET', 'POST'])
+def insert_sensor_date():
+    content = request.json
+    #fake_date = '2019-05-11'
+    #date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    # db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
+    date = content['date']
+    db_handler.insert_statistics(content['id'], date, content['capacity'])
+    if db_handler.get_sensor_by_id(content['id']):
+        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
+                                       content['lng'], content['status'], date)
+    else:
+        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
+                                 content['status'], date)
+    return "ok"
+
+
 @app.route('/get_trash_bins_to_pickup/')
 def get_trash_bins_to_pickup():
-    res = db_handler.get_sensor_over_x_capacity(50)
+    res = db_handler.get_sensor_over_x_capacity(configuration.trash_threshold)
     return res
 
 
@@ -304,8 +321,10 @@ def new_about():
     return render_template("new/WISE2_about.html")
 
 
-@app.route("/download")
-def download():
+@app.route("/download/<string:data>")
+def download(data):
+    if data == 'full':
+        utils.write_sensors_to_csv(db_handler.get_sensors())
     return send_file('export.csv', attachment_filename='export.csv')
 
 

@@ -31,6 +31,8 @@ def get_avg_fill_per_sensor(sensor_stats):
 
 
 def write_sensors_to_csv(sensor_list):
+    csvtitle = ("sensor id", "address", "capacity", "status","longitude", "latitude","last time updated")
+    sensor_list.insert(0, csvtitle)
     with open("export.csv", 'w') as myfile:
         wr = csv.writer(myfile)
         wr.writerows(sensor_list)

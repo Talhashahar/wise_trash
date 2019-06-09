@@ -580,3 +580,16 @@ def get_sum_volume_from_day(date):
     if not res:
         return None
     return int(res[0][0])
+
+
+def set_sensor_capacity_to_zero(trasbold):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "UPDATE sensors SET capacity=0 WHERE capcity <= %s"
+    data = (trasbold, )
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('cleanup task  - trashold capcity')
+    except Exception as e:
+        logging.error('fialed to cleanup task', e)
