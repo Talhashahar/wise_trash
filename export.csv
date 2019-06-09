@@ -1,100 +1,100 @@
 sensor id,address,capacity,status,longitude,latitude,last time updated
-1000,"HaMelacha St 1, Ramat Gan, Israel",0,online,32.0911975,34.803235,2019-06-04
-1001,"HaMelacha St 2, Ramat Gan, Israel",0,online,32.0912827,34.8031802,2019-06-04
-1002,"HaMelacha St 3, Ramat Gan, Israel",0,online,32.0908577,34.8028032,2019-06-04
-1003,"HaMelacha St 4, Ramat Gan, Israel",0,online,32.091326,34.8032739,2019-06-04
-1005,"HaMelacha St 6, Ramat Gan, Israel",0,online,32.0908856,34.8026718,2019-06-04
-1007,"HaMelacha St 8, Ramat Gan, Israel",0,online,32.0908168,34.8023853,2019-06-04
-1008,"HaMelacha St 9, Ramat Gan, Israel",0,online,32.0903675,34.8023459,2019-06-04
-1010,"HaMelacha St 11, Ramat Gan, Israel",0,online,32.0901709,34.8022729,2019-06-04
-1012,"HaMelacha St 13, Ramat Gan, Israel",0,online,32.0901725,34.8022685,2019-06-04
-1014,"HaMelacha St 15, Ramat Gan, Israel",0,online,32.0901725,34.8022685,2019-06-04
-1015,"HaMelacha St 16, Ramat Gan, Israel",0,online,32.0901504,34.802002,2019-06-04
-1017,"Anne Frank St 2, Ramat Gan, Israel",0,online,32.0913689,34.8018629,2019-06-04
-1018,"Anne Frank St 3, Ramat Gan, Israel",0,online,32.0908577,34.8028032,2019-06-04
-1019,"Anne Frank St 4, Ramat Gan, Israel",0,online,32.0911801,34.8019927,2019-06-04
-1022,"Anne Frank St 7, Ramat Gan, Israel",0,online,32.0912311,34.8030897,2019-06-04
-1023,"Anne Frank St 8, Ramat Gan, Israel",0,online,32.0909046,34.8024579,2019-06-04
-1025,"Anne Frank St 10, Ramat Gan, Israel",0,online,32.09087280000001,34.803054,2019-06-04
-1027,"Anne Frank St 12, Ramat Gan, Israel",0,online,32.0900601,34.8035691,2019-06-04
-1028,"Anne Frank St 13, Ramat Gan, Israel",0,online,32.0906433,34.8034731,2019-06-04
-1029,"Anne Frank St 14, Ramat Gan, Israel",0,online,32.0892801,34.8036105,2019-06-04
-1031,"Anne Frank St 16, Ramat Gan, Israel",0,online,32.0891779,34.803718,2019-06-04
-1032,"Anne Frank St 17, Ramat Gan, Israel",0,online,32.0902985,34.8037294,2019-06-04
-1035,"Anne Frank St 20, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-04
-1037,"Anne Frank St 22, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-04
-1038,"Anne Frank St 23, Ramat Gan, Israel",0,online,32.0896073,34.803774,2019-06-04
-1039,"Anne Frank St 24, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-04
-1041,"Anne Frank St 26, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-04
-1043,"Anne Frank St 28, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-04
-1046,"Yeda Am St 1, Ramat Gan, Israel",0,online,32.0893415,34.8035416,2019-06-04
-1047,"Yeda Am St 2, Ramat Gan, Israel",0,online,32.0896392,34.8034249,2019-06-04
-1048,"Yeda Am St 3, Ramat Gan, Israel",0,online,32.0893489,34.8032633,2019-06-04
-1049,"Yeda Am St 4, Ramat Gan, Israel",0,online,32.0894393,34.8029566,2019-06-04
-1050,"Yeda Am St 5, Ramat Gan, Israel",0,online,32.089369,34.803045,2019-06-04
-1051,"Yeda Am St 6, Ramat Gan, Israel",0,online,32.0894469,34.8028531,2019-06-04
-1052,"Yeda Am St 7, Ramat Gan, Israel",0,online,32.0893171,34.8027684,2019-06-04
-1054,"Yeda Am St 9, Ramat Gan, Israel",0,online,32.0893699,34.8025376,2019-06-04
-1055,"Yeda Am St 10, Ramat Gan, Israel",0,online,32.0898021,34.8027646,2019-06-04
-1056,"Yeda Am St 11, Ramat Gan, Israel",0,online,32.089432,34.8023042,2019-06-04
-1057,"Yeda Am St 12, Ramat Gan, Israel",0,online,32.0898021,34.8027646,2019-06-04
-1058,"Yeda Am St 13, Ramat Gan, Israel",0,online,32.089505,34.8021778,2019-06-04
-1059,"Yeda Am St 14, Ramat Gan, Israel",0,online,32.0898021,34.8027646,2019-06-04
-1060,"Yeda Am St 15, Ramat Gan, Israel",0,online,32.0895826,34.8020499,2019-06-04
-1063,"Yeda Am St 18, Ramat Gan, Israel",0,online,32.0900055,34.8018929,2019-06-04
-1066,"Yeda Am St 21, Ramat Gan, Israel",0,online,32.0899582,34.8017934,2019-06-04
-1067,"Brurya St 1, Ramat Gan, Israel",0,online,32.0893646,34.803213,2019-06-04
-1069,"Brurya St 3, Ramat Gan, Israel",0,online,32.0890899,34.8033025,2019-06-04
-1070,"Brurya St 4, Ramat Gan, Israel",0,online,32.0890605,34.8030673,2019-06-04
-1072,"Yehudit St 1, Ramat Gan, Israel",0,online,32.0905928,34.8046596,2019-06-04
-1073,"Yehudit St 2, Ramat Gan, Israel",0,online,32.0905833,34.8043499,2019-06-04
-1074,"Yehudit St 3, Ramat Gan, Israel",0,online,32.0902143,34.8046429,2019-06-04
-1076,"Yehudit St 5, Ramat Gan, Israel",0,online,32.0901218,34.8046506,2019-06-04
-1077,"Yehudit St 6, Ramat Gan, Israel",0,online,32.0900099,34.8044232,2019-06-04
-1078,"Yehudit St 7, Ramat Gan, Israel",0,online,32.0899621,34.8046703,2019-06-04
-1081,"Yehudit St 10, Ramat Gan, Israel",0,online,32.0894971,34.8042419,2019-06-04
-1084,"Ramat Gan, Israel",0,online,32.068424,34.824785,2019-06-04
-1086,"Charusim St 2, Ramat Gan, Israel",0,online,32.0924097,34.802152,2019-06-04
-1087,"Charusim St 3, Ramat Gan, Israel",0,online,32.0923847,34.8027489,2019-06-04
-1089,"Charusim St 5, Ramat Gan, Israel",0,online,32.0923398,34.8027619,2019-06-04
-1091,"Charusim St 7, Ramat Gan, Israel",0,online,32.0923398,34.8027619,2019-06-04
-1093,"Charusim St 9, Ramat Gan, Israel",0,online,32.0923398,34.8027619,2019-06-04
-1095,"Charusim St 11, Ramat Gan, Israel",0,online,32.0923398,34.8027619,2019-06-04
-1096,"Charusim St 12, Ramat Gan, Israel",0,online,32.091287,34.803429,2019-06-04
-1098,"Charusim St 14, Ramat Gan, Israel",0,online,32.0910014,34.8033923,2019-06-04
-1004,"HaMelacha St 5, Ramat Gan, Israel",65,online,32.0906668,34.8025947,2019-06-04
-1006,"HaMelacha St 7, Ramat Gan, Israel",65,online,32.09064,34.8025478,2019-06-04
-1009,"HaMelacha St 10, Ramat Gan, Israel",68,online,32.0906369,34.8022162,2019-06-04
-1011,"HaMelacha St 12, Ramat Gan, Israel",70,online,32.0904894,34.802153,2019-06-04
-1013,"HaMelacha St 14, Tel Aviv-Yafo, Israel",68,online,32.0664872,34.7862872,2019-06-04
-1016,"Anne Frank St 1, Ramat Gan, Israel",70,online,32.0913689,34.8018629,2019-06-04
-1020,"Anne Frank St 5, Ramat Gan, Israel",63,online,32.0908146,34.80273150000001,2019-06-04
-1021,"Anne Frank St 6, Ramat Gan, Israel",62,online,32.0908856,34.8026718,2019-06-04
-1024,"Anne Frank St 12, Ramat Gan, Israel",69,online,32.0900011,34.8030246,2019-06-04
-1026,"11, Ramat Gan, Israel",65,online,32.0599871,34.8307005,2019-06-04
-1030,"Anne Frank St 15, Ramat Gan, Israel",63,online,32.0905029,34.8035914,2019-06-04
-1033,"Anne Frank St 18, Ramat Gan, Israel",65,online,32.0890817,34.8038335,2019-06-04
-1034,"Anne Frank St 19, Ramat Gan, Israel",68,online,32.090101,34.8038017,2019-06-04
-1036,"Anne Frank St 21, Ramat Gan, Israel",64,online,32.089906,34.8037927,2019-06-04
-1040,"Ramat Gan, Israel",61,online,32.068424,34.824785,2019-06-04
-1042,"Anne Frank St, Ramat Gan, Israel",58,online,32.0908115,34.8025488,2019-06-04
-1044,"Anne Frank St 29, Ramat Gan, Israel",65,online,32.0892056,34.8040478,2019-06-04
-1045,"Anne Frank St 12, Ramat Gan, Israel",64,online,32.0900011,34.8030246,2019-06-04
-1053,"Yeda Am St 8, Ramat Gan, Israel",68,online,32.0898023,34.8027647,2019-06-04
-1061,"Yeda Am St 16, Ramat Gan, Israel",66,online,32.09067770000001,34.8018503,2019-06-04
-1062,"Yeda Am St 17, Ramat Gan, Israel",67,online,32.0896388,34.8019079,2019-06-04
-1064,"Yeda Am St 19, Ramat Gan, Israel",65,online,32.0897106,34.8017978,2019-06-04
-1065,"Yeda Am St 20, Ramat Gan, Israel",65,online,32.0900055,34.8018929,2019-06-04
-1068,"Brurya St 2, Ramat Gan, Israel",62,online,32.0892989,34.8030363,2019-06-04
-1071,"Brurya St 5, Ramat Gan, Israel",68,online,32.0888188,34.8034775,2019-06-04
-1075,"Yehudit St 4, Ramat Gan, Israel",66,online,32.0902757,34.80435660000001,2019-06-04
-1079,"Yehudit St 8, Ramat Gan, Israel",67,online,32.0897942,34.8043713,2019-06-04
-1080,"Yehudit St 9, Ramat Gan, Israel",67,online,32.089743,34.8046032,2019-06-04
-1082,"Yehudit St 11, Ramat Gan, Israel",70,online,32.0895522,34.8044945,2019-06-04
-1083,"Yehudit St 12, Ramat Gan, Israel",63,online,32.0892176,34.8040052,2019-06-04
-1085,"Charusim St 1, Ramat Gan, Israel",70,online,32.0924304,34.8027405,2019-06-04
-1088,"Charusim St 4, Ramat Gan, Israel",57,online,32.0922788,34.8025648,2019-06-04
-1090,"Charusim St 6, Ramat Gan, Israel",70,online,32.0918564,34.8028591,2019-06-04
-1092,"Charusim St 8, Ramat Gan, Israel",66,online,32.0915837,34.803029,2019-06-04
-1094,"Charusim St 10, Ramat Gan, Israel",56,online,32.091328,34.8032673,2019-06-04
-1097,"Charusim St 13, Ramat Gan, Israel",63,online,32.0923398,34.8027619,2019-06-04
+"HaMelacha St 1, Ramat Gan, Israel",32.0911975,34.803235,online,0,1000
+"HaMelacha St 2, Ramat Gan, Israel",32.0912827,34.8031802,online,0,1001
+"HaMelacha St 3, Ramat Gan, Israel",32.0908577,34.8028032,online,0,1002
+"HaMelacha St 4, Ramat Gan, Israel",32.091326,34.8032739,online,0,1003
+"HaMelacha St 6, Ramat Gan, Israel",32.0908856,34.8026718,online,0,1005
+"HaMelacha St 8, Ramat Gan, Israel",32.0908168,34.8023853,online,0,1007
+"HaMelacha St 9, Ramat Gan, Israel",32.0903675,34.8023459,online,0,1008
+"HaMelacha St 11, Ramat Gan, Israel",32.0901709,34.8022729,online,0,1010
+"HaMelacha St 13, Ramat Gan, Israel",32.0901725,34.8022685,online,0,1012
+"HaMelacha St 15, Ramat Gan, Israel",32.0901725,34.8022685,online,0,1014
+"HaMelacha St 16, Ramat Gan, Israel",32.0901504,34.802002,online,0,1015
+"Anne Frank St 2, Ramat Gan, Israel",32.0913689,34.8018629,online,0,1017
+"Anne Frank St 3, Ramat Gan, Israel",32.0908577,34.8028032,online,0,1018
+"Anne Frank St 4, Ramat Gan, Israel",32.0911801,34.8019927,online,0,1019
+"Anne Frank St 7, Ramat Gan, Israel",32.0912311,34.8030897,online,0,1022
+"Anne Frank St 8, Ramat Gan, Israel",32.0909046,34.8024579,online,0,1023
+"Anne Frank St 10, Ramat Gan, Israel",32.09087280000001,34.803054,online,0,1025
+"Anne Frank St 12, Ramat Gan, Israel",32.0900601,34.8035691,online,0,1027
+"Anne Frank St 13, Ramat Gan, Israel",32.0906433,34.8034731,online,0,1028
+"Anne Frank St 14, Ramat Gan, Israel",32.0892801,34.8036105,online,0,1029
+"Anne Frank St 16, Ramat Gan, Israel",32.0891779,34.803718,online,0,1031
+"Anne Frank St 17, Ramat Gan, Israel",32.0902985,34.8037294,online,0,1032
+"Anne Frank St 20, Ramat Gan, Israel",32.0890817,34.8038335,online,0,1035
+"Anne Frank St 22, Ramat Gan, Israel",32.0890817,34.8038335,online,0,1037
+"Anne Frank St 23, Ramat Gan, Israel",32.0896073,34.803774,online,0,1038
+"Anne Frank St 24, Ramat Gan, Israel",32.0890817,34.8038335,online,0,1039
+"Anne Frank St 26, Ramat Gan, Israel",32.0890817,34.8038335,online,0,1041
+"Anne Frank St 28, Ramat Gan, Israel",32.0890817,34.8038335,online,0,1043
+"Yeda Am St 1, Ramat Gan, Israel",32.0893415,34.8035416,online,0,1046
+"Yeda Am St 2, Ramat Gan, Israel",32.0896392,34.8034249,online,0,1047
+"Yeda Am St 3, Ramat Gan, Israel",32.0893489,34.8032633,online,0,1048
+"Yeda Am St 4, Ramat Gan, Israel",32.0894393,34.8029566,online,0,1049
+"Yeda Am St 5, Ramat Gan, Israel",32.089369,34.803045,online,0,1050
+"Yeda Am St 6, Ramat Gan, Israel",32.0894469,34.8028531,online,0,1051
+"Yeda Am St 7, Ramat Gan, Israel",32.0893171,34.8027684,online,0,1052
+"Yeda Am St 9, Ramat Gan, Israel",32.0893699,34.8025376,online,0,1054
+"Yeda Am St 10, Ramat Gan, Israel",32.0898021,34.8027646,online,0,1055
+"Yeda Am St 11, Ramat Gan, Israel",32.089432,34.8023042,online,0,1056
+"Yeda Am St 12, Ramat Gan, Israel",32.0898021,34.8027646,online,0,1057
+"Yeda Am St 13, Ramat Gan, Israel",32.089505,34.8021778,online,0,1058
+"Yeda Am St 14, Ramat Gan, Israel",32.0898021,34.8027646,online,0,1059
+"Yeda Am St 15, Ramat Gan, Israel",32.0895826,34.8020499,online,0,1060
+"Yeda Am St 18, Ramat Gan, Israel",32.0900055,34.8018929,online,0,1063
+"Yeda Am St 21, Ramat Gan, Israel",32.0899582,34.8017934,online,0,1066
+"Brurya St 1, Ramat Gan, Israel",32.0893646,34.803213,online,0,1067
+"Brurya St 3, Ramat Gan, Israel",32.0890899,34.8033025,online,0,1069
+"Brurya St 4, Ramat Gan, Israel",32.0890605,34.8030673,online,0,1070
+"Yehudit St 1, Ramat Gan, Israel",32.0905928,34.8046596,online,0,1072
+"Yehudit St 2, Ramat Gan, Israel",32.0905833,34.8043499,online,0,1073
+"Yehudit St 3, Ramat Gan, Israel",32.0902143,34.8046429,online,0,1074
+"Yehudit St 5, Ramat Gan, Israel",32.0901218,34.8046506,online,0,1076
+"Yehudit St 6, Ramat Gan, Israel",32.0900099,34.8044232,online,0,1077
+"Yehudit St 7, Ramat Gan, Israel",32.0899621,34.8046703,online,0,1078
+"Yehudit St 10, Ramat Gan, Israel",32.0894971,34.8042419,online,0,1081
+"Ramat Gan, Israel",32.068424,34.824785,online,0,1084
+"Charusim St 2, Ramat Gan, Israel",32.0924097,34.802152,online,0,1086
+"Charusim St 3, Ramat Gan, Israel",32.0923847,34.8027489,online,0,1087
+"Charusim St 5, Ramat Gan, Israel",32.0923398,34.8027619,online,0,1089
+"Charusim St 7, Ramat Gan, Israel",32.0923398,34.8027619,online,0,1091
+"Charusim St 9, Ramat Gan, Israel",32.0923398,34.8027619,online,0,1093
+"Charusim St 11, Ramat Gan, Israel",32.0923398,34.8027619,online,0,1095
+"Charusim St 12, Ramat Gan, Israel",32.091287,34.803429,online,0,1096
+"Charusim St 14, Ramat Gan, Israel",32.0910014,34.8033923,online,0,1098
+"HaMelacha St 5, Ramat Gan, Israel",32.0906668,34.8025947,online,65,1004
+"HaMelacha St 7, Ramat Gan, Israel",32.09064,34.8025478,online,65,1006
+"HaMelacha St 10, Ramat Gan, Israel",32.0906369,34.8022162,online,68,1009
+"HaMelacha St 12, Ramat Gan, Israel",32.0904894,34.802153,online,70,1011
+"HaMelacha St 14, Tel Aviv-Yafo, Israel",32.0664872,34.7862872,online,68,1013
+"Anne Frank St 1, Ramat Gan, Israel",32.0913689,34.8018629,online,70,1016
+"Anne Frank St 5, Ramat Gan, Israel",32.0908146,34.80273150000001,online,63,1020
+"Anne Frank St 6, Ramat Gan, Israel",32.0908856,34.8026718,online,62,1021
+"Anne Frank St 12, Ramat Gan, Israel",32.0900011,34.8030246,online,69,1024
+"11, Ramat Gan, Israel",32.0599871,34.8307005,online,65,1026
+"Anne Frank St 15, Ramat Gan, Israel",32.0905029,34.8035914,online,63,1030
+"Anne Frank St 18, Ramat Gan, Israel",32.0890817,34.8038335,online,65,1033
+"Anne Frank St 19, Ramat Gan, Israel",32.090101,34.8038017,online,68,1034
+"Anne Frank St 21, Ramat Gan, Israel",32.089906,34.8037927,online,64,1036
+"Ramat Gan, Israel",32.068424,34.824785,online,61,1040
+"Anne Frank St, Ramat Gan, Israel",32.0908115,34.8025488,online,58,1042
+"Anne Frank St 29, Ramat Gan, Israel",32.0892056,34.8040478,online,65,1044
+"Anne Frank St 12, Ramat Gan, Israel",32.0900011,34.8030246,online,64,1045
+"Yeda Am St 8, Ramat Gan, Israel",32.0898023,34.8027647,online,68,1053
+"Yeda Am St 16, Ramat Gan, Israel",32.09067770000001,34.8018503,online,66,1061
+"Yeda Am St 17, Ramat Gan, Israel",32.0896388,34.8019079,online,67,1062
+"Yeda Am St 19, Ramat Gan, Israel",32.0897106,34.8017978,online,65,1064
+"Yeda Am St 20, Ramat Gan, Israel",32.0900055,34.8018929,online,65,1065
+"Brurya St 2, Ramat Gan, Israel",32.0892989,34.8030363,online,62,1068
+"Brurya St 5, Ramat Gan, Israel",32.0888188,34.8034775,online,68,1071
+"Yehudit St 4, Ramat Gan, Israel",32.0902757,34.80435660000001,online,66,1075
+"Yehudit St 8, Ramat Gan, Israel",32.0897942,34.8043713,online,67,1079
+"Yehudit St 9, Ramat Gan, Israel",32.089743,34.8046032,online,67,1080
+"Yehudit St 11, Ramat Gan, Israel",32.0895522,34.8044945,online,70,1082
+"Yehudit St 12, Ramat Gan, Israel",32.0892176,34.8040052,online,63,1083
+"Charusim St 1, Ramat Gan, Israel",32.0924304,34.8027405,online,70,1085
+"Charusim St 4, Ramat Gan, Israel",32.0922788,34.8025648,online,57,1088
+"Charusim St 6, Ramat Gan, Israel",32.0918564,34.8028591,online,70,1090
+"Charusim St 8, Ramat Gan, Israel",32.0915837,34.803029,online,66,1092
+"Charusim St 10, Ramat Gan, Israel",32.091328,34.8032673,online,56,1094
+"Charusim St 13, Ramat Gan, Israel",32.0923398,34.8027619,online,63,1097
