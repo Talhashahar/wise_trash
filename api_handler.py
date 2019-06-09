@@ -301,10 +301,11 @@ def new_calc():
     remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
     threshold = configuration.trash_threshold
     risk_sensors = []
-    for sensor in remain_sensors:
-        fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
-        if int(sensor[2]) + fill_avg >= threshold:
-            risk_sensors.append(sensor)
+    # for sensor in remain_sensors:
+    #     fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
+    #     if int(sensor[2]) + fill_avg >= threshold:
+    #         risk_sensors.append(sensor)
+
     # return render_template("new/Calc.html")
     return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity,
                            total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors),
