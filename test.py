@@ -112,11 +112,11 @@ def inc_sensor_capacity_for_statistics():
     url = 'http://localhost:5000/insert_sensor_date/'
     #inc all sensor capcity for statistics
     fake_date = datetime.datetime.strptime("2017-06-07", "%Y-%m-%d")
-    max_days = 5*365
+    max_days = 2*365
     index_days = 1
     for years in range(1, 2):
         for days in range(1, 365):
-            data = np.random.normal(15, 2, 100)
+            data = np.random.normal(70, 5, 100)
             index = 0
             for i in range(1000, 1099):
                 print('insert sensor number: ' + str(i) + ' day number: ' + str(index_days) + ' of: ' + str(max_days))
@@ -237,11 +237,14 @@ def get_random_normal_array():
     # print (df)
 
 
+def zzz():
+    db_handler.set_sensor_capacity_to_zero(70)
+
 #init_sensor_for_capacity_0()
-#inc_sensor_capacity_for_statistics()
-#inc_sensor_capacity_for_statistics()
-#inc_sensor_capacity_for_statistics()
 #dec_sensor_capacity_for_statistics()
 #init_db_with_data_date()
+#zzz()
 inc_sensor_capacity_for_statistics()
 #text_numpy()
+
+

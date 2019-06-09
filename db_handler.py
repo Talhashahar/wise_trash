@@ -585,8 +585,8 @@ def get_sum_volume_from_day(date):
 def set_sensor_capacity_to_zero(trasbold):
     db = connect_to_db()
     cursor = cnx.cursor()
-    q = "UPDATE sensors SET capacity=0 WHERE capcity <= %s"
-    data = (trasbold, )
+    q = "update sensors set capacity=0 where capacity > %s"
+    data = (int(trasbold), )
     try:
         cursor.execute(q, data)
         db.commit()
