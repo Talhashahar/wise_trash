@@ -95,29 +95,54 @@
                             <h4 class="title">Trashbins Data</h4>
                             <p class="category">Here you may filter the showen data below</p>
                         </div>
-                        <div class="content">
-                           <!--start form-->
-                            <form action = "/new_bindata" method = "POST">
-                                <div>
-                                    <label>By trash ID</label>
+
+
+<br>
+
+                                                    <form action = "/new_bindata" method = "POST">
+
+<div class="row" style="margin: 0 auto; display:block; width: 100%;">
+    <div class="col-lg-2">
+
+
                                     <input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked" value="id" required/>
+                                    <label>By trash ID</label>
                                     <input type = "text" class="form-control" name = "Bin_ID" placeholder="1000" />
-                                </div>
-                                <div>
-                                    <label>By street name</label>
+
+
+    </div>
+    <div class="col-lg-2">
                                     <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value="street" required/>
+                                    <label>By street name</label>
                                     <input type = "text" class="form-control" name="address" placeholder="cinSTR" />
-                                </div>
-                                <div>
-                                    <label>Above capacity</label>
+
+    </div>
+    <div class="col-lg-2">
                                     <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" value="capacity" required/>
+                                    <label>Above capacity</label>
                                     <input type="number" class="form-control" min="0" max="100" id="capacity_range" name="capacity" placeholder="Set a number between 0-100"/>
-                                </div>
-                                <br>
-                                 <p><input type = "submit" class="btn btn-info btn-fill pull-center" value = "submit" /></p>
-                            </form>
-                            <!--end form-->
+
+    </div>
+   <div class="col-lg-2">
+        <input type = "submit" class="btn btn-info btn-fill pull-right" value = "Submit" />
+    </div>
+
+
+</div>
+
+
+
+
+
+                                                    </form>
+
 <hr>
+
+
+
+
+
+
                      
                         <div class="content">
             <div class="container-fluid">
@@ -127,6 +152,8 @@
                                     <div class="header">
                                         <h4 class="title">Table on Plain Background</h4>
                                         <p class="category">Here is a subtitle for this table</p>
+                                        <nav aria-label="Page navigation">
+
                                     </div>
                                     <div class="content table-responsive table-full-width">
                                             <table class="table table-hover">
@@ -148,6 +175,29 @@
                                                     {% endfor %}
                                                 </tbody>
                                                 </table>
+
+
+ <nav aria-label="Page navigation">
+  <ul class="pagination pull-right">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+
                                                 <a type="submit" class="btn btn-info btn-fill pull-center" href="/download" download="./export.csv">Download Presented Data (CSV file)</a>
 
         
