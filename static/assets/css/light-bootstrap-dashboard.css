@@ -527,7 +527,7 @@ input:focus {
     position: static;
     z-index: 2;
     float: right;
-    width: calc(100% - 260px);
+    width: calc(100% - 220px);
 }
 
 .main-panel > .content {
