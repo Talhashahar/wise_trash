@@ -36,3 +36,5 @@ def write_sensors_to_csv(sensor_list):
     with open("export.csv", 'w') as myfile:
         wr = csv.writer(myfile)
         wr.writerows(sensor_list)
+    sensor_list.pop(0)
+
