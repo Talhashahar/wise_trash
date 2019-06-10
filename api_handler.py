@@ -270,17 +270,21 @@ def new_databins():
     if request.method == 'POST':
         result = request.form
         if result['radio-stacked'] == "capacity":
-            zzz = result['radio-stacked']
             sensors = db_handler.get_sensor_between_capacity(result['capacity'], 100)
+            if not sensors:
+                return render_template("new/WISE2_DataBins.html")
             sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
         elif result['radio-stacked'] == 'id':
             sensors = db_handler.get_sensor_by_id(result['Bin_ID'])
-            sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
-            pass
+            if sensors is not None:
+                sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
+            else:
+                return render_template("new/WISE2_DataBins.html")
         else:
             sensors = db_handler.get_sensor_by_address(result['address'])
+            if not sensors:
+                return render_template("new/WISE2_DataBins.html")
             sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
-            pass
     else:
         sensors_low = db_handler.get_sensor_between_capacity(0, 25)
         sensors_mid = db_handler.get_sensor_between_capacity(26, 75)

@@ -51184,3 +51184,74 @@ INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:23] "GET /new_bindata HTTP/1.1" 2
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:33] "POST /new_bindata HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:46] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:46] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "POST /new_bindata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "GET /new_bindata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "GET /new_bindata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "GET /new_bindata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:21:57] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:19] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:24] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "POST /new_bindata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "GET /new_bindata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "GET /new_bindata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "GET /new_bindata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:22:31] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:32] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:32] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:32] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "POST /new_bindata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "GET /new_bindata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "GET /new_bindata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "GET /new_bindata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:27:40] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:16] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:18] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:24] "POST /new_bindata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:24] "GET /new_bindata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:24] "GET /new_bindata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:24] "GET /new_bindata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:25] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:33:25] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:09] "GET /new_bindata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:37:10] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:05] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:19] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:23] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:32] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:32] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:38] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:38] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:44] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:38:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -

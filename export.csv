@@ -1,29 +1,37 @@
 sensor id,address,capacity,status,longitude,latitude,last time updated
+1004,"HaMelacha St 5, Ramat Gan, Israel",65,online,2019-06-04
+1006,"HaMelacha St 7, Ramat Gan, Israel",65,online,2019-06-04
+1009,"HaMelacha St 10, Ramat Gan, Israel",68,online,2019-06-04
+1011,"HaMelacha St 12, Ramat Gan, Israel",70,online,2019-06-04
+1013,"HaMelacha St 14, Tel Aviv-Yafo, Israel",68,online,2019-06-04
 1016,"Anne Frank St 1, Ramat Gan, Israel",70,online,2019-06-04
-1017,"Anne Frank St 2, Ramat Gan, Israel",0,online,2019-06-04
-1018,"Anne Frank St 3, Ramat Gan, Israel",0,online,2019-06-04
-1019,"Anne Frank St 4, Ramat Gan, Israel",0,online,2019-06-04
 1020,"Anne Frank St 5, Ramat Gan, Israel",63,online,2019-06-04
 1021,"Anne Frank St 6, Ramat Gan, Israel",62,online,2019-06-04
-1022,"Anne Frank St 7, Ramat Gan, Israel",0,online,2019-06-04
-1023,"Anne Frank St 8, Ramat Gan, Israel",0,online,2019-06-04
 1024,"Anne Frank St 12, Ramat Gan, Israel",69,online,2019-06-04
-1025,"Anne Frank St 10, Ramat Gan, Israel",0,online,2019-06-04
-1027,"Anne Frank St 12, Ramat Gan, Israel",0,online,2019-06-04
-1028,"Anne Frank St 13, Ramat Gan, Israel",0,online,2019-06-04
-1029,"Anne Frank St 14, Ramat Gan, Israel",0,online,2019-06-04
+1026,"11, Ramat Gan, Israel",65,online,2019-06-04
 1030,"Anne Frank St 15, Ramat Gan, Israel",63,online,2019-06-04
-1031,"Anne Frank St 16, Ramat Gan, Israel",0,online,2019-06-04
-1032,"Anne Frank St 17, Ramat Gan, Israel",0,online,2019-06-04
 1033,"Anne Frank St 18, Ramat Gan, Israel",65,online,2019-06-04
 1034,"Anne Frank St 19, Ramat Gan, Israel",68,online,2019-06-04
-1035,"Anne Frank St 20, Ramat Gan, Israel",0,online,2019-06-04
 1036,"Anne Frank St 21, Ramat Gan, Israel",64,online,2019-06-04
-1037,"Anne Frank St 22, Ramat Gan, Israel",0,online,2019-06-04
-1038,"Anne Frank St 23, Ramat Gan, Israel",0,online,2019-06-04
-1039,"Anne Frank St 24, Ramat Gan, Israel",0,online,2019-06-04
-1041,"Anne Frank St 26, Ramat Gan, Israel",0,online,2019-06-04
+1040,"Ramat Gan, Israel",61,online,2019-06-04
 1042,"Anne Frank St, Ramat Gan, Israel",58,online,2019-06-04
-1043,"Anne Frank St 28, Ramat Gan, Israel",0,online,2019-06-04
 1044,"Anne Frank St 29, Ramat Gan, Israel",65,online,2019-06-04
 1045,"Anne Frank St 12, Ramat Gan, Israel",64,online,2019-06-04
+1053,"Yeda Am St 8, Ramat Gan, Israel",68,online,2019-06-04
+1061,"Yeda Am St 16, Ramat Gan, Israel",66,online,2019-06-04
+1062,"Yeda Am St 17, Ramat Gan, Israel",67,online,2019-06-04
+1064,"Yeda Am St 19, Ramat Gan, Israel",65,online,2019-06-04
+1065,"Yeda Am St 20, Ramat Gan, Israel",65,online,2019-06-04
+1068,"Brurya St 2, Ramat Gan, Israel",62,online,2019-06-04
+1071,"Brurya St 5, Ramat Gan, Israel",68,online,2019-06-04
+1075,"Yehudit St 4, Ramat Gan, Israel",66,online,2019-06-04
+1079,"Yehudit St 8, Ramat Gan, Israel",67,online,2019-06-04
+1080,"Yehudit St 9, Ramat Gan, Israel",67,online,2019-06-04
+1082,"Yehudit St 11, Ramat Gan, Israel",70,online,2019-06-04
+1083,"Yehudit St 12, Ramat Gan, Israel",63,online,2019-06-04
+1085,"Charusim St 1, Ramat Gan, Israel",70,online,2019-06-04
+1088,"Charusim St 4, Ramat Gan, Israel",57,online,2019-06-04
+1090,"Charusim St 6, Ramat Gan, Israel",70,online,2019-06-04
+1092,"Charusim St 8, Ramat Gan, Israel",66,online,2019-06-04
+1094,"Charusim St 10, Ramat Gan, Israel",56,online,2019-06-04
+1097,"Charusim St 13, Ramat Gan, Israel",63,online,2019-06-04
