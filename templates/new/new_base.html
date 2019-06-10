@@ -40,27 +40,27 @@
         </div>
 
         <ul class="nav">
-            <li>
+            <li class="{% block main %}{% endblock %}">
                 <a href="/new_index">
                     <i class="pe-7s-news-paper"></i>
                     <p>Main</p>
                 </a>
-            </li>
-            <li class="active">
+            </li >
+            <li class="{% block stats %}{% endblock %}">
                 <a href="/new_stats">
                     <i class="pe-7s-graph"></i>
                     <p>Analytics</p>
                 </a>
             </li>
 
-            <li>
+            <li class="{% block calc %}{% endblock %}">
                     <a href="/new_calc">
                         <i class="pe-7s-science"></i>
                         <p>Configuration</p>
                     </a>
                 </li>
 
-            <li>
+            <li class="{% block bind %}{% endblock %}">
                 <a href="/new_bindata">
                     <i class="pe-7s-note2"></i>
                     <p>Bins Data</p>
@@ -79,14 +79,14 @@
 <!--                    <p>Extra option</p>-->
 <!--                </a>-->
 <!--            </li>-->
-            <li>
+            <li class="{% block about %}{% endblock %}">
                 <a href="/new_about">
                     <i class="pe-7s-bell"></i>
                     <p>About WiseTrash</p>
                 </a>
             </li>
             <!---Next li tag is the lower "Contact Support" button on the L-side panel-->
-            <li>
+            <li class="{% block support %}{% endblock %}">
                     <a href="mailto:Alon.Askal@gmail.com" target="_blank">
                         <i class="pe-7s-mail"></i>
                         <p>Contact Soppurt</p>
