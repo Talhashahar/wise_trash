@@ -1,80 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head> 
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
-  <title>WiseTrash-Map</title>
-  <script async defer
+{% extends 'base.html' %}
+
+{% block content %}
+<div id="map" style="width: 90%; margin: 0 auto; height: 800px;"></div>
+
+    <footer class="footer">
+            <div class="container-fluid">
+                <div class="slidecontainer">
+                    <a href="/map_dyn?capacity=50" class="btn btn-info btn-fill btn-margin">show under 50%</a>
+                    <a href="/map_dyn?capacity=70" class="btn btn-info btn-fill btn-margin">show over 50% under 70%</a>
+                    <a href="/map_dyn?capacity=100" class="btn btn-info btn-fill btn-margin">show over 70%</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+
+
+{% block script %}
+
+    <!--  Google Maps Plugin    -->
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM"></script> -->
+    <script src="static/assets/js/maps.js"></script>
+    <script type="text/javascript">
+        window.locations = {{sensors | safe}};
+    </script>
+    <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLT0yiIBSyM_l0PvIp7cH1rbPnfPfcETM&callback=initMap">
     </script>
-</head> 
-<body>
-  <div id="map" style="width: 1200px; height: 800px;"></div>
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+	<script src="static/assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
 
-  <script type="text/javascript">
-    var locations = [
-      ['Avigayil', 32.089206, 34.804282, 4],
-      ['Yeda am', 32.089412, 34.803466, 5],
-      ['Yehudit St 1', 32.090618, 34.804669, 3],
-      ['Anne Frank St 1', 32.091357, 34.801889, 2],
-      ['Khaviva Reik St 1', 32.090230, 34.803774, 1]
-    ];
-//function setMarkers(map) {
+{% endblock %}
 
-
-
-
-function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
-      center: new google.maps.LatLng(32.089206, 34.804282),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-    var full ={
-        url: "http://localhost:5000/static/assets/img/full.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var empty ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var middle ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-	var offline ={
-        url: "http://localhost:5000/static/assets/img/offline.png",
-        scaledSize: new google.maps.Size(20, 27),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(0, 32)
-    };
-
-	//setMarkers(map)
-    var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map,
-		icon: offline
-
-      });
-
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-	}
-  </script>
-</body>
-</html>
