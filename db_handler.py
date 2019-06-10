@@ -537,13 +537,13 @@ def update_sensor_capacity_by_id(id, capacity):
 def get_sensor_by_address(address):
     db = connect_to_db()
     cursor = cnx.cursor()
-    q = "select * from sensors WHERE address like " "%" + address + "%"
+    q = """select * from sensors WHERE address like %s"""
     # data = (address, )
-    cursor.execute(q)
+    cursor.execute(q, ('%' + str(address) + '%',))
     res = cursor.fetchall()
     if not res:
         return None
-    return res[0]
+    return res
 
 
 def get_five_days_from_statistcs():

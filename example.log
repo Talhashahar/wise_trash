@@ -51106,3 +51106,81 @@ INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 10:41:28] "POST /new_bindata HTTP/1.1" 
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 10:41:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 10:41:43] "POST /new_bindata HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 10:41:43] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:04:50] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:04:50] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:05:59] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:06:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:06:11] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:06:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:08:04] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:08:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:23] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:33] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 11:14:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -

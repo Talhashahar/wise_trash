@@ -279,7 +279,7 @@ def new_databins():
             pass
         else:
             sensors = db_handler.get_sensor_by_address(result['address'])
-            sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
+            sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
             pass
     else:
         sensors_low = db_handler.get_sensor_between_capacity(0, 25)
