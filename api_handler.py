@@ -113,8 +113,8 @@ def insert_sensor():
 @app.route("/insert_sensor_date/", methods=['GET', 'POST'])
 def insert_sensor_date():
     content = request.json
-    #fake_date = '2019-05-11'
-    #date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    # fake_date = '2019-05-11'
+    # date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     # db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
     date = content['date']
     db_handler.insert_statistics(content['id'], date, content['capacity'])
@@ -294,13 +294,27 @@ def new_databins():
     return render_template("new/WISE2_DataBins.html", sensors=sensors)
 
 
-@app.route("/new_calc")
+@app.route("/new_calc", methods=['GET', 'POST'])
 def new_calc():
+    config_trashold = configuration.trash_threshold
+    present_treshold = configuration.trash_threshold
     if request.method == 'POST':
-        new_threshold = configuration.trash_threshold
-        configuration.trash_threshold = new_threshold
-        # db_handler.update_treshold(new_threshold)
-    capacity = request.args.get('capacity') or 70
+        if request.form.get('range'):
+            present_percent = request.form.get('range')
+            capacity = int(present_percent)
+            present_treshold = capacity
+        if request.form.get('trashold'):
+            result = request.form.get('trashold')
+            if '%' in result:
+                threshold = int(result[:-1])
+            else:
+                threshold = int(result)
+            configuration.trash_threshold = int(threshold)
+            capacity = int(configuration.trash_threshold)
+            config_trashold = capacity
+            present_treshold = capacity
+    else:
+        capacity = 70
     pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
     remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
     threshold = configuration.trash_threshold
@@ -312,7 +326,8 @@ def new_calc():
 
     # return render_template("new/Calc.html")
     return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity,
-                           total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors),
+                           total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
+                           present_treshold=present_treshold, risked=len(risk_sensors),
                            unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 

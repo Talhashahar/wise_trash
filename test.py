@@ -115,7 +115,7 @@ def inc_sensor_capacity_for_statistics():
     max_days = 2*365
     index_days = 1
     for years in range(1, 2):
-        for days in range(1, 365):
+        for days in range(1, 2):
             data = np.random.normal(70, 5, 100)
             index = 0
             for i in range(1000, 1099):
