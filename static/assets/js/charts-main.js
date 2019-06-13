@@ -2,45 +2,45 @@ type = ['','info','success','warning','danger'];
 
 
 charts = {
-    initPickColor: function(){
-        $('.pick-class-label').click(function(){
-            var new_class = $(this).attr('new-class');
-            var old_class = $('#display-buttons').attr('data-class');
-            var display_div = $('#display-buttons');
-            if(display_div.length) {
-            var display_buttons = display_div.find('.btn');
-            display_buttons.removeClass(old_class);
-            display_buttons.addClass(new_class);
-            display_div.attr('data-class', new_class);
-            }
-        });
-    },
+//    initPickColor: function(){
+//        $('.pick-class-label').click(function(){
+//            var new_class = $(this).attr('new-class');
+//            var old_class = $('#display-buttons').attr('data-class');
+//            var display_div = $('#display-buttons');
+//            if(display_div.length) {
+//            var display_buttons = display_div.find('.btn');
+//            display_buttons.removeClass(old_class);
+//            display_buttons.addClass(new_class);
+//            display_div.attr('data-class', new_class);
+//            }
+//        });
+//    },
 
-    checkScrollForTransparentNavbar: debounce(function() {
-            $navbar = $('.navbar[color-on-scroll]');
-            scroll_distance = $navbar.attr('color-on-scroll') || 500;
-
-            if($(document).scrollTop() > scroll_distance ) {
-                if(transparent) {
-                    transparent = false;
-                    $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
-                    $('.navbar[color-on-scroll]').addClass('navbar-default');
-                }
-            } else {
-                if( !transparent ) {
-                    transparent = true;
-                    $('.navbar[color-on-scroll]').addClass('navbar-transparent');
-                    $('.navbar[color-on-scroll]').removeClass('navbar-default');
-                }
-            }
-    }, 17),
+//    checkScrollForTransparentNavbar: debounce(function() {
+//            $navbar = $('.navbar[color-on-scroll]');
+//            scroll_distance = $navbar.attr('color-on-scroll') || 500;
+//
+//            if($(document).scrollTop() > scroll_distance ) {
+//                if(transparent) {
+//                    transparent = false;
+//                    $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
+//                    $('.navbar[color-on-scroll]').addClass('navbar-default');
+//                }
+//            } else {
+//                if( !transparent ) {
+//                    transparent = true;
+//                    $('.navbar[color-on-scroll]').addClass('navbar-transparent');
+//                    $('.navbar[color-on-scroll]').removeClass('navbar-default');
+//                }
+//            }
+//    }, 0),
 
 
     //PARAMETERS FOR FIRST GRAPH AT STATISTICS PAGE:
 
     initChartist: function(){
         const Http = new XMLHttpRequest();
-
+        console.log("inside http request");
         const url_charts='http://localhost:5000/get_avg_capacity_and_days';
 
         Http.open("GET", url_charts);

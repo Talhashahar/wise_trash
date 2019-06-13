@@ -253,12 +253,12 @@ def new_index():
         sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
         sensors_full = db_handler.get_sensor_between_capacity(76, 100)
         sensors = sensors_low + sensors_mid + sensors_full
-        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
         utils.write_sensors_to_csv(sensors)
+        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
         return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
                                sensors_full=sensors_full)
-    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
     utils.write_sensors_to_csv(sensors)
+    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
     return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
                            sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
                            capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],

@@ -593,3 +593,16 @@ def set_sensor_capacity_to_zero(trasbold):
         logging.info('cleanup task  - trashold capcity')
     except Exception as e:
         logging.error('fialed to cleanup task', e)
+
+
+def set_sensor_capacity_to_zero_by_id(sensor_id):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "update sensors set capacity=0 where id = %s"
+    data = (sensor_id, )
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('cleanup task  - trashold capcity')
+    except Exception as e:
+        logging.error('fialed to cleanup task', e)

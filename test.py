@@ -111,15 +111,15 @@ def init_sensor_for_capacity_0():
 def inc_sensor_capacity_for_statistics():
     url = 'http://localhost:5000/insert_sensor_date/'
     #inc all sensor capcity for statistics
-    fake_date = datetime.datetime.strptime("2017-06-07", "%Y-%m-%d")
-    max_days = 2*365
+    fake_date = datetime.datetime.strptime("2016-06-9", "%Y-%m-%d")
+    max_days = 3*365
     index_days = 1
-    for years in range(1, 2):
-        for days in range(1, 2):
-            data = np.random.normal(70, 5, 100)
+    for years in range(0, 3):
+        for days in range(0, 365):
+            data = np.random.normal(20, 3, 100)
             index = 0
             for i in range(1000, 1099):
-                print('insert sensor number: ' + str(i) + ' day number: ' + str(index_days) + ' of: ' + str(max_days))
+                print('insert sensor number: ' + str(i) + 'sensor new capacity is: ' + str(int(resp['capacity']) + int(data[index])) + ' day number: ' + str(index_days) + ' of: ' + str(max_days))
                 link = 'http://localhost:5000/get_sensor_by_id/' + str(i)
                 resp = requests.get(link).json()
                 mydict_date['id'] = resp['id']
@@ -131,7 +131,7 @@ def inc_sensor_capacity_for_statistics():
                 mydict_date['date'] = str(fake_date)
                 response = requests.post(url, data=json.dumps(mydict_date), headers=headers)
                 index += 1
-            db_handler.set_sensor_capacity_to_zero(70)
+            pickup_trash()
             fake_date = fake_date + datetime.timedelta(days=1)
             index_days += 1
 
@@ -238,13 +238,27 @@ def get_random_normal_array():
 
 
 def zzz():
-    db_handler.set_sensor_capacity_to_zero(70)
+    for x in range(1077, 1099):
+        print(x)
+        db_handler.set_sensor_capacity_to_zero_by_id(x)
+
+
+def pickup_trash():
+    for i in range(1000, 1099):
+        link = 'http://localhost:5000/get_sensor_by_id/' + str(i)
+        resp = requests.get(link).json()
+        if resp['capacity'] < 70:
+            #print("set capacity zero to sensor: " + str(resp['id']))
+            db_handler.set_sensor_capacity_to_zero_by_id(str(i))
+
 
 #init_sensor_for_capacity_0()
 #dec_sensor_capacity_for_statistics()
 #init_db_with_data_date()
 #zzz()
-inc_sensor_capacity_for_statistics()
+#inc_sensor_capacity_for_statistics()
+#zzz()
 #text_numpy()
+pickup_trash()
 
 

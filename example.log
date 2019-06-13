@@ -52365,3 +52365,633 @@ INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:28:20] "GET /static/assets/css/anima
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:28:23] "GET /new_about HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:28:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:28:23] "GET /static/assets/img/faces/Tal.jpg HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:30:45] "GET /new_calc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:30:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:30:47] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:30:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:35] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:36] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:40] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:32:41] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:33:29] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:33:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:35:49] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:35:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:04] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:30] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:36:38] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:16] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:37:19] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /new_stats HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 14:38:05] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:02] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:03] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:03] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:03] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:03] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:16:04] "GET /download/filtered HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:01] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:02] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:02] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:05] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:06] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:06] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:06] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:07] "GET /download/filtered HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /new_index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/maps.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:37] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:38] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:38] "GET /static/assets/img/full.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:38] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:38] "GET /download/filtered HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:17:47] "GET /download/full HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:18:36] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:18:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:24] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:19:28] "GET /download HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:20:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:40] "GET /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:41] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:44] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:57] "POST /new_bindata HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:57] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jun/2019 15:23:59] "GET /download/filtered HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:cleanup task  - trashold capcity
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:cleanup task  - trashold capcity
+INFO:werkzeug: * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:cleanup task  - trashold capcity
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:root:cleanup task  - trashold capcity
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-872-102
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:36] "GET /get_sensor_by_id/1000 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1000 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:37] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1001 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:37] "GET /get_sensor_by_id/1002 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1002 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:37] "GET /get_sensor_by_id/1003 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1003 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:37] "GET /get_sensor_by_id/1004 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1004 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:38] "GET /get_sensor_by_id/1005 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1005 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:38] "GET /get_sensor_by_id/1006 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1006 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:38] "GET /get_sensor_by_id/1007 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1007 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:39] "GET /get_sensor_by_id/1008 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1008 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:39] "GET /get_sensor_by_id/1009 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1009 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:39] "GET /get_sensor_by_id/1010 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1010 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:39] "GET /get_sensor_by_id/1011 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1011 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:40] "GET /get_sensor_by_id/1012 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1012 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:40] "GET /get_sensor_by_id/1013 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1013 HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:40] "GET /get_sensor_by_id/1014 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1014 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:40] "GET /get_sensor_by_id/1015 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1015 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:41] "GET /get_sensor_by_id/1016 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1016 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:41] "GET /get_sensor_by_id/1017 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1017 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:41] "GET /get_sensor_by_id/1018 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1018 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:41] "GET /get_sensor_by_id/1019 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1019 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:42] "GET /get_sensor_by_id/1020 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1020 HTTP/1.1" 200 163
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:42] "GET /get_sensor_by_id/1021 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1021 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:42] "GET /get_sensor_by_id/1022 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1022 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:43] "GET /get_sensor_by_id/1023 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1023 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:43] "GET /get_sensor_by_id/1024 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1024 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:43] "GET /get_sensor_by_id/1025 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1025 HTTP/1.1" 200 163
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:43] "GET /get_sensor_by_id/1026 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1026 HTTP/1.1" 200 143
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:44] "GET /get_sensor_by_id/1027 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1027 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:44] "GET /get_sensor_by_id/1028 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1028 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:44] "GET /get_sensor_by_id/1029 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1029 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:44] "GET /get_sensor_by_id/1030 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1030 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:45] "GET /get_sensor_by_id/1031 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1031 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:45] "GET /get_sensor_by_id/1032 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1032 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:45] "GET /get_sensor_by_id/1033 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1033 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:45] "GET /get_sensor_by_id/1034 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1034 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:46] "GET /get_sensor_by_id/1035 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1035 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:46] "GET /get_sensor_by_id/1036 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1036 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:46] "GET /get_sensor_by_id/1037 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1037 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:46] "GET /get_sensor_by_id/1038 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1038 HTTP/1.1" 200 156
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:47] "GET /get_sensor_by_id/1039 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1039 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:47] "GET /get_sensor_by_id/1040 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1040 HTTP/1.1" 200 137
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:47] "GET /get_sensor_by_id/1041 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1041 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:48] "GET /get_sensor_by_id/1042 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1042 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:48] "GET /get_sensor_by_id/1043 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1043 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:48] "GET /get_sensor_by_id/1044 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1044 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:48] "GET /get_sensor_by_id/1045 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1045 HTTP/1.1" 200 157
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:49] "GET /get_sensor_by_id/1046 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1046 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:49] "GET /get_sensor_by_id/1047 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1047 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:49] "GET /get_sensor_by_id/1048 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1048 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:49] "GET /get_sensor_by_id/1049 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1049 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:50] "GET /get_sensor_by_id/1050 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1050 HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:50] "GET /get_sensor_by_id/1051 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1051 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:50] "GET /get_sensor_by_id/1052 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1052 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:50] "GET /get_sensor_by_id/1053 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1053 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:51] "GET /get_sensor_by_id/1054 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1054 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:51] "GET /get_sensor_by_id/1055 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1055 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:51] "GET /get_sensor_by_id/1056 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1056 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:51] "GET /get_sensor_by_id/1057 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1057 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:52] "GET /get_sensor_by_id/1058 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1058 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:52] "GET /get_sensor_by_id/1059 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1059 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:52] "GET /get_sensor_by_id/1060 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1060 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:53] "GET /get_sensor_by_id/1061 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1061 HTTP/1.1" 200 161
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:53] "GET /get_sensor_by_id/1062 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1062 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:53] "GET /get_sensor_by_id/1063 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1063 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:53] "GET /get_sensor_by_id/1064 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1064 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:54] "GET /get_sensor_by_id/1065 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1065 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:54] "GET /get_sensor_by_id/1066 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1066 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:54] "GET /get_sensor_by_id/1067 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1067 HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:54] "GET /get_sensor_by_id/1068 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1068 HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:55] "GET /get_sensor_by_id/1069 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1069 HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:55] "GET /get_sensor_by_id/1070 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1070 HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:55] "GET /get_sensor_by_id/1071 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1071 HTTP/1.1" 200 152
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:45:55] "GET /get_sensor_by_id/1072 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:02] "GET /get_sensor_by_id/1000 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1000 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:02] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1001 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:02] "GET /get_sensor_by_id/1002 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1002 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:03] "GET /get_sensor_by_id/1003 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1003 HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:03] "GET /get_sensor_by_id/1004 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1004 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:03] "GET /get_sensor_by_id/1005 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1005 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:03] "GET /get_sensor_by_id/1006 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1006 HTTP/1.1" 200 153
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:04] "GET /get_sensor_by_id/1007 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1007 HTTP/1.1" 200 155
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:46:04] "GET /get_sensor_by_id/1008 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:03] "GET /get_sensor_by_id/1000 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1000 HTTP/1.1" 200 154
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:04] "GET /get_sensor_by_id/1001 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1001 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:05] "GET /get_sensor_by_id/1002 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1002 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:05] "GET /get_sensor_by_id/1003 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1003 HTTP/1.1" 200 154
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:06] "GET /get_sensor_by_id/1004 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1004 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:07] "GET /get_sensor_by_id/1005 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1005 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:07] "GET /get_sensor_by_id/1006 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1006 HTTP/1.1" 200 153
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:08] "GET /get_sensor_by_id/1007 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1007 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:08] "GET /get_sensor_by_id/1008 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1008 HTTP/1.1" 200 155
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:09] "GET /get_sensor_by_id/1009 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1009 HTTP/1.1" 200 156
+INFO:root:cleanup task  - trashold capcity
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5000
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2019 15:47:10] "GET /get_sensor_by_id/1010 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:5000 "GET /get_sensor_by_id/1010 HTTP/1.1" 200 156
