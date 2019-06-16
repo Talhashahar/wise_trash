@@ -17,7 +17,6 @@ ENDPOINT = 'localhost:5000';
 //}
 
 function change_bar(){
-    console.log("zzz");
     var slider = document.getElementById("myRange");
     var output = document.getElementById("demo");
     output.innerHTML = slider.value;

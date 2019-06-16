@@ -58,7 +58,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Set TrashHold</label>
-                                                <form action="/new_calc" method="post" name="present">
+                                                <form action="/calc" method="post" name="present">
                                                     <div class="slidecontainer">
                                                       <input type="range" name="range" min="1" max="100" value={{present_treshold | safe}} class="slider" id="myRange">
                                                       <p><h5>Value: <span id="demo"></span>%</h5></p>
@@ -146,7 +146,7 @@
                                 <img src="http://www.tito.co.il/wp-content/uploads/2015/05/avir_38_floor.jpg" alt="Ramat Gan City"/>
                             </div>
                             <div class="content">
-                                <form action="/new_calc" method="post" name="config">
+                                <form action="/calc" method="post" name="config">
                                         <p class="description text-left">
                                         <label>Current TrashHold</label>
                                         <input type="text" class="form-control" disabled placeholder="Company" value="{{config_trashold | safe}}%">

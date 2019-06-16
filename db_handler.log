@@ -1,0 +1,92 @@
+16-Jun-19 13:42:26 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+16-Jun-19 13:42:26 -  * Restarting with stat
+16-Jun-19 13:42:26 -  * Debugger is active!
+16-Jun-19 13:42:26 -  * Debugger PIN: 732-872-102
+16-Jun-19 13:42:34 - 127.0.0.1 - - [16/Jun/2019 13:42:34] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:42:34 - 127.0.0.1 - - [16/Jun/2019 13:42:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:42:42 - 127.0.0.1 - - [16/Jun/2019 13:42:42] "GET /stats HTTP/1.1" 200 -
+16-Jun-19 13:42:42 - 127.0.0.1 - - [16/Jun/2019 13:42:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:42:44 - 127.0.0.1 - - [16/Jun/2019 13:42:44] "GET /calc HTTP/1.1" 200 -
+16-Jun-19 13:42:44 - 127.0.0.1 - - [16/Jun/2019 13:42:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:42:45 - 127.0.0.1 - - [16/Jun/2019 13:42:45] "GET /bindata HTTP/1.1" 200 -
+16-Jun-19 13:42:45 - 127.0.0.1 - - [16/Jun/2019 13:42:45] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:42:47 - 127.0.0.1 - - [16/Jun/2019 13:42:47] "GET /index HTTP/1.1" 404 -
+16-Jun-19 13:42:47 - 127.0.0.1 - - [16/Jun/2019 13:42:47] "GET /favicon.ico HTTP/1.1" 404 -
+16-Jun-19 13:42:52 - 127.0.0.1 - - [16/Jun/2019 13:42:52] "GET /index HTTP/1.1" 404 -
+16-Jun-19 13:43:01 - 127.0.0.1 - - [16/Jun/2019 13:43:01] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:43:01 - 127.0.0.1 - - [16/Jun/2019 13:43:01] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:43:03 - 127.0.0.1 - - [16/Jun/2019 13:43:03] "GET /about HTTP/1.1" 200 -
+16-Jun-19 13:43:03 - 127.0.0.1 - - [16/Jun/2019 13:43:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:43:03 - 127.0.0.1 - - [16/Jun/2019 13:43:03] "GET /static/assets/img/faces/Tal.jpg HTTP/1.1" 404 -
+16-Jun-19 13:43:04 - 127.0.0.1 - - [16/Jun/2019 13:43:04] "GET /index HTTP/1.1" 404 -
+16-Jun-19 13:43:11 - 127.0.0.1 - - [16/Jun/2019 13:43:11] "GET /stats HTTP/1.1" 200 -
+16-Jun-19 13:43:12 - 127.0.0.1 - - [16/Jun/2019 13:43:12] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:43:14 - 127.0.0.1 - - [16/Jun/2019 13:43:14] "GET /calc HTTP/1.1" 200 -
+16-Jun-19 13:43:14 - 127.0.0.1 - - [16/Jun/2019 13:43:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:43:16 - 127.0.0.1 - - [16/Jun/2019 13:43:16] "GET /bindata HTTP/1.1" 200 -
+16-Jun-19 13:43:16 - 127.0.0.1 - - [16/Jun/2019 13:43:16] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:43:20 - 127.0.0.1 - - [16/Jun/2019 13:43:20] "POST /new_bindata HTTP/1.1" 404 -
+16-Jun-19 13:46:23 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+16-Jun-19 13:46:23 -  * Restarting with stat
+16-Jun-19 13:46:23 -  * Debugger is active!
+16-Jun-19 13:46:23 -  * Debugger PIN: 732-872-102
+16-Jun-19 13:46:32 - 127.0.0.1 - - [16/Jun/2019 13:46:32] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:46:32 - 127.0.0.1 - - [16/Jun/2019 13:46:32] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:46:34 - 127.0.0.1 - - [16/Jun/2019 13:46:34] "GET /stats HTTP/1.1" 200 -
+16-Jun-19 13:46:34 - 127.0.0.1 - - [16/Jun/2019 13:46:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:46:35 - 127.0.0.1 - - [16/Jun/2019 13:46:35] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:46:35 - 127.0.0.1 - - [16/Jun/2019 13:46:35] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:46:37 - 127.0.0.1 - - [16/Jun/2019 13:46:37] "GET /bindata HTTP/1.1" 200 -
+16-Jun-19 13:46:37 - 127.0.0.1 - - [16/Jun/2019 13:46:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:46:41 - 127.0.0.1 - - [16/Jun/2019 13:46:41] "POST /new_bindata HTTP/1.1" 404 -
+16-Jun-19 13:47:50 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+16-Jun-19 13:47:50 -  * Restarting with stat
+16-Jun-19 13:47:50 -  * Debugger is active!
+16-Jun-19 13:47:50 -  * Debugger PIN: 732-872-102
+16-Jun-19 13:47:55 - 127.0.0.1 - - [16/Jun/2019 13:47:55] "GET /bindata HTTP/1.1" 200 -
+16-Jun-19 13:47:55 - 127.0.0.1 - - [16/Jun/2019 13:47:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:00 - 127.0.0.1 - - [16/Jun/2019 13:48:00] "POST /bindata HTTP/1.1" 200 -
+16-Jun-19 13:48:00 - 127.0.0.1 - - [16/Jun/2019 13:48:00] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:03 - 127.0.0.1 - - [16/Jun/2019 13:48:03] "POST /bindata HTTP/1.1" 200 -
+16-Jun-19 13:48:03 - 127.0.0.1 - - [16/Jun/2019 13:48:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:06 - 127.0.0.1 - - [16/Jun/2019 13:48:06] "POST /bindata HTTP/1.1" 200 -
+16-Jun-19 13:48:06 - 127.0.0.1 - - [16/Jun/2019 13:48:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:09 - 127.0.0.1 - - [16/Jun/2019 13:48:09] "POST /bindata HTTP/1.1" 200 -
+16-Jun-19 13:48:09 - 127.0.0.1 - - [16/Jun/2019 13:48:09] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:13 - 127.0.0.1 - - [16/Jun/2019 13:48:13] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:48:13 - 127.0.0.1 - - [16/Jun/2019 13:48:13] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:20 - 127.0.0.1 - - [16/Jun/2019 13:48:20] "POST /index HTTP/1.1" 404 -
+16-Jun-19 13:48:39 - 127.0.0.1 - - [16/Jun/2019 13:48:39] "GET / HTTP/1.1" 200 -
+16-Jun-19 13:48:39 - 127.0.0.1 - - [16/Jun/2019 13:48:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:51 - 127.0.0.1 - - [16/Jun/2019 13:48:51] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:48:51 - 127.0.0.1 - - [16/Jun/2019 13:48:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:48:58 - 127.0.0.1 - - [16/Jun/2019 13:48:58] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:48:58 - 127.0.0.1 - - [16/Jun/2019 13:48:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:06 - 127.0.0.1 - - [16/Jun/2019 13:49:06] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:06 - 127.0.0.1 - - [16/Jun/2019 13:49:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:11 - 127.0.0.1 - - [16/Jun/2019 13:49:11] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:11 - 127.0.0.1 - - [16/Jun/2019 13:49:11] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:15 - 127.0.0.1 - - [16/Jun/2019 13:49:15] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:15 - 127.0.0.1 - - [16/Jun/2019 13:49:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:20 - 127.0.0.1 - - [16/Jun/2019 13:49:20] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:20 - 127.0.0.1 - - [16/Jun/2019 13:49:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:26 - 127.0.0.1 - - [16/Jun/2019 13:49:26] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:26 - 127.0.0.1 - - [16/Jun/2019 13:49:26] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:49:31 - 127.0.0.1 - - [16/Jun/2019 13:49:31] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:49:31 - 127.0.0.1 - - [16/Jun/2019 13:49:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:34 - 127.0.0.1 - - [16/Jun/2019 13:50:34] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:50:34 - 127.0.0.1 - - [16/Jun/2019 13:50:34] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:37 - 127.0.0.1 - - [16/Jun/2019 13:50:37] "POST / HTTP/1.1" 200 -
+16-Jun-19 13:50:37 - 127.0.0.1 - - [16/Jun/2019 13:50:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:44 - 127.0.0.1 - - [16/Jun/2019 13:50:44] "GET /stats HTTP/1.1" 200 -
+16-Jun-19 13:50:44 - 127.0.0.1 - - [16/Jun/2019 13:50:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:46 - 127.0.0.1 - - [16/Jun/2019 13:50:46] "GET /calc HTTP/1.1" 200 -
+16-Jun-19 13:50:46 - 127.0.0.1 - - [16/Jun/2019 13:50:46] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:49 - 127.0.0.1 - - [16/Jun/2019 13:50:49] "POST /calc HTTP/1.1" 200 -
+16-Jun-19 13:50:49 - 127.0.0.1 - - [16/Jun/2019 13:50:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:52 - 127.0.0.1 - - [16/Jun/2019 13:50:52] "POST /calc HTTP/1.1" 200 -
+16-Jun-19 13:50:52 - 127.0.0.1 - - [16/Jun/2019 13:50:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:55 - 127.0.0.1 - - [16/Jun/2019 13:50:55] "POST /calc HTTP/1.1" 200 -
+16-Jun-19 13:50:55 - 127.0.0.1 - - [16/Jun/2019 13:50:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+16-Jun-19 13:50:58 - 127.0.0.1 - - [16/Jun/2019 13:50:58] "POST /calc HTTP/1.1" 200 -
+16-Jun-19 13:50:58 - 127.0.0.1 - - [16/Jun/2019 13:50:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -

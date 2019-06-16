@@ -13,7 +13,9 @@ ADDRESSES = 'addresses'
 cnx = None
 
 # logging configuration
-logging.basicConfig(filename='example.log', level=logging.DEBUG)
+#logging.basicConfig(filename='example.log', level=logging.DEBUG)
+logging.basicConfig(filename='db_handler.log', format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+
 
 
 def connect_to_db():
