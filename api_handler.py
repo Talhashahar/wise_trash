@@ -11,36 +11,6 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 
 
-@app.route("/")
-def index():
-    online = db_handler.get_sensors_count_by_status("online")
-    offline = db_handler.get_sensors_count_by_status("offline")
-    pickup_today = db_handler.get_sensor_over_x_capacity(int(configuration.trash_threshold))
-    no_needed_pickup_today = db_handler.get_sensor_under_x_capacity(int(configuration.trash_threshold))
-    low_battery_bins = db_handler.get_sensor_under_x_battery(configuration.battery_threshold)
-    all_bins = db_handler.get_sensors()
-    total_avg_fill = 0
-    need_to_pickup_total = 0
-    no_need_to_pickup_total = 0
-    picked_up_bins = 0
-    for bin in all_bins:
-        total_avg_fill += utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(bin[0]))
-        statistics_bin = db_handler.get_last_two_days_statistics(bin[0])
-        if len(statistics_bin) == 2:
-            if statistics_bin[1][2] > statistics_bin[0][2]:
-                picked_up_bins = picked_up_bins + 1
-    total_avg_fill = total_avg_fill / db_handler.get_count_sensors()
-    for bin in pickup_today:
-        need_to_pickup_total = need_to_pickup_total + bin[2]
-    for bin in no_needed_pickup_today:
-        no_need_to_pickup_total = no_need_to_pickup_total + bin[2]
-    return render_template('index.html', online=int(online), offline=int(offline), total=online + offline,
-                           need_pickup_count=len(pickup_today), need_to_pickup_total=need_to_pickup_total,
-                           total_avg_fill=round(total_avg_fill, 3), no_need_to_pickup_total=no_need_to_pickup_total,
-                           no_needed_pickup_today=len(no_needed_pickup_today), low_battery_bins=len(low_battery_bins),
-                           picked_up_bins=picked_up_bins)
-
-
 @app.route("/insert_driver/", methods=['GET', 'POST'])
 def insert_driver():
     content = request.json
@@ -58,18 +28,6 @@ def show_tables():
     all = db_handler.get_sensor_over_x_capacity(0)
     over_80 = db_handler.get_sensor_over_x_capacity(80)
     return render_template('sensor_overview.html', all=all, over_80=over_80)
-
-
-@app.route("/map")
-def map_test():
-    sensors = db_handler.get_sensor_over_x_capacity(0)
-    capacity = request.args.get('capacity')
-    if not capacity:
-        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-    else:
-        capacity = int(capacity)
-        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors if int(x[2]) <= capacity]
-    return render_template('map.html', sensors=json.dumps(sensors))
 
 
 @app.route('/get_all_sensors_by_json')
@@ -151,26 +109,6 @@ def get_count_last_update_sensors():  # need to get id from UI
     return res
 
 
-@app.route('/calc', methods=['GET', 'POST'])
-def calc():
-    if request.method == 'POST':
-        new_threshold = configuration.trash_threshold
-        configuration.trash_threshold = new_threshold
-        # db_handler.update_treshold(new_threshold)
-    capacity = request.args.get('capacity') or 70
-    pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
-    remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
-    threshold = configuration.trash_threshold
-    risk_sensors = []
-    for sensor in remain_sensors:
-        fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
-        if int(sensor[2]) + fill_avg >= threshold:
-            risk_sensors.append(sensor)
-    return render_template("Calc.html", sensors=pickup_sensors, capacityint=capacity,
-                           total_to_pickup=len(pickup_sensors), trash_treshold=threshold, risked=len(risk_sensors),
-                           unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
-
-
 @app.route("/base")
 def base():
     return render_template('base.html')
@@ -185,7 +123,7 @@ def update_sensor_by_id(data):
     return "seccues"
 
 
-@app.route("/new_index", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def new_index():
     if request.method == 'POST':
         checked_list = []
@@ -255,35 +193,35 @@ def new_index():
         sensors = sensors_low + sensors_mid + sensors_full
         utils.write_sensors_to_csv(sensors)
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-        return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+        return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
                                sensors_full=sensors_full)
     utils.write_sensors_to_csv(sensors)
     sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-    return render_template("new/WISE2_main.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+    return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
                            sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
                            capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
                            ConnectedBins=checked_list[5], FailedBins=checked_list[6])
 
 
-@app.route("/new_bindata", methods=['GET', 'POST'])
+@app.route("/bindata", methods=['GET', 'POST'])
 def new_databins():
     if request.method == 'POST':
         result = request.form
         if result['radio-stacked'] == "capacity":
             sensors = db_handler.get_sensor_between_capacity(result['capacity'], 100)
             if not sensors:
-                return render_template("new/WISE2_DataBins.html")
+                return render_template("databins.html")
             sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
         elif result['radio-stacked'] == 'id':
             sensors = db_handler.get_sensor_by_id(result['Bin_ID'])
             if sensors is not None:
                 sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
             else:
-                return render_template("new/WISE2_DataBins.html")
+                return render_template("databins.html")
         else:
             sensors = db_handler.get_sensor_by_address(result['address'])
             if not sensors:
-                return render_template("new/WISE2_DataBins.html")
+                return render_template("databins.html")
             sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
     else:
         sensors_low = db_handler.get_sensor_between_capacity(0, 25)
@@ -291,10 +229,10 @@ def new_databins():
         sensors_full = db_handler.get_sensor_between_capacity(76, 100)
         sensors = sensors_low + sensors_mid + sensors_full
     utils.write_sensors_to_csv(sensors)
-    return render_template("new/WISE2_DataBins.html", sensors=sensors)
+    return render_template("databins.html", sensors=sensors)
 
 
-@app.route("/new_calc", methods=['GET', 'POST'])
+@app.route("/calc", methods=['GET', 'POST'])
 def new_calc():
     config_trashold = configuration.trash_threshold
     present_treshold = configuration.trash_threshold
@@ -324,21 +262,21 @@ def new_calc():
     #     if int(sensor[2]) + fill_avg >= threshold:
     #         risk_sensors.append(sensor)
 
-    # return render_template("new/Calc.html")
-    return render_template("new/Calc.html", sensors=pickup_sensors, capacityint=capacity,
+    # return render_template("new/calc.html")
+    return render_template("calc.html", sensors=pickup_sensors, capacityint=capacity,
                            total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
                            present_treshold=present_treshold, risked=len(risk_sensors),
                            unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 
-@app.route("/new_stats")
+@app.route("/stats")
 def new_stats():
-    return render_template("new/WISE2_stats.html")
+    return render_template("analytics.html")
 
 
-@app.route("/new_about")
+@app.route("/about")
 def new_about():
-    return render_template("new/WISE2_about.html")
+    return render_template("about.html")
 
 
 @app.route("/download/<string:data>")

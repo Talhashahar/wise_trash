@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">MAIN TRASH BOARD</a>
+
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-dashboard"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                           <a href="">
+                               Account
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="container-fluid">
+                    <div class="row">
+                            <div class="col-md-3">
+                               <div class="card">
+
+                                   <div class="header">
+                                       <h4 class="title">Sensors status</h4>
+                                       <p class="category">Total connected Trash-Bins</p>
+                                   </div>
+                                   <div class="content">
+                                       <h3><b> Total : {{total|safe}}</b></h3>
+                                       <h3><b> Online : {{online|safe}}</b></h3>
+                                       <h3><b> Offline : {{offline|safe}}</b></h3>
+                                       <div class="footer">
+                                           <div class="legend">
+                                               Footer content
+                                           </div>
+                                           <hr>
+                                           <div class="stats">
+                                               <i class="fa fa-clock-o"></i> Update sent 2 Months ago
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="card">
+
+                                    <div class="header">
+                                        <h4 class="title">Bins to pickup today</h4>
+                                        <p class="category"></p>
+                                    </div>
+                                    <div class="content">
+                                        <h3><b>bins: {{need_pickup_count | safe}}</b></h3>
+                                        <h3><b>weight bins: {{need_to_pickup_total | safe}}</b></h3>
+                                        <div class="footer">
+                                            <div class="legend">
+                                                Footer content
+                                            </div>
+                                            <hr>
+                                            <div class="stats">
+                                                <i class="fa fa-clock-o"></i> Update sent 2 days ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+
+                                        <div class="header">
+                                            <h4 class="title">Avg Fill Level</h4>
+                                           <!--<p class="category">Total Trash-Bins</p> -->
+                                        </div>
+                                            <div class="content">
+                                            <div class="footer">
+                                                <div class="legend">
+                                                    <h3><b>{{total_avg_fill | safe}}</b></h3>
+                                                </div>
+                                                <hr>
+                                                <div class="stats">
+                                                    <i class="fa fa-clock-o"></i> Update sent 4 Hours ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                    </div>
+                    <div class="row">
+                                <div class="col-md-3">
+                                   <div class="card">
+                                       <div class="header">
+                                           <h4 class="title">Bins not to Pick</h4>
+                                           <!--<p class="category">Total Trash-Bins</p>-->
+                                       </div>
+                                       <div class="content">
+                                           <div class="footer">
+                                               <div class="legend">
+                                                <h3><b> Bins: {{no_needed_pickup_today | safe}}</b></h3>
+                                                <h3><b> Weight: {{no_need_to_pickup_total | safe}}</b></h3>
+                                               </div>
+                                               <hr>
+                                               <div class="stats">
+                                                   <i class="fa fa-clock-o"></i> Update sent 4 Hours ago
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="card">
+
+                                        <div class="header">
+                                            <h4 class="title">Low Battery Bins</h4>
+                                            <p class="category">Total connected Trash-Bins</p>
+                                        </div>
+                                        <div class="content">
+                                            <h2><b>Bins: {{low_battery_bins| safe}}</b></h2>
+
+                                            <div class="footer">
+                                                <div class="legend">
+                                                    Footer content
+                                                </div>
+                                                <hr>
+                                                <div class="stats">
+                                                    <i class="fa fa-clock-o"></i> Update sent 2 days ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                            <div class="header">
+                                                <h4 class="title">Card 5</h4>
+                                                <p class="category">Total Available Trucks</p>
+                                            </div>
+                                            <div class="content">
+                                                <h2><b>17</b></h2>
+                                                <div class="footer">
+                                                    <div class="legend">
+                                                        Footer content
+                                                    </div>
+                                                    <hr>
+                                                    <div class="stats">
+                                                        <i class="fa fa-clock-o"></i> Last Update 2 Hours ago
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                    <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+
+                                    <div class="header">
+                                        <h4 class="title">Bins Picked Today</h4>
+                                        <!--<p class="category">Total Something</p>-->
+                                    </div>
+                                    <div class="content">
+                                        <div class="footer">
+                                            <div class="legend">
+                                                <h3><b>Bins: {{picked_up_bins|safe }}</b></h3>
+                                            </div>
+                                            <hr>
+                                            <div class="stats">
+                                                <i class="fa fa-clock-o"></i> Update sent 4 Hours ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="card">
+
+                                        <div class="header">
+                                            <h4 class="title">Card 7</h4>
+                                            <p class="category">Total connected Trash-Bins</p>
+                                        </div>
+                                        <div class="content">
+                                            <h2><b>16</b></h2>
+
+                                            <div class="footer">
+                                                <div class="legend">
+                                                    Footer content
+                                                </div>
+                                                <hr>
+                                                <div class="stats">
+                                                    <i class="fa fa-clock-o"></i> Update sent 2 days ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        <div class="card">
+
+                                            <div class="header">
+                                                <h4 class="title">Card 8</h4>
+                                                <p class="category">Total Trash-Bins</p>
+                                            </div>
+                                            <div class="content">
+                                               Content
+
+                                                <div class="footer">
+                                                    <div class="legend">
+                                                        <i class="fa fa-circle text-info"></i> Empty
+                                                        <i class="fa fa-circle text-warning"></i> Medium
+                                                        <i class="fa fa-circle text-danger"></i> Full
+
+                                                    </div>
+                                                    <hr>
+                                                    <div class="stats">
+                                                        <i class="fa fa-clock-o"></i> Update sent 4 Hours ago
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
