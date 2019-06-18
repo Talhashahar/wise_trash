@@ -611,10 +611,37 @@ def set_sensor_capacity_to_zero_by_id(sensor_id):
 
 
 def get_user_by_username(user):
-    sql = "SELECT * FROM `users` WHERE `user`=%s"
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT * FROM users WHERE user=%s"
+    data = (str(user),)
+    try:
+        cursor.execute(q, data)
+        res = cursor.fetchall()
+        if res:
+            res = res[0]
+            res = {
+                'id': res[0],
+                'user': res[1],
+                'password': res[2]
+            }
+        logging.info('user got')
+        return res
+    except Exception as e:
+        logging.error('failed to get user in db', e)
     return None
 
 
 def add_user(user, password):
-    sql = f"INSERT INTO users (user, password) VALUES (%s, %s)"
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = f"INSERT INTO users (user, password) VALUES (%s, %s)"
+    data = (user, password)
+    try:
+        cursor.execute(q, data)
+        db.commit()
+        logging.info('user added')
+    except Exception as e:
+        logging.error('failed to create user in db', e)
+
     return None

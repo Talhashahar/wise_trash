@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify, send_file
+from flask import Flask, request, render_template, jsonify, send_file, make_response
 import db_handler
 import json
 import jwt
@@ -6,13 +6,18 @@ import utils
 import configuration
 import datetime
 from flask_cors import CORS
-from utils import is_password_valid, encrypt, decrypt, generate_token, get_data_by_token
+from utils import is_password_valid, encrypt, decrypt, generate_token, get_data_by_token, validate_token
 from exceptions import *
 from logger import Logger
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 logger = Logger(__name__)
+
+
+@app.route("/new_login")
+def new_login():
+    return render_template("login.html")
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
@@ -34,76 +39,86 @@ def show_tables():
     return render_template('sensor_overview.html', all=all, over_80=over_80)
 
 
-@app.route("/register")
+@app.route("/register", methods=['GET', 'POST'])
 def register():
-    try:
-        data = request.form
-        user = data.get('user')
-        password = data.get('password')
-        if not is_password_valid(password):
-            raise PasswordInvalid()
-        else:
-            password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
-        if not (user and password):
-            raise EmptyForm()
-        user_data = db_handler.get_user_by_username(user)
-        if user_data:
-            raise UserAlreadyExists(user)
-        else:
-            db_handler.add_user(user, password)
-            return 'ok', 200  # DO what you want is good
+    if request.method == 'POST':
+        try:
+            data = request.values
+            user = data.get('username')
+            password = data.get('password')
+            if not is_password_valid(password):
+                raise PasswordInvalid()
+            else:
+                password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+            if not (user and password):
+                raise EmptyForm()
+            user_data = db_handler.get_user_by_username(user)
+            if user_data:
+                raise UserAlreadyExists(user)
+            else:
+                db_handler.add_user(user, password)
+                return 'ok', 200  # DO what you want is good
 
-    except PasswordInvalid as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 401
-    except UserAlreadyExists as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 401
-    except (EmptyForm, ValueError) as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 406
-    except Exception as e:
-        logger.exception(f'Failed register')
-        return f'Failed register {e.__str__()}', 501
+        except PasswordInvalid as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 401
+        except UserAlreadyExists as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 401
+        except (EmptyForm, ValueError) as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 406
+        except Exception as e:
+            logger.exception(f'Failed register')
+            return f'Failed register {e.__str__()}', 501
+    else:
+        return render_template('register.html')
 
 
-@app.route("/login")
+
+
+@app.route("/login", methods=['GET', 'POST'])
 def login():
     '''
     POST login to system and generate JWT token
     :param request: flask request object
     '''
-    try:
-        data = request.form
-        user = data.get('user')
-        password = data.get('password')
-        if not (user and password):
-            logger.info(f'Login failed on {request.remote_addr}, missing credentials')
-            raise InvalidCredentials(user, password)
+    if request.method == 'POST':
+        try:
+            data = request.values
+            user = data.get('username')
+            password = data.get('password')
+            if not (user and password):
+                logger.info(f'Login failed on {request.remote_addr}, missing credentials')
+                raise InvalidCredentials(user, password)
 
-        user_data = db_handler.get_user_by_username(user)
-        if not user_data:
-            raise UserNotExists(user)
+            user_data = db_handler.get_user_by_username(user)
+            if not user_data:
+                raise UserNotExists(user)
 
-        elif not (str.encode(password) == decrypt(configuration.PASSWORD_ENCRYPTION_KEY, user_data['password'])):
-            raise InvalidCredentials(user)
-        else:
-            token = generate_token(user_data['id'])
-            logger.info(f'Token for user {user} created. token: {token}')
-            return token, 201
+            elif not (str.encode(password) == decrypt(configuration.PASSWORD_ENCRYPTION_KEY, user_data['password'])):
+                raise InvalidCredentials(user)
+            else:
+                token = generate_token(user_data['id'])
+                logger.info(f'Token for user {user} created. token: {token}')
+                resp = make_response(render_template('index.html'))
+                resp.set_cookie('token', token)
+                return resp
 
-    except UserNotVerified as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 401
-    except UserNotExists as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 404
-    except InvalidCredentials as e:
-        logger.warning(e.__str__())
-        return e.__str__(), 401
-    except Exception as e:
-        logger.exception(f'Failed login from {request.remote_addr}')
-        return f'Failed login {e.__str__()}', 501
+        except UserNotVerified as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 401
+        except UserNotExists as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 404
+        except InvalidCredentials as e:
+            logger.warning(e.__str__())
+            return e.__str__(), 401
+        except Exception as e:
+            logger.exception(f'Failed login from {request.remote_addr}')
+            return f'Failed login {e.__str__()}', 501
+    else:
+        return render_template('login.html')
 
 
 @app.route('/get_all_sensors_by_json')
@@ -202,7 +217,7 @@ def update_sensor_by_id(data):
 @app.route("/", methods=['GET', 'POST'])
 def new_index():
     try:
-        token = request.headers.get('token', None)
+        token = request.cookies.get('token', None)
         if not token:
             raise TokenNotExists()
         user = get_data_by_token(token)
@@ -289,6 +304,9 @@ def new_index():
 
 @app.route("/bindata", methods=['GET', 'POST'])
 def new_databins():
+    token = request.cookies.get('token', None)
+    if not token:
+        raise TokenNotExists()
     if request.method == 'POST':
         result = request.form
         if result['radio-stacked'] == "capacity":
@@ -318,6 +336,8 @@ def new_databins():
 
 @app.route("/calc", methods=['GET', 'POST'])
 def new_calc():
+    if not validate_token(request):
+        return 'no token'
     config_trashold = configuration.trash_threshold
     present_treshold = configuration.trash_threshold
     if request.method == 'POST':
@@ -351,6 +371,7 @@ def new_calc():
                            total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
                            present_treshold=present_treshold, risked=len(risk_sensors),
                            unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
+
 
 
 @app.route("/stats")

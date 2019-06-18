@@ -266,3 +266,291 @@
 18-Jun-19 08:23:57 -  * Restarting with stat
 18-Jun-19 08:23:58 -  * Debugger is active!
 18-Jun-19 08:23:58 -  * Debugger PIN: 732-872-102
+18-Jun-19 21:33:36 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:33:36 -  * Restarting with stat
+18-Jun-19 21:33:37 -  * Debugger is active!
+18-Jun-19 21:33:37 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:36:13 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 21:36:13 -  * Restarting with stat
+18-Jun-19 21:36:36 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:36:36 -  * Restarting with stat
+18-Jun-19 21:36:37 -  * Debugger is active!
+18-Jun-19 21:36:37 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:36:39 - 127.0.0.1 - - [18/Jun/2019 21:36:39] "GET / HTTP/1.1" 500 -
+18-Jun-19 21:36:39 - 127.0.0.1 - - [18/Jun/2019 21:36:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+18-Jun-19 21:36:39 - 127.0.0.1 - - [18/Jun/2019 21:36:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18-Jun-19 21:36:43 - 127.0.0.1 - - [18/Jun/2019 21:36:43] "GET /new_login HTTP/1.1" 200 -
+18-Jun-19 21:36:43 - 127.0.0.1 - - [18/Jun/2019 21:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+18-Jun-19 21:40:42 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:40:42 -  * Restarting with stat
+18-Jun-19 21:40:43 -  * Debugger is active!
+18-Jun-19 21:40:43 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:41:11 - Password is not matching the requirements
+18-Jun-19 21:41:17 - 127.0.0.1 - - [18/Jun/2019 21:41:17] "GET /register?username=asdsMickey&password=Mousesaf HTTP/1.1" 401 -
+18-Jun-19 21:50:20 - Failed register
+Traceback (most recent call last):
+  File "/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py", line 51, in register
+    password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+  File "/home/tal/Desktop/python_projects/wise_trash_local/utils.py", line 51, in encrypt
+    key = SHA256.new(key).digest()  # use SHA-256 over our key to get a proper-sized AES key
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 88, in new
+    return SHA256Hash().new(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 75, in new
+    return SHA256Hash(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 72, in __init__
+    HashAlgo.__init__(self, hashFactory, data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 51, in __init__
+    self.update(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 69, in update
+    return self._hash.update(data)
+TypeError: Unicode-objects must be encoded before hashing
+18-Jun-19 21:50:25 - 127.0.0.1 - - [18/Jun/2019 21:50:25] "GET /register?username=asdsMickey&password=Password1%21 HTTP/1.1" 501 -
+18-Jun-19 21:51:00 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:51:00 -  * Restarting with stat
+18-Jun-19 21:51:01 -  * Debugger is active!
+18-Jun-19 21:51:01 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:51:27 - Failed register
+Traceback (most recent call last):
+  File "/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py", line 51, in register
+    password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+  File "/home/tal/Desktop/python_projects/wise_trash_local/utils.py", line 51, in encrypt
+    key = SHA256.new(key).digest()  # use SHA-256 over our key to get a proper-sized AES key
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 88, in new
+    return SHA256Hash().new(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 75, in new
+    return SHA256Hash(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 72, in __init__
+    HashAlgo.__init__(self, hashFactory, data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 51, in __init__
+    self.update(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 69, in update
+    return self._hash.update(data)
+TypeError: Unicode-objects must be encoded before hashing
+18-Jun-19 21:51:28 - 127.0.0.1 - - [18/Jun/2019 21:51:28] "GET /register?username=asdsMickey&password=Password1%21 HTTP/1.1" 501 -
+18-Jun-19 21:54:16 - Failed register
+Traceback (most recent call last):
+  File "/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py", line 51, in register
+    password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+  File "/home/tal/Desktop/python_projects/wise_trash_local/utils.py", line 51, in encrypt
+    key = SHA256.new(key).digest()  # use SHA-256 over our key to get a proper-sized AES key
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 88, in new
+    return SHA256Hash().new(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 75, in new
+    return SHA256Hash(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/SHA256.py", line 72, in __init__
+    HashAlgo.__init__(self, hashFactory, data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 51, in __init__
+    self.update(data)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/Crypto/Hash/hashalgo.py", line 69, in update
+    return self._hash.update(data)
+TypeError: Unicode-objects must be encoded before hashing
+18-Jun-19 21:54:16 - 127.0.0.1 - - [18/Jun/2019 21:54:16] "GET /register?username=asdsMickey&password=Password1%21 HTTP/1.1" 501 -
+18-Jun-19 21:54:20 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/configuration.py', reloading
+18-Jun-19 21:54:20 -  * Restarting with stat
+18-Jun-19 21:54:21 -  * Debugger is active!
+18-Jun-19 21:54:21 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:58:27 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:58:27 -  * Restarting with stat
+18-Jun-19 21:58:27 -  * Debugger is active!
+18-Jun-19 21:58:27 -  * Debugger PIN: 308-328-761
+18-Jun-19 21:59:27 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 21:59:27 -  * Restarting with stat
+18-Jun-19 21:59:28 -  * Debugger is active!
+18-Jun-19 21:59:28 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:00:13 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/db_handler.py', reloading
+18-Jun-19 22:00:13 -  * Restarting with stat
+18-Jun-19 22:00:14 -  * Debugger is active!
+18-Jun-19 22:00:15 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:00:17 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:00:17 -  * Restarting with stat
+18-Jun-19 22:00:18 -  * Debugger is active!
+18-Jun-19 22:00:18 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:01:41 - 127.0.0.1 - - [18/Jun/2019 22:01:41] "GET /register?username=asdsMickey&password=Password1%21 HTTP/1.1" 200 -
+18-Jun-19 22:16:34 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:16:34 -  * Restarting with stat
+18-Jun-19 22:16:35 -  * Debugger is active!
+18-Jun-19 22:16:35 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:17:10 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:17:10 -  * Restarting with stat
+18-Jun-19 22:17:11 -  * Debugger is active!
+18-Jun-19 22:17:11 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:18:11 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:18:11 -  * Restarting with stat
+18-Jun-19 22:18:12 -  * Debugger is active!
+18-Jun-19 22:18:12 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:18:21 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:18:21 -  * Restarting with stat
+18-Jun-19 22:18:22 -  * Debugger is active!
+18-Jun-19 22:18:22 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:18:43 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:18:43 -  * Restarting with stat
+18-Jun-19 22:18:44 -  * Debugger is active!
+18-Jun-19 22:18:44 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:18:48 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:18:48 -  * Restarting with stat
+18-Jun-19 22:18:48 -  * Debugger is active!
+18-Jun-19 22:18:49 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:27:05 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:27:05 -  * Restarting with stat
+18-Jun-19 22:27:06 -  * Debugger is active!
+18-Jun-19 22:27:06 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:27:08 - 127.0.0.1 - - [18/Jun/2019 22:27:08] "GET / HTTP/1.1" 500 -
+18-Jun-19 22:27:08 - 127.0.0.1 - - [18/Jun/2019 22:27:08] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+18-Jun-19 22:27:08 - 127.0.0.1 - - [18/Jun/2019 22:27:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18-Jun-19 22:27:08 - 127.0.0.1 - - [18/Jun/2019 22:27:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+18-Jun-19 22:27:13 - 127.0.0.1 - - [18/Jun/2019 22:27:13] "GET /login HTTP/1.1" 200 -
+18-Jun-19 22:28:01 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:28:01 -  * Restarting with stat
+18-Jun-19 22:28:02 -  * Debugger is active!
+18-Jun-19 22:28:02 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:28:04 - 127.0.0.1 - - [18/Jun/2019 22:28:04] "GET /login HTTP/1.1" 200 -
+18-Jun-19 22:28:13 - 127.0.0.1 - - [18/Jun/2019 22:28:13] "GET /register HTTP/1.1" 200 -
+18-Jun-19 22:28:36 - 127.0.0.1 - - [18/Jun/2019 22:28:36] "POST /register HTTP/1.1" 200 -
+18-Jun-19 22:28:47 - 127.0.0.1 - - [18/Jun/2019 22:28:47] "GET /login HTTP/1.1" 200 -
+18-Jun-19 22:29:02 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:29:02 -  * Restarting with stat
+18-Jun-19 22:29:03 -  * Debugger is active!
+18-Jun-19 22:29:03 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:29:04 - 127.0.0.1 - - [18/Jun/2019 22:29:04] "GET /login HTTP/1.1" 200 -
+18-Jun-19 22:30:00 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:30:00 -  * Restarting with stat
+18-Jun-19 22:30:00 -  * Debugger is active!
+18-Jun-19 22:30:00 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:31:45 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:31:45 -  * Restarting with stat
+18-Jun-19 22:31:46 -  * Debugger is active!
+18-Jun-19 22:31:46 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:34:38 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:34:38 -  * Restarting with stat
+18-Jun-19 22:34:40 -  * Debugger is active!
+18-Jun-19 22:34:40 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:34:47 - User Tal not exists
+18-Jun-19 22:34:48 - 127.0.0.1 - - [18/Jun/2019 22:34:48] "POST /login HTTP/1.1" 404 -
+18-Jun-19 22:35:07 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:35:07 -  * Restarting with stat
+18-Jun-19 22:35:07 -  * Debugger is active!
+18-Jun-19 22:35:07 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:35:15 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:35:15 -  * Restarting with stat
+18-Jun-19 22:35:16 -  * Debugger is active!
+18-Jun-19 22:35:16 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:35:47 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:35:47 -  * Restarting with stat
+18-Jun-19 22:35:48 -  * Debugger is active!
+18-Jun-19 22:35:48 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:36:16 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:36:16 -  * Restarting with stat
+18-Jun-19 22:36:17 -  * Debugger is active!
+18-Jun-19 22:36:17 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:36:32 - Token for user Tal created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE1NjA5NzI5OTJ9.fwOetQU2kt8efF8LmGyLrYQAu6zn6i9nl4GValvlzJg
+18-Jun-19 22:36:32 - Failed login from 127.0.0.1
+Traceback (most recent call last):
+  File "/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py", line 104, in login
+    resp = make_response(render_template('readcookie.html'))
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/tal/Desktop/python_projects/venv/wise_trash/lib/python3.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: readcookie.html
+18-Jun-19 22:36:32 - 127.0.0.1 - - [18/Jun/2019 22:36:32] "POST /login HTTP/1.1" 501 -
+18-Jun-19 22:37:03 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:37:03 -  * Restarting with stat
+18-Jun-19 22:37:04 -  * Debugger is active!
+18-Jun-19 22:37:04 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:37:21 - Token for user Tal created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE1NjA5NzMwMzl9.Hn8t8_VHbmdMkWI7BPagboD11HTZJiV3MXKmIJg2qcU
+18-Jun-19 22:37:45 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:37:45 -  * Restarting with stat
+18-Jun-19 22:37:46 -  * Debugger is active!
+18-Jun-19 22:37:46 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:37:55 - Token for user Tal created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE1NjA5NzMwNzV9.7lKCXhb3yBmfxE09g6yjwy20szU_fFzqWGbDJUghcKI
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "POST /login HTTP/1.1" 500 -
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18-Jun-19 22:38:08 - 127.0.0.1 - - [18/Jun/2019 22:38:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18-Jun-19 22:38:59 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:38:59 -  * Restarting with stat
+18-Jun-19 22:39:00 -  * Debugger is active!
+18-Jun-19 22:39:00 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:39:08 - Token for user Tal created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE1NjA5NzMxNDh9.XBxiaCSItcxfq3pXE2YgM4gStAYu1Dd_GbnVdzjAMhQ
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "POST /login HTTP/1.1" 200 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/maps.js HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/chartist.min.js HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 304 -
+18-Jun-19 22:39:08 - 127.0.0.1 - - [18/Jun/2019 22:39:08] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 304 -
+18-Jun-19 22:39:09 - 127.0.0.1 - - [18/Jun/2019 22:39:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 22:39:19 - 127.0.0.1 - - [18/Jun/2019 22:39:19] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 22:39:19 - 127.0.0.1 - - [18/Jun/2019 22:39:19] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 22:39:19 - 127.0.0.1 - - [18/Jun/2019 22:39:19] "GET /static/assets/js/charts-main.js HTTP/1.1" 304 -
+18-Jun-19 22:40:23 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:40:23 -  * Restarting with stat
+18-Jun-19 22:40:24 -  * Debugger is active!
+18-Jun-19 22:40:24 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:40:48 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 22:40:48 -  * Restarting with stat
+18-Jun-19 22:40:49 -  * Debugger is active!
+18-Jun-19 22:40:49 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:40:53 - 127.0.0.1 - - [18/Jun/2019 22:40:53] "GET /calc HTTP/1.1" 200 -
+18-Jun-19 22:40:53 - 127.0.0.1 - - [18/Jun/2019 22:40:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 22:40:53 - 127.0.0.1 - - [18/Jun/2019 22:40:53] "GET /static/assets/js/calc.js HTTP/1.1" 304 -
+18-Jun-19 22:42:06 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:42:06 -  * Restarting with stat
+18-Jun-19 22:42:06 -  * Debugger is active!
+18-Jun-19 22:42:06 -  * Debugger PIN: 308-328-761
+18-Jun-19 22:42:40 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 22:42:40 -  * Restarting with stat
+18-Jun-19 22:42:41 -  * Debugger is active!
+18-Jun-19 22:42:41 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:32:31 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:32:31 -  * Restarting with stat
+18-Jun-19 23:32:32 -  * Debugger is active!
+18-Jun-19 23:32:32 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:33:02 - 127.0.0.1 - - [18/Jun/2019 23:33:02] "GET /clac HTTP/1.1" 404 -
+18-Jun-19 23:33:02 - 127.0.0.1 - - [18/Jun/2019 23:33:02] "GET /favicon.ico HTTP/1.1" 404 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc HTTP/1.1" 500 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18-Jun-19 23:33:17 - 127.0.0.1 - - [18/Jun/2019 23:33:17] "GET /calc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+18-Jun-19 23:36:11 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:36:11 -  * Restarting with stat
+18-Jun-19 23:36:12 -  * Debugger is active!
+18-Jun-19 23:36:12 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:36:22 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:36:22 -  * Restarting with stat
+18-Jun-19 23:36:23 -  * Debugger is active!
+18-Jun-19 23:36:23 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:36:45 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:36:45 -  * Restarting with stat
+18-Jun-19 23:36:46 -  * Debugger is active!
+18-Jun-19 23:36:46 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:36:55 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:36:55 -  * Restarting with stat
+18-Jun-19 23:36:56 -  * Debugger is active!
+18-Jun-19 23:36:56 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:37:37 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 23:37:37 -  * Restarting with stat
+18-Jun-19 23:37:38 -  * Debugger is active!
+18-Jun-19 23:37:38 -  * Debugger PIN: 308-328-761
+18-Jun-19 23:37:51 - 127.0.0.1 - - [18/Jun/2019 23:37:51] "GET /calc HTTP/1.1" 200 -
+18-Jun-19 23:37:51 - 127.0.0.1 - - [18/Jun/2019 23:37:51] "GET /calc HTTP/1.1" 200 -

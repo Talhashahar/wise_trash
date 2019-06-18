@@ -8,6 +8,8 @@ from Crypto.Hash import SHA256
 from Crypto import Random
 import re
 
+from exceptions import TokenNotExists
+
 
 def convert_sensor_tuple_to_json(obj):
     mydict = {
@@ -94,3 +96,14 @@ def get_data_by_token(token):
 def is_password_valid(password):
     pattern = re.compile(conf.PASSWORD_PATTERN)
     return bool(re.search(pattern, password))
+
+
+def validate_token(request):
+    try:
+        token = request.cookies.get('token', None)
+        if not token:
+            raise TokenNotExists()
+        user = get_data_by_token(token)
+        return True
+    except (jwt.ExpiredSignatureError, TokenNotExists):
+        return False

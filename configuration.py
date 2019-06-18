@@ -16,4 +16,4 @@ battery_threshold = 30
 
 ALGO = 'HS256'
 API_TOKEN_KEY = 'ThisIsMyKey'
-PASSWORD_ENCRYPTION_KEY = 'thisIsPasswordEncryptionKey'
+PASSWORD_ENCRYPTION_KEY = str.encode('thisIsPasswordEncryptionKey')
