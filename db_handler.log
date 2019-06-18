@@ -90,3 +90,179 @@
 16-Jun-19 13:50:55 - 127.0.0.1 - - [16/Jun/2019 13:50:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 16-Jun-19 13:50:58 - 127.0.0.1 - - [16/Jun/2019 13:50:58] "POST /calc HTTP/1.1" 200 -
 16-Jun-19 13:50:58 - 127.0.0.1 - - [16/Jun/2019 13:50:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:30:20 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17-Jun-19 19:30:20 -  * Restarting with stat
+17-Jun-19 19:30:20 -  * Debugger is active!
+17-Jun-19 19:30:20 -  * Debugger PIN: 732-872-102
+17-Jun-19 19:31:53 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17-Jun-19 19:31:53 -  * Restarting with stat
+17-Jun-19 19:31:53 -  * Debugger is active!
+17-Jun-19 19:31:53 -  * Debugger PIN: 732-872-102
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET / HTTP/1.1" 200 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/maps.js HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/chartist.min.js HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 304 -
+17-Jun-19 19:32:31 - 127.0.0.1 - - [17/Jun/2019 19:32:31] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 304 -
+17-Jun-19 19:32:32 - 127.0.0.1 - - [17/Jun/2019 19:32:32] "GET /static/assets/img/empty.png HTTP/1.1" 200 -
+17-Jun-19 19:32:32 - 127.0.0.1 - - [17/Jun/2019 19:32:32] "GET /static/assets/img/middle.png HTTP/1.1" 200 -
+17-Jun-19 19:32:32 - 127.0.0.1 - - [17/Jun/2019 19:32:32] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+17-Jun-19 19:32:33 - 127.0.0.1 - - [17/Jun/2019 19:32:33] "GET /stats HTTP/1.1" 200 -
+17-Jun-19 19:32:33 - 127.0.0.1 - - [17/Jun/2019 19:32:33] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:34:39 - 127.0.0.1 - - [17/Jun/2019 19:34:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /stats HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+17-Jun-19 19:35:23 - 127.0.0.1 - - [17/Jun/2019 19:35:23] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+17-Jun-19 19:35:24 - 127.0.0.1 - - [17/Jun/2019 19:35:24] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+17-Jun-19 19:35:24 - 127.0.0.1 - - [17/Jun/2019 19:35:24] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+17-Jun-19 19:36:18 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17-Jun-19 19:36:18 -  * Restarting with stat
+17-Jun-19 19:36:18 -  * Debugger is active!
+17-Jun-19 19:36:18 -  * Debugger PIN: 732-872-102
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /stats HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+17-Jun-19 19:36:20 - 127.0.0.1 - - [17/Jun/2019 19:36:20] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+17-Jun-19 19:37:32 - 127.0.0.1 - - [17/Jun/2019 19:37:32] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+17-Jun-19 19:39:42 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17-Jun-19 19:39:42 -  * Restarting with stat
+17-Jun-19 19:39:42 -  * Debugger is active!
+17-Jun-19 19:39:42 -  * Debugger PIN: 732-872-102
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /stats HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+17-Jun-19 19:39:44 - 127.0.0.1 - - [17/Jun/2019 19:39:44] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+17-Jun-19 19:39:45 - 127.0.0.1 - - [17/Jun/2019 19:39:45] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+17-Jun-19 19:39:45 - 127.0.0.1 - - [17/Jun/2019 19:39:45] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+17-Jun-19 19:39:45 - 127.0.0.1 - - [17/Jun/2019 19:39:45] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+17-Jun-19 19:39:50 - 127.0.0.1 - - [17/Jun/2019 19:39:50] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+17-Jun-19 19:42:04 - 127.0.0.1 - - [17/Jun/2019 19:42:04] "GET /calc HTTP/1.1" 200 -
+17-Jun-19 19:42:04 - 127.0.0.1 - - [17/Jun/2019 19:42:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:42:04 - 127.0.0.1 - - [17/Jun/2019 19:42:04] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+17-Jun-19 19:42:09 - 127.0.0.1 - - [17/Jun/2019 19:42:09] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+17-Jun-19 19:42:10 - 127.0.0.1 - - [17/Jun/2019 19:42:10] "POST /calc HTTP/1.1" 200 -
+17-Jun-19 19:42:10 - 127.0.0.1 - - [17/Jun/2019 19:42:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+17-Jun-19 19:42:14 - 127.0.0.1 - - [17/Jun/2019 19:42:14] "GET /stats HTTP/1.1" 200 -
+17-Jun-19 19:42:14 - 127.0.0.1 - - [17/Jun/2019 19:42:14] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:09:10 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:09:10 -  * Restarting with stat
+18-Jun-19 08:09:11 -  * Debugger is active!
+18-Jun-19 08:09:11 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:09:16 - 127.0.0.1 - - [18/Jun/2019 08:09:16] "GET / HTTP/1.1" 200 -
+18-Jun-19 08:09:16 - 127.0.0.1 - - [18/Jun/2019 08:09:16] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 304 -
+18-Jun-19 08:09:16 - 127.0.0.1 - - [18/Jun/2019 08:09:16] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 -
+18-Jun-19 08:09:16 - 127.0.0.1 - - [18/Jun/2019 08:09:16] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/maps.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/chartist.min.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/js/charts-main.js HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 304 -
+18-Jun-19 08:09:17 - 127.0.0.1 - - [18/Jun/2019 08:09:17] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 304 -
+18-Jun-19 08:09:23 - 127.0.0.1 - - [18/Jun/2019 08:09:23] "GET /static/assets/img/empty.png HTTP/1.1" 304 -
+18-Jun-19 08:09:23 - 127.0.0.1 - - [18/Jun/2019 08:09:23] "GET /static/assets/img/middle.png HTTP/1.1" 304 -
+18-Jun-19 08:09:23 - 127.0.0.1 - - [18/Jun/2019 08:09:23] "GET /static/assets/img/favicon.ico HTTP/1.1" 304 -
+18-Jun-19 08:10:58 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:10:58 -  * Restarting with stat
+18-Jun-19 08:10:59 -  * Debugger is active!
+18-Jun-19 08:10:59 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:11:02 - 127.0.0.1 - - [18/Jun/2019 08:11:02] "GET / HTTP/1.1" 200 -
+18-Jun-19 08:11:02 - 127.0.0.1 - - [18/Jun/2019 08:11:02] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:11:03 - 127.0.0.1 - - [18/Jun/2019 08:11:03] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:11:33 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:11:33 -  * Restarting with stat
+18-Jun-19 08:11:34 -  * Debugger is active!
+18-Jun-19 08:11:34 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:11:36 - 127.0.0.1 - - [18/Jun/2019 08:11:36] "GET / HTTP/1.1" 200 -
+18-Jun-19 08:11:36 - 127.0.0.1 - - [18/Jun/2019 08:11:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:11:37 - 127.0.0.1 - - [18/Jun/2019 08:11:37] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:11:40 - 127.0.0.1 - - [18/Jun/2019 08:11:40] "GET /get_avg_capacity_and_days HTTP/1.1" 500 -
+18-Jun-19 08:12:01 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:12:01 -  * Restarting with stat
+18-Jun-19 08:12:01 -  * Debugger is active!
+18-Jun-19 08:12:01 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:12:04 - 127.0.0.1 - - [18/Jun/2019 08:12:04] "GET / HTTP/1.1" 200 -
+18-Jun-19 08:12:04 - 127.0.0.1 - - [18/Jun/2019 08:12:04] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:12:05 - 127.0.0.1 - - [18/Jun/2019 08:12:05] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:12:06 - 127.0.0.1 - - [18/Jun/2019 08:12:06] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 08:12:06 - 127.0.0.1 - - [18/Jun/2019 08:12:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:12:26 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:12:26 -  * Restarting with stat
+18-Jun-19 08:12:27 -  * Debugger is active!
+18-Jun-19 08:12:27 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+18-Jun-19 08:12:28 - 127.0.0.1 - - [18/Jun/2019 08:12:28] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+18-Jun-19 08:12:29 - 127.0.0.1 - - [18/Jun/2019 08:12:29] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:12:49 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:12:49 -  * Restarting with stat
+18-Jun-19 08:12:50 -  * Debugger is active!
+18-Jun-19 08:12:50 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:12:50 - 127.0.0.1 - - [18/Jun/2019 08:12:50] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 08:12:50 - 127.0.0.1 - - [18/Jun/2019 08:12:50] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:12:50 - 127.0.0.1 - - [18/Jun/2019 08:12:50] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:13:05 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:13:05 -  * Restarting with stat
+18-Jun-19 08:13:06 -  * Debugger is active!
+18-Jun-19 08:13:06 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:13:07 - 127.0.0.1 - - [18/Jun/2019 08:13:07] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 08:13:07 - 127.0.0.1 - - [18/Jun/2019 08:13:07] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:13:08 - 127.0.0.1 - - [18/Jun/2019 08:13:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:22:01 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18-Jun-19 08:22:01 -  * Restarting with stat
+18-Jun-19 08:22:02 -  * Debugger is active!
+18-Jun-19 08:22:02 -  * Debugger PIN: 732-872-102
+18-Jun-19 08:22:02 - 127.0.0.1 - - [18/Jun/2019 08:22:02] "GET /stats HTTP/1.1" 200 -
+18-Jun-19 08:22:02 - 127.0.0.1 - - [18/Jun/2019 08:22:02] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+18-Jun-19 08:22:02 - 127.0.0.1 - - [18/Jun/2019 08:22:02] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+18-Jun-19 08:23:57 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+18-Jun-19 08:23:57 -  * Restarting with stat
+18-Jun-19 08:23:58 -  * Debugger is active!
+18-Jun-19 08:23:58 -  * Debugger PIN: 732-872-102

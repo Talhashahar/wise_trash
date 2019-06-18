@@ -290,7 +290,7 @@ def download(data):
 def get_avg_capacity_and_days():
     res = []
     sensors = db_handler.get_sensors()
-    days = db_handler.get_five_days_from_statistcs()
+    days = db_handler.get_statistcs_by_days(7)
     avg_days = []
     sum_days = []
     for day in days:
@@ -300,8 +300,8 @@ def get_avg_capacity_and_days():
                          'sum': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
         avg_days += [temp_dict_avg, ]
         sum_days += [temp_dict_sum, ]
-    online = len(db_handler.get_sensors_by_status("online")) - 20
-    offline = len(db_handler.get_sensors_by_status("offline")) + 20
+    online = len(db_handler.get_sensors_by_status("online"))
+    offline = len(db_handler.get_sensors_by_status("offline"))
     response = {
         'avg_array': avg_days,
         'sum_array': sum_days,

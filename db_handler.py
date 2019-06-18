@@ -548,12 +548,12 @@ def get_sensor_by_address(address):
     return res
 
 
-def get_five_days_from_statistcs():
+def get_statistcs_by_days(days):
     db = connect_to_db()
     cursor = cnx.cursor()
-    q = "select DISTINCT date from statistics ORDER BY date desc limit 5;"
-    # data = (address, )
-    cursor.execute(q)
+    q = "select DISTINCT date from statistics ORDER BY date desc limit %s;"
+    data = (int(days), )
+    cursor.execute(q, data)
     res = cursor.fetchall()
     if not res:
         return None

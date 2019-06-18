@@ -37,7 +37,7 @@ charts = {
 
 
     //PARAMETERS FOR FIRST GRAPH AT STATISTICS PAGE:
-
+    //console.log("before init charts");
     initChartist: function(){
         const Http = new XMLHttpRequest();
         console.log("inside http request");
