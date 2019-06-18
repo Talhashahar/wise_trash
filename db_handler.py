@@ -608,3 +608,13 @@ def set_sensor_capacity_to_zero_by_id(sensor_id):
         logging.info('cleanup task  - trashold capcity')
     except Exception as e:
         logging.error('fialed to cleanup task', e)
+
+
+def get_user_by_username(user):
+    sql = "SELECT * FROM `users` WHERE `user`=%s"
+    return None
+
+
+def add_user(user, password):
+    sql = f"INSERT INTO users (user, password) VALUES (%s, %s)"
+    return None

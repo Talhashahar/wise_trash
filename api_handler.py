@@ -1,14 +1,18 @@
 from flask import Flask, request, render_template, jsonify, send_file
 import db_handler
 import json
+import jwt
 import utils
 import configuration
-import random
 import datetime
 from flask_cors import CORS
+from utils import is_password_valid, encrypt, decrypt, generate_token, get_data_by_token
+from exceptions import *
+from logger import Logger
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
+logger = Logger(__name__)
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
@@ -28,6 +32,78 @@ def show_tables():
     all = db_handler.get_sensor_over_x_capacity(0)
     over_80 = db_handler.get_sensor_over_x_capacity(80)
     return render_template('sensor_overview.html', all=all, over_80=over_80)
+
+
+@app.route("/register")
+def register():
+    try:
+        data = request.form
+        user = data.get('user')
+        password = data.get('password')
+        if not is_password_valid(password):
+            raise PasswordInvalid()
+        else:
+            password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+        if not (user and password):
+            raise EmptyForm()
+        user_data = db_handler.get_user_by_username(user)
+        if user_data:
+            raise UserAlreadyExists(user)
+        else:
+            db_handler.add_user(user, password)
+            return 'ok', 200  # DO what you want is good
+
+    except PasswordInvalid as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 401
+    except UserAlreadyExists as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 401
+    except (EmptyForm, ValueError) as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 406
+    except Exception as e:
+        logger.exception(f'Failed register')
+        return f'Failed register {e.__str__()}', 501
+
+
+@app.route("/login")
+def login():
+    '''
+    POST login to system and generate JWT token
+    :param request: flask request object
+    '''
+    try:
+        data = request.form
+        user = data.get('user')
+        password = data.get('password')
+        if not (user and password):
+            logger.info(f'Login failed on {request.remote_addr}, missing credentials')
+            raise InvalidCredentials(user, password)
+
+        user_data = db_handler.get_user_by_username(user)
+        if not user_data:
+            raise UserNotExists(user)
+
+        elif not (str.encode(password) == decrypt(configuration.PASSWORD_ENCRYPTION_KEY, user_data['password'])):
+            raise InvalidCredentials(user)
+        else:
+            token = generate_token(user_data['id'])
+            logger.info(f'Token for user {user} created. token: {token}')
+            return token, 201
+
+    except UserNotVerified as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 401
+    except UserNotExists as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 404
+    except InvalidCredentials as e:
+        logger.warning(e.__str__())
+        return e.__str__(), 401
+    except Exception as e:
+        logger.exception(f'Failed login from {request.remote_addr}')
+        return f'Failed login {e.__str__()}', 501
 
 
 @app.route('/get_all_sensors_by_json')
@@ -125,82 +201,90 @@ def update_sensor_by_id(data):
 
 @app.route("/", methods=['GET', 'POST'])
 def new_index():
-    if request.method == 'POST':
-        checked_list = []
-        result = request.form
-        sensors = []
-        if request.form.get('empty_Bins'):
-            sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-            sensors = sensors + sensors_low
-            checked_list.append('checked')
-        else:
-            sensors_low = []
-            checked_list.append('')
-        if request.form.get('mid_Bins'):
-            sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-            sensors = sensors + sensors_mid
-            checked_list.append('checked')
-        else:
-            sensors_mid = []
-            checked_list.append('')
-        if request.form.get('full_Bins'):
-            sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-            sensors = sensors + sensors_full
-            checked_list.append('checked')
-        else:
-            sensors_full = []
-            checked_list.append('')
-        if request.form.get('over_trashold'):
-            over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
-            sensors = sensors + over_trashold
-            checked_list.append('checked')
-        else:
-            over_trashold = []
-            checked_list.append('')
-        if request.form.get('below_trashold'):
-            sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
-            sensors = sensors + sensors_below
-            checked_list.append('checked')
-        else:
-            sensors_below = []
-            checked_list.append('')
-        if request.form.get('ConnectedBins'):
-            ConnectedBins = db_handler.get_sensors_by_status("online")
-            sensors = sensors + ConnectedBins
-            checked_list.append('checked')
-        else:
-            ConnectedBins = []
-            checked_list.append('')
-        if request.form.get('FailedBins'):
-            FailedBins = db_handler.get_sensors_by_status("offline")
-            sensors = sensors + FailedBins
-            checked_list.append('checked')
-        else:
-            FailedBins = []
-            checked_list.append('')
-        for sensor in sensors:
-            sensor = [sensor, ]
-            if int(sensor[0][2]) < 25:
-                sensors_low = sensors_low + sensor
-            elif int(sensor[0][2]) < 75:
-                sensors_mid = sensors_mid + sensor
+    try:
+        token = request.headers.get('token', None)
+        if not token:
+            raise TokenNotExists()
+        user = get_data_by_token(token)
+        if request.method == 'POST':
+            checked_list = []
+            result = request.form
+            sensors = []
+            if request.form.get('empty_Bins'):
+                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+                sensors = sensors + sensors_low
+                checked_list.append('checked')
             else:
-                sensors_full = sensors_full + sensor
-    else:
-        sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-        sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-        sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-        sensors = sensors_low + sensors_mid + sensors_full
+                sensors_low = []
+                checked_list.append('')
+            if request.form.get('mid_Bins'):
+                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+                sensors = sensors + sensors_mid
+                checked_list.append('checked')
+            else:
+                sensors_mid = []
+                checked_list.append('')
+            if request.form.get('full_Bins'):
+                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+                sensors = sensors + sensors_full
+                checked_list.append('checked')
+            else:
+                sensors_full = []
+                checked_list.append('')
+            if request.form.get('over_trashold'):
+                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+                sensors = sensors + over_trashold
+                checked_list.append('checked')
+            else:
+                over_trashold = []
+                checked_list.append('')
+            if request.form.get('below_trashold'):
+                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+                sensors = sensors + sensors_below
+                checked_list.append('checked')
+            else:
+                sensors_below = []
+                checked_list.append('')
+            if request.form.get('ConnectedBins'):
+                ConnectedBins = db_handler.get_sensors_by_status("online")
+                sensors = sensors + ConnectedBins
+                checked_list.append('checked')
+            else:
+                ConnectedBins = []
+                checked_list.append('')
+            if request.form.get('FailedBins'):
+                FailedBins = db_handler.get_sensors_by_status("offline")
+                sensors = sensors + FailedBins
+                checked_list.append('checked')
+            else:
+                FailedBins = []
+                checked_list.append('')
+            for sensor in sensors:
+                sensor = [sensor, ]
+                if int(sensor[0][2]) < 25:
+                    sensors_low = sensors_low + sensor
+                elif int(sensor[0][2]) < 75:
+                    sensors_mid = sensors_mid + sensor
+                else:
+                    sensors_full = sensors_full + sensor
+        else:
+            sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+            sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+            sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+            sensors = sensors_low + sensors_mid + sensors_full
+            utils.write_sensors_to_csv(sensors)
+            sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+            return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                                   sensors_full=sensors_full)
         utils.write_sensors_to_csv(sensors)
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
         return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                               sensors_full=sensors_full)
-    utils.write_sensors_to_csv(sensors)
-    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-    return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                           sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
-                           capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
-                           ConnectedBins=checked_list[5], FailedBins=checked_list[6])
+                               sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
+                               capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
+                               ConnectedBins=checked_list[5], FailedBins=checked_list[6])
+    except jwt.ExpiredSignatureError:
+        logger.exception(f'Token is not authenticated! on request {request.remote_addr}')
+        return "Token is not authenticated!, log in again", 401
 
 
 @app.route("/bindata", methods=['GET', 'POST'])
