@@ -860,3 +860,102 @@ jinja2.exceptions.TemplateNotFound: readcookie.html
 21-Jun-19 11:18:49 - 127.0.0.1 - - [21/Jun/2019 11:18:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
 21-Jun-19 11:18:49 - 127.0.0.1 - - [21/Jun/2019 11:18:49] "GET /static/assets/img/middle.png HTTP/1.1" 304 -
 21-Jun-19 11:18:49 - 127.0.0.1 - - [21/Jun/2019 11:18:49] "GET /static/assets/img/empty.png HTTP/1.1" 304 -
+21-Jun-19 11:43:39 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:43:39 -  * Restarting with stat
+21-Jun-19 11:43:39 -  * Debugger is active!
+21-Jun-19 11:43:39 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:44:40 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+21-Jun-19 11:44:40 -  * Restarting with stat
+21-Jun-19 11:44:53 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:44:53 -  * Restarting with stat
+21-Jun-19 11:44:54 -  * Debugger is active!
+21-Jun-19 11:44:54 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:45:00 - 127.0.0.1 - - [21/Jun/2019 11:45:00] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:45:48 - 127.0.0.1 - - [21/Jun/2019 11:45:48] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:45:48 - 127.0.0.1 - - [21/Jun/2019 11:45:48] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:45:48 - 127.0.0.1 - - [21/Jun/2019 11:45:48] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:45:48 - 127.0.0.1 - - [21/Jun/2019 11:45:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:45:48 - 127.0.0.1 - - [21/Jun/2019 11:45:48] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:10 - 127.0.0.1 - - [21/Jun/2019 11:46:10] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:46:10 - 127.0.0.1 - - [21/Jun/2019 11:46:10] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:46:10 - 127.0.0.1 - - [21/Jun/2019 11:46:10] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:10 - 127.0.0.1 - - [21/Jun/2019 11:46:10] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:46:10 - 127.0.0.1 - - [21/Jun/2019 11:46:10] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:30 - 127.0.0.1 - - [21/Jun/2019 11:46:30] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:46:30 - 127.0.0.1 - - [21/Jun/2019 11:46:30] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:46:30 - 127.0.0.1 - - [21/Jun/2019 11:46:30] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:46:30 - 127.0.0.1 - - [21/Jun/2019 11:46:30] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:30 - 127.0.0.1 - - [21/Jun/2019 11:46:30] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:50 - 127.0.0.1 - - [21/Jun/2019 11:46:50] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:46:50 - 127.0.0.1 - - [21/Jun/2019 11:46:50] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:46:50 - 127.0.0.1 - - [21/Jun/2019 11:46:50] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:46:50 - 127.0.0.1 - - [21/Jun/2019 11:46:50] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:50 - 127.0.0.1 - - [21/Jun/2019 11:46:50] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:57 - 127.0.0.1 - - [21/Jun/2019 11:46:57] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:46:57 - 127.0.0.1 - - [21/Jun/2019 11:46:57] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:46:57 - 127.0.0.1 - - [21/Jun/2019 11:46:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:46:57 - 127.0.0.1 - - [21/Jun/2019 11:46:57] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:46:57 - 127.0.0.1 - - [21/Jun/2019 11:46:57] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:47:08 - 127.0.0.1 - - [21/Jun/2019 11:47:08] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:47:08 - 127.0.0.1 - - [21/Jun/2019 11:47:08] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:47:08 - 127.0.0.1 - - [21/Jun/2019 11:47:08] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:47:08 - 127.0.0.1 - - [21/Jun/2019 11:47:08] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:47:09 - 127.0.0.1 - - [21/Jun/2019 11:47:09] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:47:37 - 127.0.0.1 - - [21/Jun/2019 11:47:37] "GET /error HTTP/1.1" 200 -
+21-Jun-19 11:47:37 - 127.0.0.1 - - [21/Jun/2019 11:47:37] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 11:47:37 - 127.0.0.1 - - [21/Jun/2019 11:47:37] "GET /static/assets/css/loginstyle.css HTTP/1.1" 200 -
+21-Jun-19 11:47:37 - 127.0.0.1 - - [21/Jun/2019 11:47:37] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:47:37 - 127.0.0.1 - - [21/Jun/2019 11:47:37] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 11:47:38 - 127.0.0.1 - - [21/Jun/2019 11:47:38] "GET /login HTTP/1.1" 200 -
+21-Jun-19 11:49:21 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+21-Jun-19 11:49:21 -  * Restarting with stat
+21-Jun-19 11:49:21 -  * Debugger is active!
+21-Jun-19 11:49:21 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:49:27 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:49:27 -  * Restarting with stat
+21-Jun-19 11:49:27 -  * Debugger is active!
+21-Jun-19 11:49:27 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:49:37 - 127.0.0.1 - - [21/Jun/2019 11:49:37] "GET /login HTTP/1.1" 200 -
+21-Jun-19 11:49:51 - Token for user test created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE1NjExOTMzOTF9.haL8oEuanc9EsxA0hdFNYbhyutlyRzEgFbvyWoh0FJo
+21-Jun-19 11:49:52 - 127.0.0.1 - - [21/Jun/2019 11:49:52] "POST /login HTTP/1.1" 200 -
+21-Jun-19 11:49:52 - 127.0.0.1 - - [21/Jun/2019 11:49:52] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:56:25 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+21-Jun-19 11:56:26 -  * Restarting with stat
+21-Jun-19 11:56:26 -  * Debugger is active!
+21-Jun-19 11:56:26 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:56:28 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:56:28 -  * Restarting with stat
+21-Jun-19 11:56:28 -  * Debugger is active!
+21-Jun-19 11:56:28 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:56:31 - 127.0.0.1 - - [21/Jun/2019 11:56:31] "GET / HTTP/1.1" 200 -
+21-Jun-19 11:56:38 - 127.0.0.1 - - [21/Jun/2019 11:56:38] "POST /login HTTP/1.1" 404 -
+21-Jun-19 11:56:38 - 127.0.0.1 - - [21/Jun/2019 11:56:38] "GET /favicon.ico HTTP/1.1" 404 -
+21-Jun-19 11:57:29 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:57:29 -  * Restarting with stat
+21-Jun-19 11:57:29 -  * Debugger is active!
+21-Jun-19 11:57:29 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:57:32 - 127.0.0.1 - - [21/Jun/2019 11:57:32] "GET / HTTP/1.1" 200 -
+21-Jun-19 11:57:39 - Token for user test created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE1NjExOTM4NTl9.on4_P3p5rFS-yJ9lAARh1PIQG2yYpZdVrYBZdV16vBE
+21-Jun-19 11:57:40 - 127.0.0.1 - - [21/Jun/2019 11:57:40] "POST / HTTP/1.1" 200 -
+21-Jun-19 11:57:40 - 127.0.0.1 - - [21/Jun/2019 11:57:40] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:57:42 - 127.0.0.1 - - [21/Jun/2019 11:57:42] "GET /stats HTTP/1.1" 200 -
+21-Jun-19 11:57:42 - 127.0.0.1 - - [21/Jun/2019 11:57:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:57:42 - 127.0.0.1 - - [21/Jun/2019 11:57:42] "GET /static/assets/js/charts-main.js HTTP/1.1" 304 -
+21-Jun-19 11:57:52 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 11:57:52 -  * Restarting with stat
+21-Jun-19 11:57:52 -  * Debugger is active!
+21-Jun-19 11:57:52 -  * Debugger PIN: 308-328-761
+21-Jun-19 11:57:55 - 127.0.0.1 - - [21/Jun/2019 11:57:55] "GET /main HTTP/1.1" 200 -
+21-Jun-19 11:57:55 - 127.0.0.1 - - [21/Jun/2019 11:57:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:58:03 - 127.0.0.1 - - [21/Jun/2019 11:58:03] "GET /calc HTTP/1.1" 200 -
+21-Jun-19 11:58:03 - 127.0.0.1 - - [21/Jun/2019 11:58:03] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:58:03 - 127.0.0.1 - - [21/Jun/2019 11:58:03] "GET /static/assets/js/calc.js HTTP/1.1" 304 -
+21-Jun-19 11:58:36 - 127.0.0.1 - - [21/Jun/2019 11:58:36] "POST /calc HTTP/1.1" 200 -
+21-Jun-19 11:58:36 - 127.0.0.1 - - [21/Jun/2019 11:58:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:58:39 - 127.0.0.1 - - [21/Jun/2019 11:58:39] "POST /calc HTTP/1.1" 200 -
+21-Jun-19 11:58:39 - 127.0.0.1 - - [21/Jun/2019 11:58:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:58:42 - 127.0.0.1 - - [21/Jun/2019 11:58:42] "POST /calc HTTP/1.1" 200 -
+21-Jun-19 11:58:42 - 127.0.0.1 - - [21/Jun/2019 11:58:42] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:59:23 - 127.0.0.1 - - [21/Jun/2019 11:59:23] "GET /stats HTTP/1.1" 200 -
+21-Jun-19 11:59:23 - 127.0.0.1 - - [21/Jun/2019 11:59:23] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 11:59:28 - 127.0.0.1 - - [21/Jun/2019 11:59:28] "GET /get_avg_capacity_and_days HTTP/1.1" 500 -

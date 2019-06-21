@@ -15,11 +15,6 @@ CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 logger = Logger(__name__)
 
 
-@app.route("/new_login")
-def new_login():
-    return render_template("old_login.html")
-
-
 @app.route("/insert_driver/", methods=['GET', 'POST'])
 def insert_driver():
     content = request.json
@@ -76,8 +71,7 @@ def register():
 
 
 
-
-@app.route("/login", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def login():
     '''
     POST login to system and generate JWT token
@@ -221,10 +215,10 @@ def update_sensor_by_id(data):
     return "seccues"
 
 
-@app.route("/", methods=['GET', 'POST'])
-def new_index():
+@app.route("/main", methods=['GET', 'POST'])
+def main():
     if not validate_token(request):
-        return 'no token'
+        return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     if request.method == 'POST':
         checked_list = []
@@ -307,7 +301,7 @@ def new_index():
 @app.route("/bindata", methods=['GET', 'POST'])
 def new_databins():
     if not validate_token(request):
-        return 'no token'
+        return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     if request.method == 'POST':
         result = request.form
@@ -340,7 +334,7 @@ def new_databins():
 @app.route("/calc", methods=['GET', 'POST'])
 def new_calc():
     if not validate_token(request):
-        return 'no token'
+        return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     config_trashold = configuration.trash_threshold
     present_treshold = configuration.trash_threshold
@@ -381,7 +375,7 @@ def new_calc():
 @app.route("/stats")
 def new_stats():
     if not validate_token(request):
-        return 'no token'
+        return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     return render_template("analytics.html")
 
@@ -389,9 +383,14 @@ def new_stats():
 @app.route("/about")
 def new_about():
     if not validate_token(request):
-        return 'no token'
+        return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     return render_template("about.html")
+
+
+@app.route("/error")
+def error():
+    return render_template("error_page.html")
 
 
 @app.route("/download/<string:data>")

@@ -8,13 +8,13 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 mysql-connector-python==8.0.15
-mysql-connector-repackaged==0.3.1
 numpy==1.16.2
 protobuf==3.8.0
 pycrypto==2.6.1
 PyJWT==1.7.1
-PyMySQL==0.9.3
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.3
 Werkzeug==0.15.4
+PyMySQL==0.9.3
+
