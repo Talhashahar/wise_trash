@@ -1231,3 +1231,221 @@ jinja2.exceptions.TemplateNotFound: readcookie.html
 21-Jun-19 13:38:47 - 127.0.0.1 - - [21/Jun/2019 13:38:47] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
 21-Jun-19 13:44:06 - 127.0.0.1 - - [21/Jun/2019 13:44:06] "POST /calc HTTP/1.1" 200 -
 21-Jun-19 13:44:06 - 127.0.0.1 - - [21/Jun/2019 13:44:06] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:50:49 - 127.0.0.1 - - [21/Jun/2019 13:50:49] "GET / HTTP/1.1" 200 -
+21-Jun-19 13:55:07 - 127.0.0.1 - - [21/Jun/2019 13:55:07] "GET / HTTP/1.1" 200 -
+21-Jun-19 13:55:15 - 127.0.0.1 - - [21/Jun/2019 13:55:15] "GET /stats HTTP/1.1" 200 -
+21-Jun-19 13:55:15 - 127.0.0.1 - - [21/Jun/2019 13:55:15] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:55:20 - 127.0.0.1 - - [21/Jun/2019 13:55:20] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+21-Jun-19 13:55:20 - 127.0.0.1 - - [21/Jun/2019 13:55:20] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:24:26 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:24:26 -  * Restarting with stat
+21-Jun-19 17:24:26 -  * Debugger is active!
+21-Jun-19 17:24:26 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:24:52 - 127.0.0.1 - - [21/Jun/2019 17:24:52] "GET / HTTP/1.1" 200 -
+21-Jun-19 17:25:02 - 127.0.0.1 - - [21/Jun/2019 17:25:02] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:25:09 - Login failed on 127.0.0.1, missing credentials
+21-Jun-19 17:25:09 - Invalid Credentials te 
+21-Jun-19 17:25:09 - 127.0.0.1 - - [21/Jun/2019 17:25:09] "POST / HTTP/1.1" 401 -
+21-Jun-19 17:25:09 - 127.0.0.1 - - [21/Jun/2019 17:25:09] "GET /favicon.ico HTTP/1.1" 404 -
+21-Jun-19 17:25:14 - 127.0.0.1 - - [21/Jun/2019 17:25:14] "GET / HTTP/1.1" 200 -
+21-Jun-19 17:25:22 - Token for user test created. token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE1NjEyMTM1MjJ9.BdUi5FIwsKXFsapTKn2vWCsUBnwd4snUxLfQECNyF9Q
+21-Jun-19 17:25:24 - 127.0.0.1 - - [21/Jun/2019 17:25:24] "POST / HTTP/1.1" 200 -
+21-Jun-19 17:25:24 - 127.0.0.1 - - [21/Jun/2019 17:25:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:25:36 - 127.0.0.1 - - [21/Jun/2019 17:25:36] "GET /stats HTTP/1.1" 200 -
+21-Jun-19 17:25:36 - 127.0.0.1 - - [21/Jun/2019 17:25:36] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:27:23 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:27:23 -  * Restarting with stat
+21-Jun-19 17:27:24 -  * Debugger is active!
+21-Jun-19 17:27:24 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:27:28 - 127.0.0.1 - - [21/Jun/2019 17:27:28] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:27:28 - 127.0.0.1 - - [21/Jun/2019 17:27:28] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:27:28 - 127.0.0.1 - - [21/Jun/2019 17:27:28] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:27:29 - 127.0.0.1 - - [21/Jun/2019 17:27:29] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:27:30 - 127.0.0.1 - - [21/Jun/2019 17:27:30] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:27:31 - 127.0.0.1 - - [21/Jun/2019 17:27:31] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:27:31 - 127.0.0.1 - - [21/Jun/2019 17:27:31] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:29:27 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:29:27 -  * Restarting with stat
+21-Jun-19 17:29:28 -  * Debugger is active!
+21-Jun-19 17:29:28 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:29:47 - 127.0.0.1 - - [21/Jun/2019 17:29:47] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:29:47 - 127.0.0.1 - - [21/Jun/2019 17:29:47] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:29:48 - 127.0.0.1 - - [21/Jun/2019 17:29:48] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:30:10 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:30:10 -  * Restarting with stat
+21-Jun-19 17:30:11 -  * Debugger is active!
+21-Jun-19 17:30:11 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:32:45 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:32:45 -  * Restarting with stat
+21-Jun-19 17:32:45 -  * Debugger is active!
+21-Jun-19 17:32:45 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:32:48 - 127.0.0.1 - - [21/Jun/2019 17:32:48] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:32:48 - 127.0.0.1 - - [21/Jun/2019 17:32:48] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:32:49 - 127.0.0.1 - - [21/Jun/2019 17:32:49] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:33:37 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:33:37 -  * Restarting with stat
+21-Jun-19 17:33:37 -  * Debugger is active!
+21-Jun-19 17:33:37 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:34:02 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:34:02 -  * Restarting with stat
+21-Jun-19 17:34:02 -  * Debugger is active!
+21-Jun-19 17:34:02 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:34:10 - 127.0.0.1 - - [21/Jun/2019 17:34:10] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:34:10 - 127.0.0.1 - - [21/Jun/2019 17:34:10] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:34:10 - 127.0.0.1 - - [21/Jun/2019 17:34:10] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:35:08 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:35:08 -  * Restarting with stat
+21-Jun-19 17:35:09 -  * Debugger is active!
+21-Jun-19 17:35:09 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:10 - 127.0.0.1 - - [21/Jun/2019 17:35:10] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:20 - 127.0.0.1 - - [21/Jun/2019 17:35:20] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:21 - 127.0.0.1 - - [21/Jun/2019 17:35:21] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main HTTP/1.1" 500 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:22 - 127.0.0.1 - - [21/Jun/2019 17:35:22] "GET /main?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+21-Jun-19 17:35:29 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+21-Jun-19 17:35:29 -  * Restarting with stat
+21-Jun-19 17:35:31 -  * Debugger is active!
+21-Jun-19 17:35:31 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:35:31 - 127.0.0.1 - - [21/Jun/2019 17:35:31] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:32 - 127.0.0.1 - - [21/Jun/2019 17:35:32] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:32 - 127.0.0.1 - - [21/Jun/2019 17:35:32] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:32 - 127.0.0.1 - - [21/Jun/2019 17:35:32] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:32 - 127.0.0.1 - - [21/Jun/2019 17:35:32] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:32 - 127.0.0.1 - - [21/Jun/2019 17:35:32] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:33 - 127.0.0.1 - - [21/Jun/2019 17:35:33] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:33 - 127.0.0.1 - - [21/Jun/2019 17:35:33] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:33 - 127.0.0.1 - - [21/Jun/2019 17:35:33] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:33 - 127.0.0.1 - - [21/Jun/2019 17:35:33] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:33 - 127.0.0.1 - - [21/Jun/2019 17:35:33] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:34 - 127.0.0.1 - - [21/Jun/2019 17:35:34] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:34 - 127.0.0.1 - - [21/Jun/2019 17:35:34] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:35:54 -  * Detected change in '/home/tal/Desktop/python_projects/wise_trash_local/api_handler.py', reloading
+21-Jun-19 17:35:54 -  * Restarting with stat
+21-Jun-19 17:35:55 -  * Debugger is active!
+21-Jun-19 17:35:55 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:37:40 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:37:40 -  * Restarting with stat
+21-Jun-19 17:37:41 -  * Debugger is active!
+21-Jun-19 17:37:41 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:40:00 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:40:00 -  * Restarting with stat
+21-Jun-19 17:40:01 -  * Debugger is active!
+21-Jun-19 17:40:01 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:40:38 - 127.0.0.1 - - [21/Jun/2019 17:40:38] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:42:04 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:42:04 -  * Restarting with stat
+21-Jun-19 17:42:05 -  * Debugger is active!
+21-Jun-19 17:42:05 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:42:42 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:42:42 -  * Restarting with stat
+21-Jun-19 17:42:42 -  * Debugger is active!
+21-Jun-19 17:42:42 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:42:49 - 127.0.0.1 - - [21/Jun/2019 17:42:49] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:42:49 - 127.0.0.1 - - [21/Jun/2019 17:42:49] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:42:49 - 127.0.0.1 - - [21/Jun/2019 17:42:49] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:44:38 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:44:38 -  * Restarting with stat
+21-Jun-19 17:44:39 -  * Debugger is active!
+21-Jun-19 17:44:39 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:44:42 - 127.0.0.1 - - [21/Jun/2019 17:44:42] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:45:08 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:45:08 -  * Restarting with stat
+21-Jun-19 17:45:09 -  * Debugger is active!
+21-Jun-19 17:45:09 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:46:48 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:46:48 -  * Restarting with stat
+21-Jun-19 17:46:49 -  * Debugger is active!
+21-Jun-19 17:46:49 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:46:51 - 127.0.0.1 - - [21/Jun/2019 17:46:51] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:46:51 - 127.0.0.1 - - [21/Jun/2019 17:46:51] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:46:51 - 127.0.0.1 - - [21/Jun/2019 17:46:51] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:46:55 - 127.0.0.1 - - [21/Jun/2019 17:46:55] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:46:55 - 127.0.0.1 - - [21/Jun/2019 17:46:55] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:46:55 - 127.0.0.1 - - [21/Jun/2019 17:46:55] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:46:58 - 127.0.0.1 - - [21/Jun/2019 17:46:58] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:46:58 - 127.0.0.1 - - [21/Jun/2019 17:46:58] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:46:58 - 127.0.0.1 - - [21/Jun/2019 17:46:58] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 17:47:19 - 127.0.0.1 - - [21/Jun/2019 17:47:19] "GET / HTTP/1.1" 200 -
+21-Jun-19 17:47:29 - 127.0.0.1 - - [21/Jun/2019 17:47:29] "GET /main HTTP/1.1" 200 -
+21-Jun-19 17:47:29 - 127.0.0.1 - - [21/Jun/2019 17:47:29] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 17:48:29 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:48:29 -  * Restarting with stat
+21-Jun-19 17:48:29 -  * Debugger is active!
+21-Jun-19 17:48:29 -  * Debugger PIN: 308-328-761
+21-Jun-19 17:49:34 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 17:49:34 -  * Restarting with stat
+21-Jun-19 17:49:35 -  * Debugger is active!
+21-Jun-19 17:49:35 -  * Debugger PIN: 308-328-761

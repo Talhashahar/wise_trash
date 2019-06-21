@@ -2,7 +2,7 @@ import datetime
 
 from mysql import connector
 import configuration
-import logging
+from logger import Logger
 
 # Global Variables
 SQLITE = 'sqlite'
@@ -11,11 +11,7 @@ SQLITE = 'sqlite'
 USERS = 'users'
 ADDRESSES = 'addresses'
 cnx = None
-
-# logging configuration
-#logging.basicConfig(filename='example.log', level=logging.DEBUG)
-logging.basicConfig(filename='db_handler.log', format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
+logging = Logger(__name__)
 
 
 def connect_to_db():
@@ -186,20 +182,6 @@ def insert_trash_room(id, full_address, lat, lng):
 # Delete data from tables
 
 
-def delete_trash_room(room_id):
-    q = "delete from trash_room where id=%s;"
-    connect_to_db()
-    cursor = cnx.cursor()
-    try:
-        cursor.execute(q, (room_id,))
-        cnx.commit()
-        return "successes delete trash_room " + room_id
-    except Exception as e:
-        print("failed to delete trash_room " + e)
-        cnx.rollback()
-        return "failed to trash_room sensor " + room_id
-
-
 def delete_sensor(sensor_id):
     q = "delete from sensors where id=%s;"
     connect_to_db()
@@ -239,7 +221,6 @@ def get_driver_by_id(driver_id):
         return res
     except Exception as e:
         print("failed to get driver " + e)
-        cnx.rollback()
         return None
 
 
@@ -253,7 +234,6 @@ def get_trash_room(room_id):
         return "successes get trash_room " + room_id
     except Exception as e:
         print("failed to get trash_room " + e)
-        cnx.rollback()
         return "failed to get trash_room sensor " + room_id
 
 
@@ -269,7 +249,6 @@ def get_sensor_by_id(sensor_id):
         return res[0]
     except Exception as e:
         print("failed to get sensor " + e)
-        cnx.rollback()
         return None
 
 
@@ -325,7 +304,6 @@ def get_sensor_over_x_capacity(capacity):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -340,7 +318,6 @@ def get_sensor_between_capacity(min, max):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -354,7 +331,6 @@ def get_sensor_under_x_battery(battery):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -368,7 +344,6 @@ def get_sensor_under_x_capacity(capacity):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -382,7 +357,6 @@ def get_sensors_count_by_status(status):
         return res[0][0]
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -396,7 +370,6 @@ def get_sensors_by_status(status):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -410,7 +383,6 @@ def get_count_sensors():
         return res[0][0]
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -426,7 +398,6 @@ def get_sensors_pickup_today():
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -440,7 +411,6 @@ def get_last_update_sensors(id):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 def get_threshold():
@@ -453,7 +423,6 @@ def get_threshold():
         return res[0][0]
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 def get_sensor_stat_by_id(id):
@@ -466,7 +435,6 @@ def get_sensor_stat_by_id(id):
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -480,7 +448,6 @@ def get_sensors_ids():
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 
@@ -494,7 +461,6 @@ def get_sensors():
         return res
     except Exception as e:
         print("failed to get the trash-bins are full " + e)
-        cnx.rollback()
         return None
 
 

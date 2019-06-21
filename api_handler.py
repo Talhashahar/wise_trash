@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify, send_file, make_resp
 import db_handler
 import json
 import jwt
+import traceback
 import utils
 import configuration
 import datetime
@@ -217,89 +218,94 @@ def update_sensor_by_id(data):
 
 @app.route("/main", methods=['GET', 'POST'])
 def main():
-    if not validate_token(request):
-        return render_template("error_page.html")
-    user = get_data_by_token(request.cookies.get('token', None))
-    if request.method == 'POST':
-        checked_list = []
-        result = request.form
-        sensors = []
-        if request.form.get('empty_Bins'):
-            sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-            sensors = sensors + sensors_low
-            checked_list.append('checked')
-        else:
-            sensors_low = []
-            checked_list.append('')
-        if request.form.get('mid_Bins'):
-            sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-            sensors = sensors + sensors_mid
-            checked_list.append('checked')
-        else:
-            sensors_mid = []
-            checked_list.append('')
-        if request.form.get('full_Bins'):
-            sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-            sensors = sensors + sensors_full
-            checked_list.append('checked')
-        else:
-            sensors_full = []
-            checked_list.append('')
-        if request.form.get('over_trashold'):
-            over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
-            sensors = sensors + over_trashold
-            checked_list.append('checked')
-        else:
-            over_trashold = []
-            checked_list.append('')
-        if request.form.get('below_trashold'):
-            sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
-            sensors = sensors + sensors_below
-            checked_list.append('checked')
-        else:
-            sensors_below = []
-            checked_list.append('')
-        if request.form.get('ConnectedBins'):
-            ConnectedBins = db_handler.get_sensors_by_status("online")
-            sensors = sensors + ConnectedBins
-            checked_list.append('checked')
-        else:
-            ConnectedBins = []
-            checked_list.append('')
-        if request.form.get('FailedBins'):
-            FailedBins = db_handler.get_sensors_by_status("offline")
-            sensors = sensors + FailedBins
-            checked_list.append('checked')
-        else:
-            FailedBins = []
-            checked_list.append('')
-        sensors = list(dict.fromkeys(sensors))
-        for sensor in sensors:
-            sensor = [sensor, ]
-            if int(sensor[0][2]) < 25:
-                sensors_low = sensors_low + sensor
-            elif int(sensor[0][2]) < 75:
-                sensors_mid = sensors_mid + sensor
+    try:
+        if not validate_token(request):
+            return render_template("error_page.html")
+        user = get_data_by_token(request.cookies.get('token', None))
+        if request.method == 'POST':
+            checked_list = []
+            result = request.form
+            sensors = []
+            if request.form.get('empty_Bins'):
+                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+                sensors = sensors + sensors_low
+                checked_list.append('checked')
             else:
-                sensors_full = sensors_full + sensor
-    else:
-        sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-        sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-        sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-        sensors = sensors_low + sensors_mid + sensors_full
+                sensors_low = []
+                checked_list.append('')
+            if request.form.get('mid_Bins'):
+                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+                sensors = sensors + sensors_mid
+                checked_list.append('checked')
+            else:
+                sensors_mid = []
+                checked_list.append('')
+            if request.form.get('full_Bins'):
+                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+                sensors = sensors + sensors_full
+                checked_list.append('checked')
+            else:
+                sensors_full = []
+                checked_list.append('')
+            if request.form.get('over_trashold'):
+                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+                sensors = sensors + over_trashold
+                checked_list.append('checked')
+            else:
+                over_trashold = []
+                checked_list.append('')
+            if request.form.get('below_trashold'):
+                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+                sensors = sensors + sensors_below
+                checked_list.append('checked')
+            else:
+                sensors_below = []
+                checked_list.append('')
+            if request.form.get('ConnectedBins'):
+                ConnectedBins = db_handler.get_sensors_by_status("online")
+                sensors = sensors + ConnectedBins
+                checked_list.append('checked')
+            else:
+                ConnectedBins = []
+                checked_list.append('')
+            if request.form.get('FailedBins'):
+                FailedBins = db_handler.get_sensors_by_status("offline")
+                sensors = sensors + FailedBins
+                checked_list.append('checked')
+            else:
+                FailedBins = []
+                checked_list.append('')
+            sensors = list(dict.fromkeys(sensors))
+            for sensor in sensors:
+                sensor = [sensor, ]
+                if int(sensor[0][2]) < 25:
+                    sensors_low = sensors_low + sensor
+                elif int(sensor[0][2]) < 75:
+                    sensors_mid = sensors_mid + sensor
+                else:
+                    sensors_full = sensors_full + sensor
+        else:
+            sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+            sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+            sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+            sensors = sensors_low + sensors_mid + sensors_full
+            utils.write_sensors_to_csv(sensors)
+            sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+            return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                                   sensors_full=sensors_full, persent_count=len(sensors), total_count=len(sensors))
         utils.write_sensors_to_csv(sensors)
+        sensor_count = db_handler.get_count_sensors()
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+        print(datetime.datetime.now())
         return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                               sensors_full=sensors_full, persent_count=len(sensors), total_count=len(sensors))
-    utils.write_sensors_to_csv(sensors)
-    sensor_count = db_handler.get_count_sensors()
-    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-    return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                           sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
-                           capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
-                           ConnectedBins=checked_list[5], FailedBins=checked_list[6], persent_count=len(sensors),
-                           total_count=sensor_count)
+                               sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
+                               capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
+                               ConnectedBins=checked_list[5], FailedBins=checked_list[6], persent_count=len(sensors),
+                               total_count=sensor_count)
 
+    except Exception as e:
+        print(traceback.format_exc())
+        print(e)
 
 @app.route("/bindata", methods=['GET', 'POST'])
 def new_databins():
