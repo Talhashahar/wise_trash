@@ -632,6 +632,28 @@ def get_user_by_username(user):
     return None
 
 
+def get_user_by_id(id):
+    db = connect_to_db()
+    cursor = cnx.cursor()
+    q = "SELECT * FROM users WHERE id=%s"
+    data = (str(id),)
+    try:
+        cursor.execute(q, data)
+        res = cursor.fetchall()
+        if res:
+            res = res[0]
+            res = {
+                'id': res[0],
+                'user': res[1],
+                'password': res[2]
+            }
+        logging.info('user got')
+        return res
+    except Exception as e:
+        logging.error('failed to get user in db', e)
+    return None
+
+
 def add_user(user, password):
     db = connect_to_db()
     cursor = cnx.cursor()

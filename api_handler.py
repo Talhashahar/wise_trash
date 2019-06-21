@@ -290,13 +290,15 @@ def main():
         utils.write_sensors_to_csv(sensors)
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
         return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                               sensors_full=sensors_full)
+                               sensors_full=sensors_full, persent_count=len(sensors), total_count=len(sensors))
     utils.write_sensors_to_csv(sensors)
+    sensor_count = db_handler.get_count_sensors()
     sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
     return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
                            sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
                            capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
-                           ConnectedBins=checked_list[5], FailedBins=checked_list[6])
+                           ConnectedBins=checked_list[5], FailedBins=checked_list[6], persent_count=len(sensors),
+                           total_count=sensor_count)
 
 
 @app.route("/bindata", methods=['GET', 'POST'])
@@ -336,6 +338,7 @@ def new_calc():
     if not validate_token(request):
         return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
+    username = db_handler.get_user_by_id(user['user_id'])['user']
     config_trashold = configuration.trash_threshold
     present_treshold = configuration.trash_threshold
     if request.method == 'POST':
@@ -368,7 +371,7 @@ def new_calc():
     return render_template("calc.html", sensors=pickup_sensors, capacityint=capacity,
                            total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
                            present_treshold=present_treshold, risked=len(risk_sensors),
-                           unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
+                           unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors), username=username)
 
 
 @app.route("/stats", methods=['GET', 'POST'])

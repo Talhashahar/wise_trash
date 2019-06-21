@@ -37,59 +37,83 @@
                         <br> <p class="category text-center">Here is a subtitle for this part of filtering to explain more</p>
                         <div class="text-center">
 <!--form-->             <form action = "/main" method = "POST">
-                            <!--first-->
-                            <div class="col-md-3">
-                                <div class="content" >
+
+
+
+    <div class="row center-block">
+    <!--first-->
+    <div class="col-md-3 center-block">
+        <div class="content" >
 <!--                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>-->
-                                    <div class="text-center" >  <hr> <h4><b> By Capacity:</b></h4></div>
-                                    <div class="form-check text-left" id="filterCapacity">
-                                        <input type="checkbox" class="form-check-input" name="empty_Bins" {{capacity_empty|safe}}>
-                                        <label class="form-check-label" id="25">0% - 25% </label>
-                                        <br>
-                                        <input type="checkbox" class="form-check-input" name="mid_Bins" {{capacity_mid|safe}}>
-                                        <label class="form-check-label" id="75">26% - 75% </label>
-                                        <br>
-                                        <input type="checkbox" class="form-check-input" name="full_Bins" {{capacity_full|safe}}>
-                                        <label class="form-check-label" id="100">76% - 100% </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--second-->
-                            <div class="col-md-3">
-                                <div class="content" >
+<label>  <hr> <h4 class="card-title"><b> By Capacity:</b></h4></label>
+            <div class="form-check text-left" id="filterCapacity">
+                <input type="checkbox" class="form-check-input" name="empty_Bins" {{capacity_empty|safe}}>
+                <label class="form-check-label" id="25">0% - 25% </label>
+                <br>
+                <input type="checkbox" class="form-check-input" name="mid_Bins" {{capacity_mid|safe}}>
+                <label class="form-check-label" id="75">26% - 75% </label>
+                <br>
+                <input type="checkbox" class="form-check-input" name="full_Bins" {{capacity_full|safe}}>
+                <label class="form-check-label" id="100">76% - 100% </label>
+            </div>
+        </div>
+    </div>
+    <!--second-->
+
+
+
+    <div class="col-md-3 center-block">
+        <div class="content" >
 <!--                                    <input type="radio" name="optradio" value="threshold"><label class="radio-inline">By Threshold</label></input>-->
- <div class="text-center" >  <hr> <h4><b> By Threshold:</b></h4></div>
-                                    <div class="form-check text-left" id="filterTrashold">
-                                    <input type="checkbox" class="form-check-input" name="over_trashold" {{over_trashold|safe}}>
-                                    <label class="form-check-label">Over Threshold</label>
-                                    <br>
-                                    <input type="checkbox" class="form-check-input" name="below_trashold" {{below_trashold|safe}}>
-                                    <label class="form-check-label">Below Threshold</label>
-                                </div>
-                                </div>
-                            </div>
-                            <!--thered-->
-                             <div class="col-md-3">
-                                <div class="content" >
+<label>  <hr> <h4><b> By Threshold:</b></h4></label>
+            <div class="form-check text-left" id="filterTrashold">
+            <input type="checkbox" class="form-check-input" name="over_trashold" {{over_trashold|safe}}>
+            <label class="form-check-label">Over Threshold</label>
+            <br>
+            <input type="checkbox" class="form-check-input" name="below_trashold" {{below_trashold|safe}}>
+            <label class="form-check-label">Below Threshold</label>
+        </div>
+        </div>
+    </div>
+    <!--thered-->
+
+
+
+     <div class="col-md-3 center-block">
+        <div class="content" >
 <!--                                    <input type="radio" name="optradio" value="status"><label class="radio-inline">By Sensors Status</label></input>-->
- <div class="text-center" >  <hr> <h4><b> By Status:</b></h4></div>
-                                 <div class="form-check text-left" id="filterStatus">
-                                    <input type="checkbox" class="form-check-input" name="ConnectedBins" {{ConnectedBins|safe}}>
-                                    <label class="form-check-label">Connected Bins</label>
+<label>  <hr> <h4><b> By Status:</b></h4></label>
+         <div class="form-check text-left" id="filterStatus">
+            <input type="checkbox" class="form-check-input" name="ConnectedBins" {{ConnectedBins|safe}}>
+            <label class="form-check-label">Connected Bins</label>
 <br>
-                                    <input type="checkbox" class="form-check-input" name="FailedBins" {{FailedBins|safe}}>
-                                    <label class="form-check-label">Failed Bins</label>
-                                     <br>
-                                </div>
-                            </div>
-                            <div class="col-md-3 text-center">
-                            <br>
-                                   <input type = "submit" class="btn btn-info btn-fill " value = "Apply Filters" />
-                                   <br>
-                              <br>
-                                 <a type="submit" href="/new_index" class="btn btn-info">Reset Filters</a>
-                             </div>
-                        </form>
+            <input type="checkbox" class="form-check-input" name="FailedBins" {{FailedBins|safe}}>
+            <label class="form-check-label">Failed Bins</label>
+             <br>
+        </div>
+    </div>
+</div>
+
+
+
+<br><br><br>
+<div class="row center-block">
+        <div class="col-md-3 center-block">
+    <br>
+           <input type = "submit" class="btn btn-info btn-fill " value = "Apply Filters" />
+           <br>
+      <br>
+         <a type="submit" href="/new_index" class="btn btn-info">Reset Filters</a>
+
+    </div>
+</div>
+
+<div class="col-md-6 center-block">
+<label>Presented </label> {{persent_count|safe}} <label>TrashBins out of</label> {{total_count|safe}} <label>total trash bins in the system</label>
+
+
+</div>
+</form>
 <!--end form-->
 
 
@@ -108,11 +132,10 @@
                         <div class="col-md-12">
                                 <div class="card card-plain">
                                     <div class="header">
-                                        <h4 class="title">Presented Trash Bins: add here </h4>
-                                        <p class="category">Total number of trash bins in the system: ass here</p>
+                                        <h4 class="title">Presented Trash Bins: {{persent_count|safe}} </h4>
+                                        <p class="category">Total number of trash bins in the system: {{total_count|safe}}</p>
                                     </div>
                                     <div class="content table-responsive table-full-width">
-
 
                                                 <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/filtered" download="./export.csv">Download filtered bins list (CSV file)</a>
                                                 <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/full" download="./export.csv">Download the full bins list (CSV file)</a>
