@@ -1,24 +1,28 @@
 from flask import Flask, request, render_template, jsonify, send_file, make_response
-import db_handler
+# import db_handler
 import json
 import jwt
 import traceback
 import utils
-import configuration
+import conf
 import datetime
 from flask_cors import CORS
 from utils import is_password_valid, encrypt, decrypt, generate_token, get_data_by_token, validate_token
 from exceptions import *
 from logger import Logger
+from wise_dal.dal import DbClient
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 logger = Logger(__name__)
 
+db = DbClient()
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
 def insert_driver():
     content = request.json
+    # if db.drivers.get_driver_by_id(content['id']):
+    #     pass
     if db_handler.get_driver_by_id(content['id']):
         db_handler.update_driver_by_id(content['id'], content['name'], content['lat'], content['lng'],
                                        content['truck_size'])  # update
@@ -45,7 +49,7 @@ def register():
             if not is_password_valid(password):
                 raise PasswordInvalid()
             else:
-                password = str(encrypt(configuration.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
+                password = str(encrypt(conf.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
             if not (user and password):
                 raise EmptyForm()
             user_data = db_handler.get_user_by_username(user)
@@ -91,7 +95,7 @@ def login():
             if not user_data:
                 raise UserNotExists(user)
 
-            elif not (str.encode(password) == decrypt(configuration.PASSWORD_ENCRYPTION_KEY, user_data['password'])):
+            elif not (str.encode(password) == decrypt(conf.PASSWORD_ENCRYPTION_KEY, user_data['password'])):
                 raise InvalidCredentials(user)
             else:
                 token = generate_token(user_data['id'])
@@ -180,7 +184,7 @@ def insert_sensor_date():
 
 @app.route('/get_trash_bins_to_pickup/')
 def get_trash_bins_to_pickup():
-    res = db_handler.get_sensor_over_x_capacity(configuration.trash_threshold)
+    res = db_handler.get_sensor_over_x_capacity(conf.trash_threshold)
     return res
 
 
@@ -248,14 +252,14 @@ def main():
                 sensors_full = []
                 checked_list.append('')
             if request.form.get('over_trashold'):
-                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+                over_trashold = db_handler.get_sensor_between_capacity(conf.trash_threshold, 100)
                 sensors = sensors + over_trashold
                 checked_list.append('checked')
             else:
                 over_trashold = []
                 checked_list.append('')
             if request.form.get('below_trashold'):
-                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+                sensors_below = db_handler.get_sensor_between_capacity(0, conf.trash_threshold)
                 sensors = sensors + sensors_below
                 checked_list.append('checked')
             else:
@@ -345,8 +349,8 @@ def new_calc():
         return render_template("error_page.html")
     user = get_data_by_token(request.cookies.get('token', None))
     username = db_handler.get_user_by_id(user['user_id'])['user']
-    config_trashold = configuration.trash_threshold
-    present_treshold = configuration.trash_threshold
+    config_trashold = conf.trash_threshold
+    present_treshold = conf.trash_threshold
     if request.method == 'POST':
         if request.form.get('range'):
             present_percent = request.form.get('range')
@@ -358,15 +362,15 @@ def new_calc():
                 threshold = int(result[:-1])
             else:
                 threshold = int(result)
-            configuration.trash_threshold = int(threshold)
-            capacity = int(configuration.trash_threshold)
+            conf.trash_threshold = int(threshold)
+            capacity = int(conf.trash_threshold)
             config_trashold = capacity
             present_treshold = capacity
     else:
         capacity = 70
     pickup_sensors = db_handler.get_sensor_over_x_capacity(capacity)
     remain_sensors = db_handler.get_sensor_under_x_capacity(capacity)
-    threshold = configuration.trash_threshold
+    threshold = conf.trash_threshold
     risk_sensors = []
     # for sensor in remain_sensors:
     #     fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))

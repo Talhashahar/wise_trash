@@ -1,6 +1,6 @@
 import requests
 import csv
-import configuration
+import conf
 import json
 
 
@@ -10,7 +10,7 @@ def get_cords_by_full_address(city_name, street_name, max_number):
     for x in range(1, max_number+1):
         temp_json = {'full_address': None, 'lat': None, 'lng': None}
         temp_string = []
-        Full_API_Request = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city_name + str(x) + ',' + street_name + configuration.google_api_token
+        Full_API_Request = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city_name + str(x) + ',' + street_name + conf.google_api_token
         response = requests.get(Full_API_Request)
         resp_json_payload = response.json()
         temp_json['full_address'] = resp_json_payload['results'][0]['formatted_address']

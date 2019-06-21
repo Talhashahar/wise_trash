@@ -1,6 +1,6 @@
 import pymysql
 import logging
-import configuration as conf
+import conf
 
 
 class LogDBHandler(logging.Handler):

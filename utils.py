@@ -1,7 +1,7 @@
 import csv
 from datetime import datetime, timedelta
 import jwt
-import configuration as conf
+import conf as conf
 import base64
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
