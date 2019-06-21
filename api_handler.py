@@ -17,7 +17,7 @@ logger = Logger(__name__)
 
 @app.route("/new_login")
 def new_login():
-    return render_template("login.html")
+    return render_template("old_login.html")
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
@@ -101,7 +101,14 @@ def login():
             else:
                 token = generate_token(user_data['id'])
                 logger.info(f'Token for user {user} created. token: {token}')
-                resp = make_response(render_template('index.html'))
+                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+                sensors = sensors_low + sensors_mid + sensors_full
+                utils.write_sensors_to_csv(sensors)
+                sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+                resp = make_response(render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                               sensors_full=sensors_full))
                 resp.set_cookie('token', token)
                 return resp
 
@@ -216,97 +223,92 @@ def update_sensor_by_id(data):
 
 @app.route("/", methods=['GET', 'POST'])
 def new_index():
-    try:
-        token = request.cookies.get('token', None)
-        if not token:
-            raise TokenNotExists()
-        user = get_data_by_token(token)
-        if request.method == 'POST':
-            checked_list = []
-            result = request.form
-            sensors = []
-            if request.form.get('empty_Bins'):
-                sensors_low = db_handler.get_sensor_between_capacity(0, 25)
-                sensors = sensors + sensors_low
-                checked_list.append('checked')
-            else:
-                sensors_low = []
-                checked_list.append('')
-            if request.form.get('mid_Bins'):
-                sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
-                sensors = sensors + sensors_mid
-                checked_list.append('checked')
-            else:
-                sensors_mid = []
-                checked_list.append('')
-            if request.form.get('full_Bins'):
-                sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-                sensors = sensors + sensors_full
-                checked_list.append('checked')
-            else:
-                sensors_full = []
-                checked_list.append('')
-            if request.form.get('over_trashold'):
-                over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
-                sensors = sensors + over_trashold
-                checked_list.append('checked')
-            else:
-                over_trashold = []
-                checked_list.append('')
-            if request.form.get('below_trashold'):
-                sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
-                sensors = sensors + sensors_below
-                checked_list.append('checked')
-            else:
-                sensors_below = []
-                checked_list.append('')
-            if request.form.get('ConnectedBins'):
-                ConnectedBins = db_handler.get_sensors_by_status("online")
-                sensors = sensors + ConnectedBins
-                checked_list.append('checked')
-            else:
-                ConnectedBins = []
-                checked_list.append('')
-            if request.form.get('FailedBins'):
-                FailedBins = db_handler.get_sensors_by_status("offline")
-                sensors = sensors + FailedBins
-                checked_list.append('checked')
-            else:
-                FailedBins = []
-                checked_list.append('')
-            for sensor in sensors:
-                sensor = [sensor, ]
-                if int(sensor[0][2]) < 25:
-                    sensors_low = sensors_low + sensor
-                elif int(sensor[0][2]) < 75:
-                    sensors_mid = sensors_mid + sensor
-                else:
-                    sensors_full = sensors_full + sensor
-        else:
+    if not validate_token(request):
+        return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
+    if request.method == 'POST':
+        checked_list = []
+        result = request.form
+        sensors = []
+        if request.form.get('empty_Bins'):
             sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+            sensors = sensors + sensors_low
+            checked_list.append('checked')
+        else:
+            sensors_low = []
+            checked_list.append('')
+        if request.form.get('mid_Bins'):
             sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+            sensors = sensors + sensors_mid
+            checked_list.append('checked')
+        else:
+            sensors_mid = []
+            checked_list.append('')
+        if request.form.get('full_Bins'):
             sensors_full = db_handler.get_sensor_between_capacity(76, 100)
-            sensors = sensors_low + sensors_mid + sensors_full
-            utils.write_sensors_to_csv(sensors)
-            sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
-            return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                                   sensors_full=sensors_full)
+            sensors = sensors + sensors_full
+            checked_list.append('checked')
+        else:
+            sensors_full = []
+            checked_list.append('')
+        if request.form.get('over_trashold'):
+            over_trashold = db_handler.get_sensor_between_capacity(configuration.trash_threshold, 100)
+            sensors = sensors + over_trashold
+            checked_list.append('checked')
+        else:
+            over_trashold = []
+            checked_list.append('')
+        if request.form.get('below_trashold'):
+            sensors_below = db_handler.get_sensor_between_capacity(0, configuration.trash_threshold)
+            sensors = sensors + sensors_below
+            checked_list.append('checked')
+        else:
+            sensors_below = []
+            checked_list.append('')
+        if request.form.get('ConnectedBins'):
+            ConnectedBins = db_handler.get_sensors_by_status("online")
+            sensors = sensors + ConnectedBins
+            checked_list.append('checked')
+        else:
+            ConnectedBins = []
+            checked_list.append('')
+        if request.form.get('FailedBins'):
+            FailedBins = db_handler.get_sensors_by_status("offline")
+            sensors = sensors + FailedBins
+            checked_list.append('checked')
+        else:
+            FailedBins = []
+            checked_list.append('')
+        for sensor in sensors:
+            sensor = [sensor, ]
+            if int(sensor[0][2]) < 25:
+                sensors_low = sensors_low + sensor
+            elif int(sensor[0][2]) < 75:
+                sensors_mid = sensors_mid + sensor
+            else:
+                sensors_full = sensors_full + sensor
+    else:
+        sensors_low = db_handler.get_sensor_between_capacity(0, 25)
+        sensors_mid = db_handler.get_sensor_between_capacity(26, 75)
+        sensors_full = db_handler.get_sensor_between_capacity(76, 100)
+        sensors = sensors_low + sensors_mid + sensors_full
         utils.write_sensors_to_csv(sensors)
         sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
         return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
-                               sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
-                               capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
-                               ConnectedBins=checked_list[5], FailedBins=checked_list[6])
-    except jwt.ExpiredSignatureError:
-        logger.exception(f'Token is not authenticated! on request {request.remote_addr}')
-        return "Token is not authenticated!, log in again", 401
+                               sensors_full=sensors_full)
+    utils.write_sensors_to_csv(sensors)
+    sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+    return render_template("index.html", sensors=sensors, sensors_low=sensors_low, sensors_mid=sensors_mid,
+                           sensors_full=sensors_full, capacity_empty=checked_list[0], capacity_mid=checked_list[1],
+                           capacity_full=checked_list[2], over_trashold=checked_list[3], below_trashold=checked_list[4],
+                           ConnectedBins=checked_list[5], FailedBins=checked_list[6])
 
 
 @app.route("/bindata", methods=['GET', 'POST'])
 def new_databins():
-    token = request.cookies.get('token', None)
-    if not token:
-        raise TokenNotExists()
+    if not validate_token(request):
+        return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
     if request.method == 'POST':
         result = request.form
         if result['radio-stacked'] == "capacity":
@@ -334,10 +336,12 @@ def new_databins():
     return render_template("databins.html", sensors=sensors)
 
 
+
 @app.route("/calc", methods=['GET', 'POST'])
 def new_calc():
     if not validate_token(request):
         return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
     config_trashold = configuration.trash_threshold
     present_treshold = configuration.trash_threshold
     if request.method == 'POST':
@@ -376,16 +380,25 @@ def new_calc():
 
 @app.route("/stats")
 def new_stats():
+    if not validate_token(request):
+        return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
     return render_template("analytics.html")
 
 
 @app.route("/about")
 def new_about():
+    if not validate_token(request):
+        return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
     return render_template("about.html")
 
 
 @app.route("/download/<string:data>")
 def download(data):
+    if not validate_token(request):
+        return 'no token'
+    user = get_data_by_token(request.cookies.get('token', None))
     if data == 'full':
         utils.write_sensors_to_csv(db_handler.get_sensors())
     return send_file('export.csv', attachment_filename='export.csv')

@@ -17,7 +17,7 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1033,"Anne Frank St 18, Ramat Gan, Israel",20,online,32.0890817,34.8038335,2019-06-08
 1035,"Anne Frank St 20, Ramat Gan, Israel",22,online,32.0890817,34.8038335,2019-06-08
 1036,"Anne Frank St 21, Ramat Gan, Israel",20,online,32.089906,34.8037927,2019-06-08
-1037,"Anne Frank St 22, Ramat Gan, Israel",0,online,32.0890817,34.8038335,2019-06-08
+1037,"Anne Frank St 22, Ramat Gan, Israel",0,offline,32.0890817,34.8038335,2019-06-08
 1038,"Anne Frank St 23, Ramat Gan, Israel",0,online,32.0896073,34.803774,2019-06-08
 1039,"Anne Frank St 24, Ramat Gan, Israel",17,online,32.0890817,34.8038335,2019-06-08
 1040,"Ramat Gan, Israel",17,online,32.068424,34.824785,2019-06-08
@@ -45,9 +45,9 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1090,"Charusim St 6, Ramat Gan, Israel",16,online,32.0918564,34.8028591,2019-06-08
 1093,"Charusim St 9, Ramat Gan, Israel",20,online,32.0923398,34.8027619,2019-06-08
 1094,"Charusim St 10, Ramat Gan, Israel",17,online,32.091328,34.8032673,2019-06-08
-1095,"Charusim St 11, Ramat Gan, Israel",18,online,32.0923398,34.8027619,2019-06-08
+1095,"Charusim St 11, Ramat Gan, Israel",18,offline,32.0923398,34.8027619,2019-06-08
 1097,"Charusim St 13, Ramat Gan, Israel",0,online,32.0923398,34.8027619,2019-06-08
-1000,"HaMelacha St 1, Ramat Gan, Israel",65,online,32.0911975,34.803235,2019-06-08
+1000,"HaMelacha St 1, Ramat Gan, Israel",65,offline,32.0911975,34.803235,2019-06-08
 1001,"HaMelacha St 2, Ramat Gan, Israel",63,online,32.0912827,34.8031802,2019-06-08
 1002,"HaMelacha St 3, Ramat Gan, Israel",55,online,32.0908577,34.8028032,2019-06-08
 1004,"HaMelacha St 5, Ramat Gan, Israel",55,online,32.0906668,34.8025947,2019-06-08
@@ -55,7 +55,7 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1006,"HaMelacha St 7, Ramat Gan, Israel",62,online,32.09064,34.8025478,2019-06-08
 1007,"HaMelacha St 8, Ramat Gan, Israel",64,online,32.0908168,34.8023853,2019-06-08
 1010,"HaMelacha St 11, Ramat Gan, Israel",32,online,32.0901709,34.8022729,2019-06-08
-1012,"HaMelacha St 13, Ramat Gan, Israel",56,online,32.0901725,34.8022685,2019-06-08
+1012,"HaMelacha St 13, Ramat Gan, Israel",56,offline,32.0901725,34.8022685,2019-06-08
 1013,"HaMelacha St 14, Tel Aviv-Yafo, Israel",42,online,32.0664872,34.7862872,2019-06-08
 1017,"Anne Frank St 2, Ramat Gan, Israel",47,online,32.0913689,34.8018629,2019-06-08
 1019,"Anne Frank St 4, Ramat Gan, Israel",67,online,32.0911801,34.8019927,2019-06-08
@@ -72,7 +72,7 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1047,"Yeda Am St 2, Ramat Gan, Israel",57,online,32.0896392,34.8034249,2019-06-08
 1048,"Yeda Am St 3, Ramat Gan, Israel",65,online,32.0893489,34.8032633,2019-06-08
 1049,"Yeda Am St 4, Ramat Gan, Israel",35,online,32.0894393,34.8029566,2019-06-08
-1050,"Yeda Am St 5, Ramat Gan, Israel",57,online,32.089369,34.803045,2019-06-08
+1050,"Yeda Am St 5, Ramat Gan, Israel",57,offline,32.089369,34.803045,2019-06-08
 1053,"Yeda Am St 8, Ramat Gan, Israel",52,online,32.0898023,34.8027647,2019-06-08
 1055,"Yeda Am St 10, Ramat Gan, Israel",54,online,32.0898021,34.8027646,2019-06-08
 1057,"Yeda Am St 12, Ramat Gan, Israel",34,online,32.0898021,34.8027646,2019-06-08
