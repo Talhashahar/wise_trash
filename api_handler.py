@@ -273,6 +273,7 @@ def main():
         else:
             FailedBins = []
             checked_list.append('')
+        sensors = list(dict.fromkeys(sensors))
         for sensor in sensors:
             sensor = [sensor, ]
             if int(sensor[0][2]) < 25:
@@ -330,7 +331,6 @@ def new_databins():
     return render_template("databins.html", sensors=sensors)
 
 
-
 @app.route("/calc", methods=['GET', 'POST'])
 def new_calc():
     if not validate_token(request):
@@ -371,8 +371,7 @@ def new_calc():
                            unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors))
 
 
-
-@app.route("/stats")
+@app.route("/stats", methods=['GET', 'POST'])
 def new_stats():
     if not validate_token(request):
         return render_template("error_page.html")
