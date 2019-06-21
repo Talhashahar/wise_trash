@@ -24,22 +24,6 @@ class DbClient(object):
         if self.connection:
             self.connection.close()
 
-    def _select(self, VALUES, DATA=(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
-        try:
-            self.tbl = 'users'
-            query = f'SELECT {KEYS} FROM {self.tbl} WHERE {VALUES}'
-            with self.connection.cursor() as cursor:
-                cursor.execute(query, DATA)
-                if ALL:
-                    result = cursor.fetchall()
-                else:
-                    result = cursor.fetchone()
-                return result if result else None
-        except Exception as e:
-            if ROLLBACK_ON_FAIL:
-                self.connection.rollback()
-            print(e.__str__())
-
     @property
     def users(self):
         return Users(self.connection)
@@ -59,10 +43,3 @@ class DbClient(object):
     @property
     def statistics(self):
         return Statistics(self.connection)
-
-
-if __name__ == '__main__':
-    db = DbClient()
-    sql = f"`user`=%s"
-    data = ('test',)
-    db._select(sql, DATA=data, ALL=True)
