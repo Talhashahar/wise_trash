@@ -1030,3 +1030,49 @@ jinja2.exceptions.TemplateNotFound: readcookie.html
 21-Jun-19 12:34:37 -  * Restarting with stat
 21-Jun-19 12:34:38 -  * Debugger is active!
 21-Jun-19 12:34:38 -  * Debugger PIN: 308-328-761
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "POST /stats HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/charts-main.js HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+21-Jun-19 12:58:24 - 127.0.0.1 - - [21/Jun/2019 12:58:24] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+21-Jun-19 12:58:32 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 12:58:32 -  * Restarting with stat
+21-Jun-19 12:58:33 -  * Debugger is active!
+21-Jun-19 12:58:33 -  * Debugger PIN: 308-328-761
+21-Jun-19 12:58:36 - 127.0.0.1 - - [21/Jun/2019 12:58:36] "GET /main HTTP/1.1" 200 -
+21-Jun-19 12:58:37 - 127.0.0.1 - - [21/Jun/2019 12:58:37] "GET /main HTTP/1.1" 200 -
+21-Jun-19 12:58:37 - 127.0.0.1 - - [21/Jun/2019 12:58:37] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 12:58:39 - 127.0.0.1 - - [21/Jun/2019 12:58:39] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:02:15 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+21-Jun-19 13:02:15 -  * Restarting with stat
+21-Jun-19 13:02:16 -  * Debugger is active!
+21-Jun-19 13:02:16 -  * Debugger PIN: 308-328-761
+21-Jun-19 13:02:17 - 127.0.0.1 - - [21/Jun/2019 13:02:17] "GET /calc HTTP/1.1" 200 -
+21-Jun-19 13:02:17 - 127.0.0.1 - - [21/Jun/2019 13:02:17] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:03:01 - 127.0.0.1 - - [21/Jun/2019 13:03:01] "GET /get_avg_capacity_and_days HTTP/1.1" 200 -
+21-Jun-19 13:06:50 - 127.0.0.1 - - [21/Jun/2019 13:06:50] "GET /calc HTTP/1.1" 200 -
+21-Jun-19 13:06:50 - 127.0.0.1 - - [21/Jun/2019 13:06:50] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:06:52 - 127.0.0.1 - - [21/Jun/2019 13:06:52] "GET /calc HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/css/light-bootstrap-dashboard.css?v=1.4.0 HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/jquery.3.2.1.min.js HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/calc.js HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/css/pe-icon-7-stroke.css HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/bootstrap-notify.js HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/chartist.min.js HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/js/light-bootstrap-dashboard.js?v=1.4.0 HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/img/sidebar-RG.jpeg HTTP/1.1" 200 -
+21-Jun-19 13:06:53 - 127.0.0.1 - - [21/Jun/2019 13:06:53] "GET /static/assets/img/favicon.ico HTTP/1.1" 200 -
+21-Jun-19 13:07:53 - 127.0.0.1 - - [21/Jun/2019 13:07:53] "POST /calc HTTP/1.1" 200 -
+21-Jun-19 13:07:53 - 127.0.0.1 - - [21/Jun/2019 13:07:53] "GET /static/assets/css/animate.min.css%22 HTTP/1.1" 404 -
