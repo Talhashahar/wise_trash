@@ -130,11 +130,11 @@
                                     <tbody>
                                       {% for sensor in sensors %}
                                         <tr>
-                                           <td>{{sensor[0]}}</td>
-                                           <td>{{sensor[1]}}</td>
-                                           <td>{{sensor[2]}}%</td>
+                                           <td>{{sensor['id']}}</td>
+                                           <td>{{sensor['address']}}</td>
+                                           <td>{{sensor['capacity']}}%</td>
                                            <td>avg</td>
-                                           <td>{{sensor[6]}}</td>
+                                           <td>{{sensor['last_update_date']}}</td>
                                         </tr>
                                         {% endfor %}
                                     </tbody>
