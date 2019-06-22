@@ -55,11 +55,11 @@ def register():
                 password = str(encrypt(conf.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
             if not (user and password):
                 raise EmptyForm()
-            user_data = db_handler.get_user_by_username(user)
+            user_data = db.users.get_user_by_username(user)
             if user_data:
                 raise UserAlreadyExists(user)
             else:
-                db_handler.add_user(user, password)
+                db.users.add_user(user, password)
                 return 'ok', 200  # DO what you want is good
 
         except PasswordInvalid as e:
@@ -251,6 +251,14 @@ def update_sensor_by_id(data):
     db.sensors.update_sensor_capacity_by_id(sensor_id, capacity)
     db.statistics.insert_statistics(sensor_id, datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), capacity)
     return jsonify({'status': 'ok'}), 200
+
+
+@app.route("/update_sensor_by_driver/")
+def update_sensor_by_driver():
+    content = request.json
+    con = request.get_json()
+    pass
+    return 'ok'
 
 
 @app.route("/main", methods=['GET', 'POST'])
