@@ -199,8 +199,22 @@ def insert_sensor_date():
 @app.route('/get_trash_bins_to_pickup/')
 def get_trash_bins_to_pickup():
     db = DbClient()
+    res_json = {
+        'arr': [
+        ],
+        'driver': {
+            'lat': 32.23,
+            'lng': 32.23
+        },
+        'capacity': 0
+    }
+    total_capacity = 0
     res = db.sensors.get_sensor_over_x_capacity(conf.trash_threshold)
-    return jsonify(res), 200
+    for x in res:
+        res_json['arr'].append({'lat': x['lat'], 'lng': x['lng']})
+        total_capacity += x['capacity']
+    res_json['capacity'] = total_capacity
+    return jsonify(res_json), 200
 
 
 @app.route('/get_count_sensors/')
