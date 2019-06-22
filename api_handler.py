@@ -203,8 +203,8 @@ def get_trash_bins_to_pickup():
         'arr': [
         ],
         'driver': {
-            'lat': 32.23,
-            'lng': 32.23
+            'lat': 32.1668891,
+            'lng': 34.8266644
         },
         'capacity': 0
     }
@@ -253,7 +253,7 @@ def update_sensor_by_id(data):
     return jsonify({'status': 'ok'}), 200
 
 
-@app.route("/update_sensor_by_driver/")
+@app.route("/update_sensor_by_driver/", methods=['GET', 'POST'])
 def update_sensor_by_driver():
     content = request.json
     con = request.get_json()
