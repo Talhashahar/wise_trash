@@ -55,11 +55,11 @@ def register():
                 password = str(encrypt(conf.PASSWORD_ENCRYPTION_KEY, str.encode(password)))
             if not (user and password):
                 raise EmptyForm()
-            user_data = db_handler.get_user_by_username(user)
+            user_data = db.users.get_user_by_username(user)
             if user_data:
                 raise UserAlreadyExists(user)
             else:
-                db_handler.add_user(user, password)
+                db.users.add_user(user, password)
                 return 'ok', 200  # DO what you want is good
 
         except PasswordInvalid as e:
@@ -199,8 +199,22 @@ def insert_sensor_date():
 @app.route('/get_trash_bins_to_pickup/')
 def get_trash_bins_to_pickup():
     db = DbClient()
+    res_json = {
+        'arr': [
+        ],
+        'driver': {
+            'lat': 32.23,
+            'lng': 32.23
+        },
+        'capacity': 0
+    }
+    total_capacity = 0
     res = db.sensors.get_sensor_over_x_capacity(conf.trash_threshold)
-    return jsonify(res), 200
+    for x in res:
+        res_json['arr'].append({'lat': x['lat'], 'lng': x['lng']})
+        total_capacity += x['capacity']
+    res_json['capacity'] = total_capacity
+    return jsonify(res_json), 200
 
 
 @app.route('/get_count_sensors/')
@@ -237,6 +251,14 @@ def update_sensor_by_id(data):
     db.sensors.update_sensor_capacity_by_id(sensor_id, capacity)
     db.statistics.insert_statistics(sensor_id, datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), capacity)
     return jsonify({'status': 'ok'}), 200
+
+
+@app.route("/update_sensor_by_driver/")
+def update_sensor_by_driver():
+    content = request.json
+    con = request.get_json()
+    pass
+    return 'ok'
 
 
 @app.route("/main", methods=['GET', 'POST'])
