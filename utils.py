@@ -7,6 +7,7 @@ from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 from Crypto import Random
 import re
+from wise_dal.dal import DbClient
 
 from exceptions import TokenNotExists
 
@@ -21,6 +22,72 @@ def convert_sensor_tuple_to_json(obj):
         'lng': obj[5]
     }
     return mydict
+
+
+def get_sensors_by_main_filters(request):
+    db = DbClient()
+    checked_list = []
+    sensors = []
+    if request.form.get('empty_Bins'):
+        sensors_low = db.sensors.get_sensor_between_capacity(0, 25)
+        if sensors_low:
+            sensors += sensors_low
+        checked_list.append('checked')
+    else:
+        sensors_low = []
+        checked_list.append('')
+    if request.form.get('mid_Bins'):
+        sensors_mid = db.sensors.get_sensor_between_capacity(26, 75)
+        if sensors_mid:
+            sensors += sensors_mid
+        checked_list.append('checked')
+    else:
+        sensors_mid = []
+        checked_list.append('')
+    if request.form.get('full_Bins'):
+        sensors_full = db.sensors.get_sensor_between_capacity(76, 100)
+        if sensors_full:
+            sensors += sensors_full
+        checked_list.append('checked')
+    else:
+        sensors_full = []
+        checked_list.append('')
+    if request.form.get('over_trashold'):
+        over_trashold = db.sensors.get_sensor_between_capacity(conf.trash_threshold, 100)
+        if over_trashold:
+            sensors += over_trashold
+        checked_list.append('checked')
+    else:
+        over_trashold = []
+        checked_list.append('')
+    if request.form.get('below_trashold'):
+        sensors_below = db.sensors.get_sensor_between_capacity(0, conf.trash_threshold)
+        if sensors_below:
+            sensors += sensors_below
+        checked_list.append('checked')
+    else:
+        sensors_below = []
+        checked_list.append('')
+    if request.form.get('ConnectedBins'):
+        ConnectedBins = db.sensors.get_sensors_by_status("online")
+        if ConnectedBins:
+            sensors += ConnectedBins
+        checked_list.append('checked')
+    else:
+        ConnectedBins = []
+        checked_list.append('')
+    if request.form.get('FailedBins'):
+        FailedBins = db.sensors.get_sensors_by_status("offline")
+        if FailedBins:
+            sensors += FailedBins
+        checked_list.append('checked')
+    else:
+        FailedBins = []
+        checked_list.append('')
+    sensors = [tuple(sensor.values()) for sensor in sensors]
+    sensors = list(dict.fromkeys(sensors))
+    return sensors, checked_list
+
 
 
 def get_avg_fill_per_sensor(sensor_stats):

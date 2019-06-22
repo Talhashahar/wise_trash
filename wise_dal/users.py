@@ -3,9 +3,9 @@ class Users:
         self.tbl = 'users'
         self.connection = connection
 
-    def _select(self, VALUES, DATA=(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
+    def _select(self, VALUES, DATA=tuple(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
         try:
-            query = f'SELECT {KEYS} FROM {self.tbl} WHERE {VALUES}'
+            query = f'SELECT {KEYS} FROM {self.tbl} {VALUES}'
             with self.connection.cursor() as cursor:
                 cursor.execute(query, DATA)
                 if ALL:
@@ -20,14 +20,14 @@ class Users:
 
     # GET
     def get_user_by_username(self, user):
-        sql = f"`user`=%s"
+        sql = f"WHERE `user`=%s"
         data = (user,)
-        return self._select(sql, DATA=data, ALL=True)
+        return self._select(sql, DATA=data, ALL=False)
 
     def get_user_by_id(self, user_id):
-        sql = f"`id`=%s"
+        sql = f"WHERE `id`=%s"
         data = (user_id,)
-        return self._select(sql, DATA=data, ALL=True)
+        return self._select(sql, DATA=data, ALL=False)
 
     # SET
 

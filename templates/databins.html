@@ -105,11 +105,11 @@
                                                     </thead>
                                                     {% for sensor in sensors %}
                                                     <TR>
-                                                       <TD>{{sensor[0]}}</TD> <!-- id!-->
-                                                       <TD>{{sensor[1]}}</TD> <!-- address!-->
-                                                       <TD>{{sensor[2]}}%</TD> <!-- volume!-->
-                                                       <TD >{{sensor[3]}}</TD>             <!-- avg fill!-->
-                                                       <TD>{{sensor[4]}}</TD>   <!-- last serived!-->
+                                                       <TD>{{sensor['id']}}</TD> <!-- id!-->
+                                                       <TD>{{sensor['address']}}</TD> <!-- address!-->
+                                                       <TD>{{sensor['capacity']}}%</TD> <!-- volume!-->
+                                                       <TD >{{sensor['status']}}</TD>             <!-- avg fill!-->
+                                                       <TD>{{sensor['last_update_date']}}</TD>   <!-- last serived!-->
                                                     </TR>
                                                     {% endfor %}
                                                 </tbody>

@@ -1,11 +1,12 @@
+import traceback
 class Sensors:
     def __init__(self, connection):
         self.tbl = 'sensors'
         self.connection = connection
 
-    def _select(self, VALUES, DATA=(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
+    def _select(self, VALUES, DATA=tuple(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
         try:
-            query = f'SELECT {KEYS} FROM {self.tbl} WHERE {VALUES}'
+            query = f'SELECT {KEYS} FROM {self.tbl} {VALUES}'
             with self.connection.cursor() as cursor:
                 cursor.execute(query, DATA)
                 if ALL:
@@ -14,22 +15,28 @@ class Sensors:
                     result = cursor.fetchone()
                 return result if result else None
         except Exception as e:
+            print(traceback.format_exc())
             if ROLLBACK_ON_FAIL:
                 self.connection.rollback()
             print(e.__str__())
 
     # GET
     def get_sensor_by_address(self, address):
-        sql = f"`address like %s"
-        data = (address,)
-        return self._select(sql, DATA=data, ALL=True)
+        try:
+            with self.connection.cursor() as cursor:
+                sql = f"select * from sensors WHERE address like %s"
+                cursor.execute(sql, ('%' + str(address) + '%',))
+                result = cursor.fetchall()
+            return result
+        except Exception as e:
+            self.connection.rollback()
 
     def get_sensors(self):
         sql = f""
         return self._select(sql, ALL=True)
 
     def get_sensors_ids(self):
-        sql = f"`address like %s"
+        sql = f"WHERE `address` like %s"
         return self._select(sql, KEYS='id', ALL=True)
 
     def get_count_sensors(self):
@@ -38,37 +45,37 @@ class Sensors:
         # maybe len(self.get_sensors()) ?
 
     def get_sensors_by_status(self, status):
-        sql = f"`status` =%s"
+        sql = f"WHERE  `status` =%s"
         data = (status,)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sensors_count_by_status(self, status):
-        sql = f"`status` =%s"
+        sql = f"WHERE `status` =%s"
         data = (status,)
         return self._select(sql, KEYS='count(*)', DATA=data, ALL=True)
 
     def get_sensor_under_x_capacity(self, capacity):
-        sql = f"`capacity` <=%s"
+        sql = f"WHERE `capacity` <=%s"
         data = (capacity,)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sensor_over_x_capacity(self, capacity):
-        sql = f"`capacity` >=%s"
+        sql = f"WHERE `capacity` >=%s"
         data = (capacity,)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sensor_under_x_battery(self, battery):
-        sql = f"`battery` <=%s"
+        sql = f"WHERE `battery` <=%s"
         data = (battery,)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sensor_between_capacity(self, min, max):
-        sql = f"`capacity` >=%s AND `capacity` <=%s "
+        sql = f"WHERE `capacity` >=%s AND `capacity` <=%s "
         data = (min, max)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sensor_by_id(self, sensor_id):
-        sql = f"id=%s"
+        sql = f"WHERE `id`=%s"
         data = (sensor_id,)
         return self._select(sql, DATA=data, ALL=False)
 

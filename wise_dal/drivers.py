@@ -3,9 +3,9 @@ class Drivers:
         self.tbl = 'drivers'
         self.connection = connection
 
-    def _select(self, VALUES, DATA=(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
+    def _select(self, VALUES, DATA=tuple(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
         try:
-            query = f'SELECT {KEYS} FROM {self.tbl} WHERE {VALUES}'
+            query = f'SELECT {KEYS} FROM {self.tbl} {VALUES}'
             with self.connection.cursor() as cursor:
                 cursor.execute(query, DATA)
                 if ALL:

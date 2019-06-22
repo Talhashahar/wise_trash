@@ -4,5 +4,4 @@ requests==2.21.0
 numpy==1.16.2
 pycrypto==2.6.1
 PyJWT==1.7.1
-mysql-connector-python==8.0.15
 pymysql==0.9.3

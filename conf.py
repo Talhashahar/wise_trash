@@ -11,7 +11,7 @@ LOG_TABLE = 'logs'
 
 
 #application configuration
-trash_threshold = 70
+trash_threshold = 60
 battery_threshold = 30
 
 ALGO = 'HS256'

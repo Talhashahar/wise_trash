@@ -3,9 +3,9 @@ class Statistics:
         self.tbl = 'statistics'
         self.connection = connection
 
-    def _select(self, VALUES, DATA=(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
+    def _select(self, VALUES, DATA=tuple(), KEYS='*', ALL=False, ROLLBACK_ON_FAIL=False):
         try:
-            query = f'SELECT {KEYS} FROM {self.tbl} WHERE {VALUES}'
+            query = f'SELECT {KEYS} FROM {self.tbl} {VALUES}'
             with self.connection.cursor() as cursor:
                 cursor.execute(query, DATA)
                 if ALL:
@@ -20,22 +20,22 @@ class Statistics:
 
     # GET
     def get_sensor_stat_by_id(self, sensor_id):
-        sql = f"`sensor_id` = %s"
+        sql = f"WHERE `sensor_id` = %s"
         data = (sensor_id,)
         return self._select(sql, DATA=data, ALL=True)
 
     def get_sum_volume_from_day(self, date):
-        sql = f"`date`=%s"
+        sql = f"WHERE `date`=%s"
         data = (str(date),)
         return self._select(sql, DATA=data, ALL=False, KEYS='sum(capacity)')
 
     def get_avg_statatics_from_day(self, date):
-        sql = f"date`=%s"
+        sql = f"WHERE `date`=%s"
         data = (str(date),)
         return self._select(sql, DATA=data, ALL=False, KEYS='avg(capacity)')
 
     def get_last_update_sensors(self, sensor_id):
-        sql = f"sensor_id = %s order by date desc limit 1"
+        sql = f"WHERE `sensor_id` = %s order by date desc limit 1"
         data = (sensor_id,)
         return self._select(sql, DATA=data, ALL=False)
 
