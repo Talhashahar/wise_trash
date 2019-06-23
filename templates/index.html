@@ -35,7 +35,7 @@
                         </div>
                    <!-------------------------------------------------------------------------------------------->         
                         <br> <p class="category text-center">Here is a subtitle for this part of filtering to explain more</p>
-                        <div class="text-center">
+                        <div class="text-left">
 <!--form-->             <form action = "/main" method = "POST">
 
 
@@ -44,17 +44,20 @@
     <!--first-->
     <div class="col-md-3 center-block">
         <div class="content" >
-<!--                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>-->
 <label>  <hr> <h4 class="card-title"><b> By Capacity:</b></h4></label>
-            <div class="form-check text-left" id="filterCapacity">
-                <input type="checkbox" class="form-check-input" name="empty_Bins" {{capacity_empty|safe}}>
-                <label class="form-check-label" id="25">0% - 25% </label>
-                <br>
-                <input type="checkbox" class="form-check-input" name="mid_Bins" {{capacity_mid|safe}}>
-                <label class="form-check-label" id="75">26% - 75% </label>
-                <br>
-                <input type="checkbox" class="form-check-input" name="full_Bins" {{capacity_full|safe}}>
-                <label class="form-check-label" id="100">76% - 100% </label>
+            <div class="form-check " id="filterCapacity">
+                <div>
+                    <input type="checkbox" class="form-check-input" name="empty_Bins" {{capacity_empty|safe}}>
+                    <label class="form-check-label" id="25">0% - 25% </label>
+                </div>
+                <div>
+                    <input type="checkbox" class="form-check-input" name="mid_Bins" {{capacity_mid|safe}}>
+                    <label class="form-check-label" id="75">26% - 75% </label>
+                </div>
+                <div>
+                    <input type="checkbox" class="form-check-input" name="full_Bins" {{capacity_full|safe}}>
+                    <label class="form-check-label" id="100">76% - 100% </label>
+                </div>
             </div>
         </div>
     </div>
@@ -64,14 +67,16 @@
 
     <div class="col-md-3 center-block">
         <div class="content" >
-<!--                                    <input type="radio" name="optradio" value="threshold"><label class="radio-inline">By Threshold</label></input>-->
 <label>  <hr> <h4><b> By Threshold:</b></h4></label>
-            <div class="form-check text-left" id="filterTrashold">
-            <input type="checkbox" class="form-check-input" name="over_trashold" {{over_trashold|safe}}>
-            <label class="form-check-label">Over Threshold</label>
-            <br>
-            <input type="checkbox" class="form-check-input" name="below_trashold" {{below_trashold|safe}}>
-            <label class="form-check-label">Below Threshold</label>
+        <div class="form-check " id="filterTrashold">
+            <div>
+                <input type="checkbox" class="form-check-input" name="over_trashold" {{over_trashold|safe}}>
+                <label class="form-check-label">Over Threshold</label>
+            </div>
+            <div>
+                <input type="checkbox" class="form-check-input" name="below_trashold" {{below_trashold|safe}}>
+                <label class="form-check-label">Below Threshold</label>
+            </div>
         </div>
         </div>
     </div>
@@ -83,13 +88,15 @@
         <div class="content" >
 <!--                                    <input type="radio" name="optradio" value="status"><label class="radio-inline">By Sensors Status</label></input>-->
 <label>  <hr> <h4><b> By Status:</b></h4></label>
-         <div class="form-check text-left" id="filterStatus">
-            <input type="checkbox" class="form-check-input" name="ConnectedBins" {{ConnectedBins|safe}}>
-            <label class="form-check-label">Connected Bins</label>
-<br>
-            <input type="checkbox" class="form-check-input" name="FailedBins" {{FailedBins|safe}}>
-            <label class="form-check-label">Failed Bins</label>
-             <br>
+         <div class="form-check " id="filterStatus">
+             <div>
+                <input type="checkbox" class="form-check-input" name="ConnectedBins" {{ConnectedBins|safe}}>
+                <label class="form-check-label">Connected Bins</label>
+             </div>
+             <div>
+                <input type="checkbox" class="form-check-input" name="FailedBins" {{FailedBins|safe}}>
+                <label class="form-check-label">Failed Bins</label>
+             </div>
         </div>
     </div>
 </div>
@@ -109,7 +116,7 @@
 </div>
 
 <div class="col-md-6 center-block">
-<label>Presented </label> {{persent_count|safe}} <label>TrashBins out of</label> {{total_count|safe}} <label>total trash bins in the system</label>
+    <label>Presented <b>{{persent_count|safe}}</b> TrashBins out of <b>{{total_count|safe}}</b> total trash bins in the system</label>
 
 
 </div>
