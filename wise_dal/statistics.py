@@ -20,7 +20,7 @@ class Statistics:
 
     # GET
     def get_sensor_stat_by_id(self, sensor_id):
-        sql = f"WHERE `sensor_id` = %s"
+        sql = f"WHERE `sensor_id` = %s limit 15"
         data = (sensor_id,)
         return self._select(sql, DATA=data, ALL=True)
 
