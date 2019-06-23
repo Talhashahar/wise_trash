@@ -261,6 +261,35 @@ def update_sensor_by_driver():
     return 'ok'
 
 
+@app.route("/send_event/", methods=['GET', 'POST'])
+def send_event():
+    db = DbClient()
+    content = request.json
+    con = request.get_json()
+    geo_location = request.args.get('origin')
+    lat = geo_location.split(',')[0]
+    lat = str(float("{0:.3f}".format(float(lat))))
+    lng = geo_location.split(',')[1]
+    lng = str(float("{0:.3f}".format(float(lng))))
+    driver_id = request.args.get('driver_id')
+    status = request.args.get('trashStatus')
+    res = db.sensors.get_sensor_by_geo_location(lat, lng)
+    if res:
+        update_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+        if status == '0':
+            status = 'Broken'
+        elif status == '1':
+            status = 'Missing'
+        else:
+            status = 'online'
+        try:
+            db.sensors.update_sensor_status_by_id(id=res['id'], status=status, update_date=update_time)
+            return 'sensor updated', 200
+        except Exception as e:
+            print(e)
+            return 'failed to update sensor', 400
+
+
 @app.route("/main", methods=['GET', 'POST'])
 def main():
     db = DbClient()

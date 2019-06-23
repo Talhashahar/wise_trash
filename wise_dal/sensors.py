@@ -31,6 +31,16 @@ class Sensors:
         except Exception as e:
             self.connection.rollback()
 
+    def get_sensor_by_geo_location(self, lat, lng):
+        try:
+            with self.connection.cursor() as cursor:
+                sql = f"select * from sensors WHERE lat like %s and lng like %s"
+                cursor.execute(sql, ('%' + str(lat) + '%', '%' + str(lng) + '%',))
+                result = cursor.fetchone()
+            return result
+        except Exception as e:
+            self.connection.rollback()
+
     def get_sensors(self):
         sql = f""
         return self._select(sql, ALL=True)
@@ -111,10 +121,20 @@ class Sensors:
         try:
             with self.connection.cursor() as cursor:
                 sql = "UPDATE sensors SET address=%s, capacity=%s, lat=%s, lng=%s, status=%s, last_update_date=%s WHERE id = %s"
-                data = (str(address), int(capacity), float(lat), float(lng), status, update_date, id)
+                data = (status, update_date, id)
                 cursor.execute(sql, data)
         except:
             self.connection.rollback()
+
+    def update_sensor_status_by_id(self, id, status, update_date):
+        try:
+            with self.connection.cursor() as cursor:
+                sql = "UPDATE sensors SET status=%s, last_update_date=%s WHERE id = %s"
+                data = (status, update_date, id)
+                cursor.execute(sql, data)
+        except:
+            self.connection.rollback()
+
 
     def insert_battery_data(self, batt, id):
         try:
