@@ -11,3 +11,18 @@ function change_bar(){
     }
 
 }
+function zzz(){
+    $(document).ready(function () {
+  $('#table_calc').DataTable();
+  $('.dataTables_length').addClass('bs-select');
+});
+
+$(document).ready(function () {
+  $('#table_calc').DataTable({
+    "paging": false // false to disable pagination (or any other option)
+  });
+  $('.dataTables_length').addClass('bs-select');
+});
+}
+
+zzz();

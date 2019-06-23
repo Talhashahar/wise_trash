@@ -119,12 +119,13 @@
                                 <p class="category">This is a subtitle for this table</p>
                             </div>
                             <div class="content table-responsive table-full-width"></div>
-                                <table class="table table-hover table-striped">
+                                <table class="table table-hover table-striped table-bordered table-sm" cellspacing="0" id="table_calc">
                                     <thead>
                                         <th>Bin ID</th>
                                     	<th>Location</th>
                                     	<th>Volume</th>
-                                    	<th>Avg Time to fill</th>
+                                        <th>Avg fill (per day)</th>
+                                    	<th>days until full</th>
                                     	<th>Last Serviced</th>
                                     </thead>
                                     <tbody>
@@ -133,7 +134,8 @@
                                            <td>{{sensor['id']}}</td>
                                            <td>{{sensor['address']}}</td>
                                            <td>{{sensor['capacity']}}%</td>
-                                           <td>avg</td>
+                                            <td>{{sensor['fill_avg']}}%</td>
+                                           <td>{{sensor['day_until_full']}}</td>
                                            <td>{{sensor['last_update_date']}}</td>
                                         </tr>
                                         {% endfor %}
@@ -189,7 +191,6 @@
 
    </div>
 	<script src="static/assets/js/calc.js" type="text/javascript"></script>
-
 
 </body>
 

@@ -89,22 +89,23 @@ def get_sensors_by_main_filters(request):
     return sensors, checked_list
 
 
-
 def get_avg_fill_per_sensor(sensor_stats):
+    if len(sensor_stats) < 5:
+        return 0
     sensor_stats = sensor_stats[::-1]
     days_to_calculate = 0
-    max = sensor_stats[0][2]
-    sensor_stats.pop(0)
-    for sensor_stat in sensor_stats:
-        if sensor_stat[2] < max:
+    total_trash = 0
+    for index, sensor_stat in enumerate(sensor_stats):
+        if sensor_stat['capacity'] > sensor_stats[index + 1]['capacity']:
             days_to_calculate = days_to_calculate + 1
+            total_trash += sensor_stat['capacity'] - sensor_stats[index + 1]['capacity']
         else:
             if days_to_calculate == 0:
-                return max
-            return max // days_to_calculate
+                return total_trash
+            return total_trash // days_to_calculate
     if days_to_calculate == 0:
-        return max
-    return max // days_to_calculate
+        return total_trash
+    return total_trash // days_to_calculate
 
 
 def write_sensors_to_csv(sensor_list):

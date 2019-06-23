@@ -372,7 +372,7 @@ def new_calc():
             config_trashold = capacity
             present_treshold = capacity
     else:
-        capacity = 70
+        capacity = conf.trash_threshold
     pickup_sensors = db.sensors.get_sensor_over_x_capacity(capacity)
     if not pickup_sensors:
         pickup_sensors = []
@@ -381,10 +381,21 @@ def new_calc():
         remain_sensors = []
     threshold = conf.trash_threshold
     risk_sensors = []
-    # for sensor in remain_sensors:
-    #     fill_avg = utils.get_avg_fill_per_sensor(db_handler.get_sensor_stat_by_id(sensor[0]))
-    #     if int(sensor[2]) + fill_avg >= threshold:
-    #         risk_sensors.append(sensor)
+    x = 0
+    for sensor in remain_sensors:
+        fill_avg = utils.get_avg_fill_per_sensor(db.statistics.get_sensor_stat_by_id(sensor['id']))
+        if int(sensor['capacity']) + fill_avg >= threshold:
+            risk_sensors.append(sensor)
+        sensor['fill_avg'] = fill_avg
+    for sensor in pickup_sensors:
+        fill_avg = utils.get_avg_fill_per_sensor(db.statistics.get_sensor_stat_by_id(sensor['id']))
+        sensor['fill_avg'] = fill_avg
+        calculate_capacity = sensor['capacity']
+        days_until_full = 0
+        while calculate_capacity <= capacity:
+            calculate_capacity += fill_avg
+            days_until_full += 1
+        sensor['day_until_full'] = days_until_full
 
     # return render_template("new/calc.html")
     return render_template("calc.html", sensors=pickup_sensors, capacityint=capacity,
