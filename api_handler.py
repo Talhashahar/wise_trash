@@ -77,6 +77,21 @@ def login():
     :param request: flask request object
     '''
     db = DbClient()
+    if validate_token(request):
+        sensors = []
+        sensors_low = db.sensors.get_sensor_between_capacity(0, 25)
+        if sensors_low:
+            sensors += sensors_low
+        sensors_mid = db.sensors.get_sensor_between_capacity(26, 75)
+        if sensors_mid:
+            sensors += sensors_mid
+        sensors_full = db.sensors.get_sensor_between_capacity(76, 100)
+        if sensors_full:
+            sensors += sensors_full
+        sensors = [tuple(sensor.values()) for sensor in sensors]
+        utils.write_sensors_to_csv(sensors)
+        sensors = [[x[1], x[4], x[5], x[3], x[2], x[0]] for x in sensors]
+        return render_template("index.html", sensors=sensors, persent_count=len(sensors), total_count=len(sensors))
     if request.method == 'POST':
         try:
             data = request.values
