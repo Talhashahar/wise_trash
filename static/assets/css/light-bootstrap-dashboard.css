@@ -2306,7 +2306,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .card label {
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 5px;
     text-transform: uppercase;
 }
@@ -3954,4 +3954,9 @@ fieldset[disabled] .btn-neutral.active {
     cursor: pointer;
   }
 
+.main_filters{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25%
+}
 

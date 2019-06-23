@@ -15,7 +15,7 @@ from wise_dal.dal import DbClient
 app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
 logger = Logger(__name__)
-db_handler = None
+#db_handler = None
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
@@ -24,21 +24,13 @@ def insert_driver():
     content = request.json
     # if db.drivers.get_driver_by_id(content['id']):
     #     pass
-    if db_handler.get_driver_by_id(content['id']):
-        db_handler.update_driver_by_id(content['id'], content['name'], content['lat'], content['lng'],
+    if db.drivers.get_driver_by_id(content['id']):
+        db.drivers.update_driver_by_id(content['id'], content['name'], content['lat'], content['lng'],
                                        content['truck_size'])  # update
     else:
-        db_handler.insert_driver(content['id'], content['name'], content['lat'], content['lng'],
+        db.drivers.insert_driver(content['id'], content['name'], content['lat'], content['lng'],
                                  content['truck_size'])  # insert new
     return "success"
-
-
-@app.route("/sensor_over_view")
-def show_tables():
-    db = DbClient()
-    all = db_handler.get_sensor_over_x_capacity(0)
-    over_80 = db_handler.get_sensor_over_x_capacity(80)
-    return render_template('sensor_overview.html', all=all, over_80=over_80)
 
 
 @app.route("/register", methods=['GET', 'POST'])
@@ -136,29 +128,18 @@ def login():
         return render_template('login.html')
 
 
-@app.route('/get_all_sensors_by_json')
-def get_all_sensors_by_json():
-    db = DbClient()
-    total_sensors = []
-    sensors = db_handler.get_sensor_over_x_capacity(0)
-    for sen in sensors:
-        total_sensors.append(utils.convert_sensor_tuple_to_json(sen))
-    return "ok"
-
-
 @app.route('/get_sensor_by_id/<string:sensor_id>')
 def get_sensor_by_id(sensor_id):
     db = DbClient()
-    res = db_handler.get_sensor_by_id(sensor_id)
-    res = utils.convert_sensor_tuple_to_json(res)
+    res = db.sensors.get_sensor_by_id(sensor_id)
     return jsonify(res), 200
 
-
+#convert to new dal
 @app.route("/create_all_tables/")
 def create_all_tables():
     db = DbClient()
-    db_handler.create_all_tables()
-    return "success"
+    # db_handler.create_all_tables()
+    return 'ok', 200
 
 
 @app.route("/insert_sensor/", methods=['GET', 'POST'])
@@ -168,14 +149,14 @@ def insert_sensor():
     fake_date = '2019-05-11'
     date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     # db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
-    db_handler.insert_statistics(content['id'], datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), content['capacity'])
-    if db_handler.get_sensor_by_id(content['id']):
-        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
+    db.statistics.insert_statistics(content['id'], datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), content['capacity'])
+    if db.sensors.get_sensor_by_id(content['id']):
+        db.sensors.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
                                        content['lng'], content['status'], date)
     else:
-        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
+        db.sensors.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
                                  content['status'], date)
-    return "ok"
+    return "ok", 200
 
 
 @app.route("/insert_sensor_date/", methods=['GET', 'POST'])
@@ -186,14 +167,14 @@ def insert_sensor_date():
     # date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     # db_handler.insert_statistics(content['id'], fake_date, content['capacity'])
     date = content['date']
-    db_handler.insert_statistics(content['id'], date, content['capacity'])
-    if db_handler.get_sensor_by_id(content['id']):
-        db_handler.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
+    db.statistics.insert_statistics(content['id'], date, content['capacity'])
+    if db.sensors.get_sensor_by_id(content['id']):
+        db.sensors.update_sensor_by_id(content['id'], content['address'], content['capacity'], content['lat'],
                                        content['lng'], content['status'], date)
     else:
-        db_handler.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
+        db.sensors.insert_sensor(content['id'], content['address'], content['capacity'], content['lat'], content['lng'],
                                  content['status'], date)
-    return "ok"
+    return "ok", 200
 
 
 @app.route('/get_trash_bins_to_pickup/')
@@ -224,20 +205,6 @@ def get_count_sensors():
     return res
 
 
-# @app.route('/get_count_sensors_changed/')
-# def get_count_sensors_changed():  # need to get date from UI
-#     db = DbClient()
-#     res = db.sensors.get_count_sensors_changed()
-#     return res
-
-
-# @app.route('/get_last_update_sensors/')
-# def get_count_last_update_sensors():  # need to get id from UI
-#     db = DbClient()
-#     res = db_handler.get_last_update_sensors()
-#     return res
-
-
 @app.route("/base")
 def base():
     return render_template('base.html')
@@ -264,8 +231,6 @@ def update_sensor_by_driver():
 @app.route("/send_event/", methods=['GET', 'POST'])
 def send_event():
     db = DbClient()
-    content = request.json
-    con = request.get_json()
     geo_location = request.args.get('origin')
     lat = geo_location.split(',')[0]
     lat = str(float("{0:.3f}".format(float(lat))))
@@ -352,11 +317,9 @@ def new_databins():
             sensors = db.sensors.get_sensor_between_capacity(result['capacity'], 100)
             if not sensors:
                 return render_template("databins.html")
-            #sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
         elif result['radio-stacked'] == 'id':
             sensors = db.sensors.get_sensor_by_id(result['Bin_ID'])
             if sensors is not None:
-                #sensors = [[sensors[0], sensors[1], sensors[2], sensors[3], sensors[6]], ]
                 pass
             else:
                 return render_template("databins.html")
@@ -364,7 +327,6 @@ def new_databins():
             sensors = db.sensors.get_sensor_by_address(result['address'])
             if not sensors:
                 return render_template("databins.html")
-            #sensors = [[x[0], x[1], x[2], x[3], x[6]] for x in sensors]
     else:
         sensors_low = db.sensors.get_sensor_between_capacity(0, 25)
         if not sensors_low:
@@ -492,20 +454,6 @@ def get_avg_capacity_and_days():
     }
     # response['sum_array'][2]['sum'] = 100
     return jsonify(response), 200
-
-
-@app.route("/get_volume_capacity_and_days")
-def get_volume_capacity_and_days():
-    db = DbClient()
-    res = []
-    sensors = db_handler.get_sensors()
-    days = db_handler.get_five_days_from_statistcs()
-    avg_days = []
-    for day in days:
-        temp_dict = {'day': day[0].strftime("%Y-%m-%d"),
-                     'avg': db_handler.get_sum_volume_from_day(day[0].strftime("%Y-%m-%d"))}
-        avg_days += [temp_dict, ]
-    return jsonify(avg_days), 200
 
 
 if __name__ == "__main__":
