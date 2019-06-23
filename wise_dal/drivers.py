@@ -20,7 +20,7 @@ class Drivers:
 
     # GET
     def get_driver_by_id(self, driver_id):
-        sql = f"`id=%s"
+        sql = f"WHERE `id`=%s"
         data = (driver_id,)
         return self._select(sql, DATA=data, ALL=False)
 
