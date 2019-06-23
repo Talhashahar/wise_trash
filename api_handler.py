@@ -381,7 +381,7 @@ def new_calc():
         remain_sensors = []
     threshold = conf.trash_threshold
     risk_sensors = []
-    x = 0
+    total_trash_to_pickup = 0
     for sensor in remain_sensors:
         fill_avg = utils.get_avg_fill_per_sensor(db.statistics.get_sensor_stat_by_id(sensor['id']))
         if int(sensor['capacity']) + fill_avg >= threshold:
@@ -389,6 +389,7 @@ def new_calc():
         sensor['fill_avg'] = fill_avg
     for sensor in pickup_sensors:
         fill_avg = utils.get_avg_fill_per_sensor(db.statistics.get_sensor_stat_by_id(sensor['id']))
+        total_trash_to_pickup += sensor['capacity']
         sensor['fill_avg'] = fill_avg
         calculate_capacity = sensor['capacity']
         days_until_full = 0
@@ -396,11 +397,13 @@ def new_calc():
             calculate_capacity += fill_avg
             days_until_full += 1
         sensor['day_until_full'] = days_until_full
-
+    truck_needed = round(total_trash_to_pickup / 1000)
+    if truck_needed == 0:
+        truck_needed = 1
     # return render_template("new/calc.html")
     return render_template("calc.html", sensors=pickup_sensors, capacityint=capacity,
                            total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
-                           present_treshold=present_treshold, risked=len(risk_sensors),
+                           present_treshold=present_treshold, risked=len(risk_sensors), truck_needed=truck_needed,
                            unrisked=len(pickup_sensors) + len(remain_sensors) - len(risk_sensors), username=username)
 
 

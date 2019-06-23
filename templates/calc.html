@@ -89,13 +89,13 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Total To PickUp</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="265">
+                                                <input type="text" class="form-control" disabled value={{total_to_pickup|safe}}>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>At Risk (Predicted to achive 100%)</label>
-                                                <input type="text" class="form-control" disabled placeholder="Last Name" value="183">
+                                                <input type="text" class="form-control" disabled value={{risked|safe}}>
                                             </div>
                                         </div>
                                     </div>
@@ -103,13 +103,13 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Unrisked</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="82">
+                                                <input type="text" class="form-control" disabled value={{unrisked|safe}}>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Needed Trucks</label>
-                                                <input type="text" class="form-control" disabled placeholder="Last Name" value="17">
+                                                <input type="text" class="form-control" disabled value={{truck_needed|safe}}>
                                             </div>
                                         </div>
                                     </div>
