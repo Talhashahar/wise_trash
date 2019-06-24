@@ -415,7 +415,7 @@ def new_calc():
     truck_needed = round(total_trash_to_pickup / 1000)
     if truck_needed == 0:
         truck_needed = 1
-    # return render_template("new/calc.html")
+
     return render_template("calc.html", sensors=pickup_sensors, capacityint=capacity,
                            total_to_pickup=len(pickup_sensors), config_trashold=config_trashold,
                            present_treshold=present_treshold, risked=len(risk_sensors), truck_needed=truck_needed,
