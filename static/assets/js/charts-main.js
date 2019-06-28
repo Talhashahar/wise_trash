@@ -42,6 +42,7 @@ charts = {
         const Http = new XMLHttpRequest();
         console.log("inside http request");
         const url_charts='http://localhost:5000/get_avg_capacity_and_days';
+        //const url_charts='http://34.253.231.214:5000/get_avg_capacity_and_days';
 
         Http.open("GET", url_charts);
         Http.send();
@@ -104,7 +105,9 @@ charts = {
           }]
         ];
 
-        Chartist.Line('#chartHours', dataSales, optionsSales, responsiveSales);
+        Chartist.Line('#chartDays', dataSales, optionsSales, responsiveSales);
+        Chartist.Line('#chartMonths', dataSales, optionsSales, responsiveSales);
+        Chartist.Line('#chartYears', dataSales, optionsSales, responsiveSales);
         Chartist.Pie('#chartPreferences', { labels: [`${result['online']}%`,`${result['offline']}%`],series: [result['online'], result['offline']]});
 
 

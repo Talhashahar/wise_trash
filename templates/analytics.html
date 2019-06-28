@@ -34,49 +34,51 @@
                 <div class="content text-center">
                     <div class="row">
                         <div class="container-fluid text-center">
-                                
-
-                                            <div class="header">
-                                                <h4 class="title">Capacity Level Avg.</h4>
-                                                <p class="category">24 Hours Behavior : City's Average</p>
-                                            </div>
-                                            <div class="content">
-                                                <div id="chartHours" class="ct-chart"></div>
-                                                <div class="footer">
-                                                    <div class="legend">
-                                                       <!--     <i class="fa fa-circle text-info"></i> Open     --> 
-                                                        <i class="fa fa-circle text-danger"></i> Treshold
-                                                        <i class="fa fa-circle text-warning"></i> Capacity Avg.
-                                                    </div>
-                                                    <hr>
-                                                    <div class="stats">
-                                                        <i class="fa fa-history"></i> Updated 3 minutes ago
-                                                    </div>
-                                                </div>
-
-<!--form-->             <form action = "/stats" method = "POST">
-                            <!--first-->
-                            <div class="container-fluid">
-                                <div class="content" >
-<!--                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>-->
-                                    <div class="text-left" > <h5><b> Adjust the presented information above</b></h5></div>
-                                    <div class="form-check text-left" id="filterCapacity">
-                                        <input type="radio" class="form-check-input" name="zoom">
-                                        <label class="form-check-label" id="25">Week by day</label>
-                                        <br>
-                                        <input type="radio" class="form-check-input" name="zoom">
-                                        <label class="form-check-label" id="75">Year by month</label>
-                                        <br>
-                                        <input type="radio" class="form-check-input" name="zoom">
-                                        <label class="form-check-label" id="100">Years by Syear</label>
+                            <div class="header">
+                                <h4 class="title">Capacity Level Avg.</h4>
+                                <p class="category">24 Hours Behavior : City's Average</p>
+                            </div>
+                            <div class="content">
+                                <h3>Daily</h3>
+                                <div id="chartDays" class="ct-chart"></div>
+                                <h3>Monthly</h3>
+                                <div id="chartMonths" class="ct-chart"></div>
+                                <h3>Yearly</h3>
+                                <div id="chartYears" class="ct-chart"></div>
+                                <div class="footer">
+                                    <div class="legend">
+                                       <!--     <i class="fa fa-circle text-info"></i> Open     -->
+                                        <i class="fa fa-circle text-danger"></i> Treshold
+                                        <i class="fa fa-circle text-warning"></i> Capacity Avg.
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="fa fa-history"></i> Updated 3 minutes ago
                                     </div>
                                 </div>
-                            </div>
-                            <div class="container-fluid text-left">
-                            <br>
-                                   <input type = "submit" class="btn btn-info btn-fill " value = "Apply Filters" />
-                             </div>
-                        </form>
+<!--&lt;!&ndash;form&ndash;&gt;             <form action = "/stats" method = "POST">-->
+<!--                            &lt;!&ndash;first&ndash;&gt;-->
+<!--                            <div class="container-fluid">-->
+<!--                                <div class="content" >-->
+<!--&lt;!&ndash;                                    <input type="radio" name="optradio" value="capacity" checked><label class="radio-inline">By Capacity</label></input>&ndash;&gt;-->
+<!--                                    <div class="text-left" > <h5><b> Adjust the presented information above</b></h5></div>-->
+<!--                                    <div class="form-check text-left" id="filterCapacity">-->
+<!--                                        <input type="radio" class="form-check-input" name="zoom">-->
+<!--                                        <label class="form-check-label" id="25">Week by day</label>-->
+<!--                                        <br>-->
+<!--                                        <input type="radio" class="form-check-input" name="zoom">-->
+<!--                                        <label class="form-check-label" id="75">Year by month</label>-->
+<!--                                        <br>-->
+<!--                                        <input type="radio" class="form-check-input" name="zoom">-->
+<!--                                        <label class="form-check-label" id="100">Years by Syear</label>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="container-fluid text-left">-->
+<!--                            <br>-->
+<!--                                   <input type = "submit" class="btn btn-info btn-fill " value = "Apply Filters" />-->
+<!--                             </div>-->
+<!--                        </form>-->
 <!--end form-->
 
 
