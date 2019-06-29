@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">City Overview</a>
+                    <a class="navbar-brand" href="#">Threshold Configuration</a>
                 </div>
                 <div class="collapse navbar-collapse">
                 </div>
@@ -29,25 +29,25 @@
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Claculations Manager</h4>
+                                <h4 class="title">Prediction and Planning</h4>
                             </div>
                             <div class="content">
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div class="form-group">
-                                                <label>Extra (disabled)</label>
+                                                <label>Permission</label>
                                                 <input type="text" class="form-control" disabled value="WaieTrash Inc.">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
-                                                <label>Extra</label>
+                                                <label>User</label>
                                                 <input type="text" class="form-control" disabled value={{username|safe}}>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Email Extra</label>
+                                                <label>TimeStamp</label>
                                                 <input type="email" class="form-control" disabled value={{username|safe}}@wizetrash.com>
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Set TrashHold</label>
+                                                <label>Set a benchmark to predict city’s status according to a threshold</label>
                                                 <form action="/calc" method="post" name="present">
                                                     <div class="slidecontainer">
                                                       <input type="range" name="range" min="1" max="100" value={{present_treshold | safe}} class="slider" id="myRange">
@@ -116,7 +116,7 @@
 
                             <div class="header">
                                 <h4 class="title">Trash-Bins Overview</h4>
-                                <p class="category">This is a subtitle for this table</p>
+                                <p class="category">List of city’s trash-bins according to the configured above threshold</p>
                             </div>
                             <div class="content table-responsive table-full-width"></div>
                                 <table class="table table-hover table-striped table-bordered table-sm" cellspacing="0" id="table_calc">
@@ -152,7 +152,7 @@
                             <div class="content">
                                 <form action="/calc" method="post" name="config">
                                         <p class="description text-left">
-                                        <label>Current TrashHold</label>
+                                        <label>Current Threshold</label>
                                         <input type="text" class="form-control" disabled placeholder="Company" value="{{config_trashold | safe}}%">
                                     </p>
                                     <p>
@@ -160,11 +160,11 @@
                                         <input type="text" class="form-control" disabled placeholder="Company" value="63%">
                                     </p>
                                     <p>
-                                        <label>Set New TrashHold</label>
+                                        <label>Set New Threshold</label>
                                         <input type="text" class="form-control" name="trashold" placeholder="Company" value="50%">
                                     </p>
                                     <p class="description text-center"><br>
-                                        <input type="submit" value="Change TrashHold" class="btn btn-info btn-fill"></input>
+                                        <input type="submit" value="Change Threshold" class="btn btn-info btn-fill"></input>
                                     </p>
                                 </form>
 

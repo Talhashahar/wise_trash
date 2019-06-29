@@ -97,4 +97,4 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1092,"Charusim St 8, Ramat Gan, Israel",64,online,32.0915837,34.803029,2019-06-08
 1096,"Charusim St 12, Ramat Gan, Israel",50,online,32.091287,34.803429,2019-06-08
 1098,"Charusim St 14, Ramat Gan, Israel",34,online,32.0910014,34.8033923,2019-06-08
-1000,"HaMelacha St 1, Ramat Gan, Israel",78,online,32.0911975,34.803235,2019-06-27
+1000,"HaMelacha St 1, Ramat Gan, Israel",81,Missing,32.0911975,34.803235,2019-06-28
