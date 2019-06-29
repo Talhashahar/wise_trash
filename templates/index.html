@@ -12,7 +12,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">City Overview</a>
+                    <a class="navbar-brand" href="#">Trash-bins layout map</a>
                 </div>
                 <div class="collapse navbar-collapse">
                 </div>
@@ -25,8 +25,8 @@
         <div class="container-fluid">
             <div class="card">
                 <div class="header">
-                    <h4 class="title">City Overview Map:</h4>
-                    <p class="category">Presents the overall city's trash-bins at their location, according to their status</p>
+                    <h4 class="title">Trash-bins layout map</h4>
+                    <p class="category">Presents the overall city's trash-bins at their location, the bins are colored according to their status</p>
                     <br>
                 </div>
                     <div class="row">
@@ -34,7 +34,7 @@
                             <div id="map" style="width: 90%; margin: 0 auto; height: 550px;"></div>
                         </div>
                    <!-------------------------------------------------------------------------------------------->         
-                        <br> <p class="category text-center">Here is a subtitle for this part of filtering to explain more</p>
+                        <br> <p class="category text-center">Click a specific bin icon to see more information</p>
                         <div class="text-left">
 <!--form-->             <form action = "/main" method = "POST">
 
@@ -136,8 +136,8 @@
                         <div class="col-md-12">
                                 <div class="card card-plain">
                                     <div class="content table-responsive table-full-width">
-                                    <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/filtered" download="./export.csv">Download filtered bins(CSV file)</a>
-                                    <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/full" download="./export.csv">Download full bins(CSV file)</a>
+                                    <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/filtered" download="./export.csv">Download filtered list</a>
+                                    <a type="submit" class="btn btn-info btn-fill pull-center" href="/download/full" download="./export.csv">Download full list</a>
                                     </div>
                                 </div>
                             </div>
