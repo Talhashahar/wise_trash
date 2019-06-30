@@ -7,8 +7,8 @@ charts = {
     initChartist: function(){
         const Http = new XMLHttpRequest();
         console.log("inside http request");
-        const url_charts='http://localhost:5000/get_charts_data';
-        //const url_charts='http://34.253.231.214:5000/get_charts_data';
+        //const url_charts='http://localhost:5000/get_charts_data';
+        const url_charts='http://34.253.231.214:5000/get_charts_data';
 
         Http.open("GET", url_charts);
         Http.send();
