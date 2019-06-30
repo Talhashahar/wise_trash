@@ -53,22 +53,18 @@ def register():
 
         except PasswordInvalid as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 401
             return render_template("error_page.html",
                             error_msg=e.__str__())
         except UserAlreadyExists as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 401
             return render_template("error_page.html",
                             error_msg=e.__str__())
         except (EmptyForm, ValueError) as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 406
             return render_template("error_page.html",
                             error_msg=e.__str__())
         except Exception as e:
             logger.exception(f'Failed register')
-            #return f'Failed register {e.__str__()}', 501
             return render_template("error_page.html",
                             error_msg=e.__str__())
     else:
@@ -134,23 +130,19 @@ def login():
 
         except UserNotVerified as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 401
             return render_template("error_page.html",
                             error_msg=e.__str__())
         except UserNotExists as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 404
             error_result = e.__str__()
             return render_template("error_page.html",
                             error_msg=error_result)
         except InvalidCredentials as e:
             logger.warning(e.__str__())
-            #return e.__str__(), 401
             return render_template("error_page.html",
                             error_msg=e.__str__())
         except Exception as e:
             logger.exception(f'Failed login from {request.remote_addr}')
-            #return f'Failed login {e.__str__()}', 501
             return render_template("error_page.html",
                             error_msg=e.__str__())
     else:
@@ -216,15 +208,19 @@ def get_trash_bins_to_pickup():
             'lat': 32.1668891,
             'lng': 34.8266644
         },
-        'capacity': 0
+        'capacity': 0,
+        'count_bins': 0
     }
     total_capacity = 0
     res = db.sensors.get_sensor_over_x_capacity(conf.trash_threshold)
+    count_bins = 0
     if res:
         for x in res:
             res_json['arr'].append({'lat': x['lat'], 'lng': x['lng']})
             total_capacity += x['capacity']
+            count_bins += 1
     res_json['capacity'] = total_capacity
+    res_json['count_bins'] = count_bins
     return jsonify(res_json), 200
 
 
