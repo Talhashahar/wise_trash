@@ -41,8 +41,8 @@ charts = {
     initChartist: function(){
         const Http = new XMLHttpRequest();
         console.log("inside http request");
-        const url_charts='http://localhost:5000/get_avg_capacity_and_days';
-        //const url_charts='http://34.253.231.214:5000/get_avg_capacity_and_days';
+        //const url_charts='http://localhost:5000/get_avg_capacity_and_days';
+        const url_charts='http://34.253.231.214:5000/get_avg_capacity_and_days';
 
         Http.open("GET", url_charts);
         Http.send();
