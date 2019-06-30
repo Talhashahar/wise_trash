@@ -13,7 +13,8 @@ from logger import Logger
 from wise_dal.dal import DbClient
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
+CORS(app, supports_credentials=True, resources={r'/': {"origins": '*'}})
+
 logger = Logger(__name__)
 #db_handler = None
 
