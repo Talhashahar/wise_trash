@@ -13,7 +13,8 @@ from logger import Logger
 from wise_dal.dal import DbClient
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, resources={r'/': {"origins": ''}})
+CORS(app, supports_credentials=True, resources={r'/': {"origins": '*'}})
+
 logger = Logger(__name__)
 #db_handler = None
 
@@ -56,16 +57,24 @@ def register():
 
         except PasswordInvalid as e:
             logger.warning(e.__str__())
-            return e.__str__(), 401
+            #return e.__str__(), 401
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
         except UserAlreadyExists as e:
             logger.warning(e.__str__())
-            return e.__str__(), 401
+            #return e.__str__(), 401
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
         except (EmptyForm, ValueError) as e:
             logger.warning(e.__str__())
-            return e.__str__(), 406
+            #return e.__str__(), 406
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
         except Exception as e:
             logger.exception(f'Failed register')
-            return f'Failed register {e.__str__()}', 501
+            #return f'Failed register {e.__str__()}', 501
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
     else:
         return render_template('register.html')
 
@@ -129,16 +138,25 @@ def login():
 
         except UserNotVerified as e:
             logger.warning(e.__str__())
-            return e.__str__(), 401
+            #return e.__str__(), 401
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
         except UserNotExists as e:
             logger.warning(e.__str__())
-            return e.__str__(), 404
+            #return e.__str__(), 404
+            error_result = e.__str__()
+            return render_template("error_page.html",
+                            error_msg=error_result)
         except InvalidCredentials as e:
             logger.warning(e.__str__())
-            return e.__str__(), 401
+            #return e.__str__(), 401
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
         except Exception as e:
             logger.exception(f'Failed login from {request.remote_addr}')
-            return f'Failed login {e.__str__()}', 501
+            #return f'Failed login {e.__str__()}', 501
+            return render_template("error_page.html",
+                            error_msg=e.__str__())
     else:
         return render_template('login.html')
 
@@ -275,7 +293,7 @@ def main():
     db = DbClient()
     try:
         if not validate_token(request):
-            return render_template("error_page.html")
+            return render_template("error_page.html", error_msg="You are not login, please enter to login page to access to the system")
         user = get_data_by_token(request.cookies.get('token', None))
         if request.method == 'POST':
             sensors_low = []
