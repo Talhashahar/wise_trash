@@ -1,7 +1,4 @@
 from flask import Flask, request, render_template, jsonify, send_file, make_response
-# import db_handler
-import json
-import jwt
 import traceback
 import utils
 import conf
@@ -16,7 +13,6 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r'/': {"origins": '*'}})
 
 logger = Logger(__name__)
-#db_handler = None
 
 
 @app.route("/insert_driver/", methods=['GET', 'POST'])
@@ -501,7 +497,6 @@ def get_charts_data():
         'offline': offline,
         'threshold': conf.trash_threshold
     }
-    # response['sum_array'][2]['sum'] = 100
     return jsonify(response), 200
 
 
