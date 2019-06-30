@@ -224,9 +224,10 @@ def get_trash_bins_to_pickup():
     }
     total_capacity = 0
     res = db.sensors.get_sensor_over_x_capacity(conf.trash_threshold)
-    for x in res:
-        res_json['arr'].append({'lat': x['lat'], 'lng': x['lng']})
-        total_capacity += x['capacity']
+    if res:
+        for x in res:
+            res_json['arr'].append({'lat': x['lat'], 'lng': x['lng']})
+            total_capacity += x['capacity']
     res_json['capacity'] = total_capacity
     return jsonify(res_json), 200
 
