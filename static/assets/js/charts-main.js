@@ -2,47 +2,13 @@ type = ['','info','success','warning','danger'];
 
 
 charts = {
-//    initPickColor: function(){
-//        $('.pick-class-label').click(function(){
-//            var new_class = $(this).attr('new-class');
-//            var old_class = $('#display-buttons').attr('data-class');
-//            var display_div = $('#display-buttons');
-//            if(display_div.length) {
-//            var display_buttons = display_div.find('.btn');
-//            display_buttons.removeClass(old_class);
-//            display_buttons.addClass(new_class);
-//            display_div.attr('data-class', new_class);
-//            }
-//        });
-//    },
-
-//    checkScrollForTransparentNavbar: debounce(function() {
-//            $navbar = $('.navbar[color-on-scroll]');
-//            scroll_distance = $navbar.attr('color-on-scroll') || 500;
-//
-//            if($(document).scrollTop() > scroll_distance ) {
-//                if(transparent) {
-//                    transparent = false;
-//                    $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
-//                    $('.navbar[color-on-scroll]').addClass('navbar-default');
-//                }
-//            } else {
-//                if( !transparent ) {
-//                    transparent = true;
-//                    $('.navbar[color-on-scroll]').addClass('navbar-transparent');
-//                    $('.navbar[color-on-scroll]').removeClass('navbar-default');
-//                }
-//            }
-//    }, 0),
-
 
     //PARAMETERS FOR FIRST GRAPH AT STATISTICS PAGE:
-    //console.log("before init charts");
     initChartist: function(){
         const Http = new XMLHttpRequest();
         console.log("inside http request");
-        //const url_charts='http://localhost:5000/get_charts_data';
-        const url_charts='http://34.253.231.214:5000/get_charts_data';
+        const url_charts='http://localhost:5000/get_charts_data';
+        //const url_charts='http://34.253.231.214:5000/get_charts_data';
 
         Http.open("GET", url_charts);
         Http.send();
@@ -66,12 +32,12 @@ charts = {
             })
             let dataSales = {
                 labels: avg_dates,
-                series: [[], [], avg_values]
+                series: [avg_values, [], []]
             }
 
             let dataSales_months = {
                 labels: ['06-2018','07-2018','08-2018','09-2018','10-2018','11-2018','12-2018','01-2019','02-2019','03-2019','04-2019','05-2019'],
-                series: [[], [], ['50','56','51','44','78','45','37','26','44','48','49','50']]
+                series: [[], ['50','56','51','44','78','45','37','26','44','48','49','50'], []]
             }
 
             let dataSales_years = {

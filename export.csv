@@ -1,5 +1,4 @@
 sensor_id,address,capacity,status,longitude,latitude,last_time_updated
-1000,"HaMelacha St 1, Ramat Gan, Israel",0,Missing,32.0911975,34.803235,2019-06-28
 1003,"HaMelacha St 4, Ramat Gan, Israel",0,online,32.091326,34.8032739,2019-06-08
 1008,"HaMelacha St 9, Ramat Gan, Israel",21,online,32.0903675,34.8023459,2019-06-08
 1009,"HaMelacha St 10, Ramat Gan, Israel",22,online,32.0906369,34.8022162,2019-06-08
@@ -98,3 +97,4 @@ sensor_id,address,capacity,status,longitude,latitude,last_time_updated
 1092,"Charusim St 8, Ramat Gan, Israel",64,online,32.0915837,34.803029,2019-06-08
 1096,"Charusim St 12, Ramat Gan, Israel",50,online,32.091287,34.803429,2019-06-08
 1098,"Charusim St 14, Ramat Gan, Israel",34,online,32.0910014,34.8033923,2019-06-08
+1000,"HaMelacha St 1, Ramat Gan, Israel",100,Missing,32.0911975,34.803235,2019-06-28
