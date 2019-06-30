@@ -457,8 +457,8 @@ def download(data):
     return send_file('export.csv', attachment_filename='export.csv')
 
 
-@app.route("/get_avg_capacity_and_days")
-def get_avg_capacity_and_days():
+@app.route("/get_charts_data")
+def get_charts_data():
     db = DbClient()
     res = []
     sensors = db.sensors.get_sensors()
@@ -479,7 +479,8 @@ def get_avg_capacity_and_days():
         'avg_array': avg_days,
         'sum_array': sum_days,
         'online': online,
-        'offline': offline
+        'offline': offline,
+        'threshold': conf.trash_threshold
     }
     # response['sum_array'][2]['sum'] = 100
     return jsonify(response), 200

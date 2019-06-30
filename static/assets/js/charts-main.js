@@ -41,8 +41,8 @@ charts = {
     initChartist: function(){
         const Http = new XMLHttpRequest();
         console.log("inside http request");
-        //const url_charts='http://localhost:5000/get_avg_capacity_and_days';
-        const url_charts='http://34.253.231.214:5000/get_avg_capacity_and_days';
+        const url_charts='http://localhost:5000/get_charts_data';
+        //const url_charts='http://34.253.231.214:5000/get_charts_data';
 
         Http.open("GET", url_charts);
         Http.send();
@@ -66,7 +66,17 @@ charts = {
             })
             let dataSales = {
                 labels: avg_dates,
-                series: [[70,70,70,70,70], [], avg_values]
+                series: [[], [], avg_values]
+            }
+
+            let dataSales_months = {
+                labels: ['06-2018','07-2018','08-2018','09-2018','10-2018','11-2018','12-2018','01-2019','02-2019','03-2019','04-2019','05-2019'],
+                series: [[], [], ['50','56','51','44','78','45','37','26','44','48','49','50']]
+            }
+
+            let dataSales_years = {
+                labels: ['2016','2017','2018','2019'],
+                series: [[], [], ['50','56','51','44']]
             }
 
           console.log(sum_values);
@@ -79,7 +89,7 @@ charts = {
 
 
         }
-                    var optionsSales = {
+        var optionsSales = {
           lineSmooth: false,
           low: 0,
           high: 100,
@@ -93,6 +103,11 @@ charts = {
           }),
           showLine: false,
           showPoint: false,
+          plugins: [
+              Chartist.plugins.ctThreshold({
+                  threshold: result['threshold']
+              })
+          ]
         };
 
         var responsiveSales = [
@@ -106,8 +121,8 @@ charts = {
         ];
 
         Chartist.Line('#chartDays', dataSales, optionsSales, responsiveSales);
-        Chartist.Line('#chartMonths', dataSales, optionsSales, responsiveSales);
-        Chartist.Line('#chartYears', dataSales, optionsSales, responsiveSales);
+        Chartist.Line('#chartMonths', dataSales_months, optionsSales, responsiveSales);
+        Chartist.Line('#chartYears', dataSales_years, optionsSales, responsiveSales);
         Chartist.Pie('#chartPreferences', { labels: [`${result['online']}%`,`${result['offline']}%`],series: [result['online'], result['offline']]});
 
 
