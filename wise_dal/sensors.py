@@ -164,18 +164,3 @@ class Sensors:
                 cursor.execute(sql, data)
         except:
             self.connection.rollback()
-
-# WTF
-# def get_sensors_pickup_today():
-#     db = connect_to_db()
-#     cursor = cnx.cursor()
-#     date = datetime.datetime.now()
-#     yesterday = date.today() - timedelta(1)
-#     q = "select count(*) from sensors where date = %s"
-#     try:
-#         cursor.execute(q, (date,))
-#         res = cursor.fetchall()
-#         return res
-#     except Exception as e:
-#         print("failed to get the trash-bins are full " + e)
-#         return None
