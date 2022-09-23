@@ -9,7 +9,7 @@ Jinja2==2.10.1
 MarkupSafe==1.1.1
 mysql-connector-python==8.0.15
 numpy==1.16.2
-protobuf==3.8.0
+protobuf==3.18.3
 pycrypto==2.6.1
 PyJWT==1.7.1
 requests==2.21.0
